@@ -69,7 +69,7 @@ class _EmergencyInfoENPageState extends State<EmergencyInfoENPage> {
               child: Text(
                 "In the event of an emergency, emergency services can also alert the public using emergency vehicles and loudspeakers.\n"
                 "Remember: sirens are also turned on when an emergency, state of emergency or mobilization is declared.\n"
-                "The public alert sirens are checked regularly by turning them on for 3 minutes.",
+                "The public alert sirens are checked regularly by  turning them on for 3 minutes.",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),
