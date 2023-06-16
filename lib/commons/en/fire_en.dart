@@ -17,7 +17,7 @@ class FireENPage extends StatelessWidget {
           ),
           iconTheme: IconThemeData(color: Colors.white),
           title: const Text(
-            'Пожар',
+            'Fire',
             style: TextStyle(fontSize: 24, color: Colors.white),
           ),
           actions: <Widget>[],
@@ -59,7 +59,7 @@ class FireENPage extends StatelessWidget {
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
-                              "В здании",
+                              "In building",
                               textAlign: TextAlign.center,
                               style: TextStyle(fontSize: 32),
                             ),
@@ -101,7 +101,7 @@ class FireENPage extends StatelessWidget {
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
-                              "В лесу",
+                              "In forest",
                               textAlign: TextAlign.center,
                               style: TextStyle(fontSize: 32),
                             ),

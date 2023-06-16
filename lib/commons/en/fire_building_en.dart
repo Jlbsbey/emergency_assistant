@@ -14,7 +14,7 @@ class FireBuildingENPage extends StatelessWidget {
           ),
           iconTheme: IconThemeData(color: Colors.white),
           title: const Text(
-            'Пожар в здании',
+            'Fire in a building',
             style: TextStyle(fontSize: 24, color: Colors.white),
           ),
           actions: <Widget>[],
@@ -28,7 +28,7 @@ class FireBuildingENPage extends StatelessWidget {
           child: Column(children: <Widget>[
             const ExpansionTile(
               title: Text(
-                'Кратко и конкретно',
+                'Briefly and concretely:',
                 style: TextStyle(fontSize: 20),
               ),
               controlAffinity: ListTileControlAffinity.leading,
@@ -36,29 +36,14 @@ class FireBuildingENPage extends StatelessWidget {
                 Padding(
                   padding: EdgeInsets.only(left: 25.0),
                   child: ListTile(
-                    title: Text('•Если вы можете выбраться из комнаты:'),
+                    title: Text('•If you can get out of a room:'),
                     visualDensity: VisualDensity(vertical: -4),
                   ),
                 ),
                 Padding(
                   padding: EdgeInsets.only(left: 50.0),
                   child: ListTile(
-                    title: Text('•Бегите наружу ни о чем не думая'),
-                    visualDensity: VisualDensity(vertical: -4),
-                  ),
-                ),
-                Padding(
-                  padding: EdgeInsets.only(left: 50.0),
-                  child: ListTile(
-                    title: Text(
-                        '•Всегда пользуйтесь только лестницей. Никогда не пользуйтесь лифтом.'),
-                    visualDensity: VisualDensity(vertical: -4),
-                  ),
-                ),
-                Padding(
-                  padding: EdgeInsets.only(left: 50.0),
-                  child: ListTile(
-                    title: Text('•Держитесь за перила лестницы.'),
+                    title: Text('•Run outside without thinking about anything'),
                     visualDensity: VisualDensity(vertical: -4),
                   ),
                 ),
@@ -66,14 +51,44 @@ class FireBuildingENPage extends StatelessWidget {
                   padding: EdgeInsets.only(left: 50.0),
                   child: ListTile(
                     title: Text(
-                        '•Когда вы окажетесь в безопасности, позвоните в пожарно-спасательную службу.'),
+                        '•Always use the stairs only. Never use the elevator.'),
+                    visualDensity: VisualDensity(vertical: -4),
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsets.only(left: 50.0),
+                  child: ListTile(
+                    title: Text('•Hold on to the handrail of the stairs.'),
+                    visualDensity: VisualDensity(vertical: -4),
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsets.only(left: 50.0),
+                  child: ListTile(
+                    title: Text(
+                        '•Once you are safe, call the fire and rescue service.'),
                     visualDensity: VisualDensity(vertical: -4),
                   ),
                 ),
                 ListTile(
                   title: Padding(
                     padding: EdgeInsets.only(left: 25.0),
-                    child: Text('•Если вы не можете выбраться из помещения:'),
+                    child: Text("•If you can't get out of the room:"),
+                  ),
+                  visualDensity: VisualDensity(vertical: -4),
+                ),
+                ListTile(
+                  title: Padding(
+                    padding: EdgeInsets.only(left: 50.0),
+                    child:
+                        Text('•If you feel the door is hot, do not open it.'),
+                  ),
+                  visualDensity: VisualDensity(vertical: -4),
+                ),
+                ListTile(
+                  title: Padding(
+                    padding: EdgeInsets.only(left: 50.0),
+                    child: Text('•If the door is hot, plug the cracks.'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
@@ -81,14 +96,7 @@ class FireBuildingENPage extends StatelessWidget {
                   title: Padding(
                     padding: EdgeInsets.only(left: 50.0),
                     child: Text(
-                        '•Если вы чувствуете, что дверь горячая, не открывайте ее.'),
-                  ),
-                  visualDensity: VisualDensity(vertical: -4),
-                ),
-                ListTile(
-                  title: Padding(
-                    padding: EdgeInsets.only(left: 50.0),
-                    child: Text('•Если дверь горячая, заткните щели.'),
+                        '•If there is a phone and there is no smoke in the room you are in, call the Fire and Rescue Service at 112.'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
@@ -96,7 +104,14 @@ class FireBuildingENPage extends StatelessWidget {
                   title: Padding(
                     padding: EdgeInsets.only(left: 50.0),
                     child: Text(
-                        '•Если есть телефон и в помещении, в котором вы находитесь, нет дыма, позвоните в пожарно-спасательную службу по номеру 112.'),
+                        '•Crawl up to the window and open it slightly (never open it all the way!).'),
+                  ),
+                  visualDensity: VisualDensity(vertical: -4),
+                ),
+                ListTile(
+                  title: Padding(
+                    padding: EdgeInsets.only(left: 50.0),
+                    child: Text('•Keep low at the window.'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
@@ -104,14 +119,7 @@ class FireBuildingENPage extends StatelessWidget {
                   title: Padding(
                     padding: EdgeInsets.only(left: 50.0),
                     child: Text(
-                        '•Подползите к окну и немного приоткройте его (ни в коем случае не открывайте до конца!).'),
-                  ),
-                  visualDensity: VisualDensity(vertical: -4),
-                ),
-                ListTile(
-                  title: Padding(
-                    padding: EdgeInsets.only(left: 50.0),
-                    child: Text('•Держитесь низко у окна.'),
+                        '•If possible, cover your nose and mouth with some wet cloth.'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
@@ -119,15 +127,7 @@ class FireBuildingENPage extends StatelessWidget {
                   title: Padding(
                     padding: EdgeInsets.only(left: 50.0),
                     child: Text(
-                        '•Если возможно, прикройте нос и рот какой-нибудь мокрой тканью.'),
-                  ),
-                  visualDensity: VisualDensity(vertical: -4),
-                ),
-                ListTile(
-                  title: Padding(
-                    padding: EdgeInsets.only(left: 50.0),
-                    child: Text(
-                        '•Если вы находитесь на первом этаже и можете безопасно выбраться через окно, сделайте это.'),
+                        '•If you are on the first floor and can get out through a window safely, do it.'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
@@ -136,10 +136,10 @@ class FireBuildingENPage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(left: 16.0, right: 8.0, top: 16),
               child: Text(
-                "Не паникуйте, так как объективная оценка ситуации и правильный выбор действий повысят ваши шансы "
-                "на спасение. Если вы проснулись и обнаружили, что начался пожар, перекатитесь на бок кровати и "
-                "ползите к двери. Держась ближе к полу, вам, возможно, удастся спастись. Ползите к двери в комнату. "
-                "Постарайтесь нащупать дверь рукой. Не пытайтесь захватить одежду или ценные вещи.",
+                "Don't panic, because an objective evaluation of the situation and the right course of action will increase your chances of being rescued. "
+                "If you wake up and find that a fire has started, roll onto the side of the bed and crawl toward the door. By staying close to the "
+                "floor, you may be able to escape. Crawl to the door to the room. Try to feel for the door with your hand. Do not try to grab clothes "
+                "or valuable items.",
                 style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                 textAlign: TextAlign.justify,
               ),
@@ -149,7 +149,7 @@ class FireBuildingENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                 child: Text(
-                  "Если вы можете выбраться из комнаты:",
+                  "If you can get out of the room:",
                   style: TextStyle(color: Colors.red, fontSize: 25),
                   textAlign: TextAlign.left,
                 ),
@@ -158,11 +158,9 @@ class FireBuildingENPage extends StatelessWidget {
             Padding(
               padding: EdgeInsets.only(left: 15.0, right: 8.0),
               child: Text(
-                "Если при ощупывании двери вам кажется, что она не горячая, немного приоткройте ее и проверьте, "
-                "нет ли дыма и огня снаружи. Выходя из помещения, закройте дверь, это уменьшит распространение огня и "
-                "защитит ваше имущество. Не забудьте взять ключи. Если все пути эвакуации закрыты и вы не можете "
-                "покинуть здание, вам понадобится ключ, чтобы вернуться в свою квартиру, которая станет вашим самым "
-                "надежным убежищем.",
+                "If the door doesn't feel hot when you touch it, open it slightly and check for smoke and fire outside. Close the door when you leave the "
+                "room, this will reduce the spread of fire and protect your property. Remember to take your keys. If all escape routes are closed "
+                "and you cannot leave the building, you will need a key to return to your apartment, which will be your safest shelter.",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),
@@ -170,13 +168,12 @@ class FireBuildingENPage extends StatelessWidget {
             Padding(
               padding: EdgeInsets.only(left: 24.0, right: 8, top: 8),
               child: Text(
-                '•Не пытайтесь найти место, где он горит. Потерянное вами драгоценное время может оказаться решающим для вашего спасения.\n'
-                '•Не задерживайтесь на лестничных клетках и в коридорах, размышляя, что делать. Покиньте дом как можно скорее. Вы должны знать, какие коридоры в доме ведут в тупики, старайтесь избегать их.\n'
-                '•Всегда пользуйтесь только лестницей. Никогда не пользуйтесь лифтом.\n'
-                '•Ожидайте паники вокруг. Держитесь за перила лестницы, это поможет вам удержаться, если на лестничной клетке возникнет суматоха.\n'
-                '•Не пытайтесь встретить всех внутри, прежде чем покинуть здание, поскольку каждая минута драгоценна.\n'
-                '•Когда вы окажетесь в безопасности, позвоните в пожарно-спасательную службу(112). Не считайте само собой разумеющимся, что какой то из соседей уже сделал это. Не кладите трубку, пока диспетчеры не получат всю необходимую информацию.\n'
-                '•Не возвращайтесь в дом, пока пожарные не дадут разрешение.',
+                '•Do not try to find the place that burns. The precious time you lose could be crucial to your salvation.\n'
+                "•Don't linger in stairwells and hallways, wondering what to do. Leave the house as soon as possible. You should know which hallways in the house lead to dead ends; try to avoid them.\n"
+                '•Expect panic around you. Hold on to the stair railings, this will help you hold on if there is a commotion in the stairwell.\n'
+                "•Don't try to meet everyone inside before you leave the building, as every minute is valuable.\n"
+                "•Once you are safe, call the Fire and Rescue Service(112). Don't take it for granted that one of your neighbors has already done this. Do not hang up until the dispatchers have all the information they need.\n"
+                '•Do not return to the house until the fire department has given permission.',
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),
@@ -186,7 +183,7 @@ class FireBuildingENPage extends StatelessWidget {
               child: Padding(
                 padding: EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                 child: Text(
-                  "Если вы не можете выбраться из комнаты:",
+                  "If you can't get out of the room:",
                   style: TextStyle(color: Colors.red, fontSize: 25),
                   textAlign: TextAlign.left,
                 ),
@@ -195,21 +192,19 @@ class FireBuildingENPage extends StatelessWidget {
             Padding(
               padding: EdgeInsets.only(left: 24.0, right: 8, top: 8),
               child: Text(
-                '•Если при ощупывании двери вы чувствуете, что она горячая, не открывайте ее. Это может означать, что за '
-                'дверью находится огонь. Если вы откроете дверь, пламя немедленно проникнет в помещение. Закрытая дверь '
-                'может служить экраном от огня и защитить вас до прибытия спасателей.\n'
-                '•Если дверь горячая, заткните щели. Для этого лучше всего подойдут влажные полотенца, одеяла. Также '
-                'пригодятся простыни, одежда.\n'
-                '•Если у вас есть телефон и в комнате, где вы находитесь, нет дыма, позвоните по номеру 112.\n'
-                '•Подползите к окну и немного приоткройте его. Если вы откроете окно до конца, вы создадите сквозняк,'
-                ' который будет способствовать проникновению дыма в комнату.\n'
-                '•Держитесь ниже у окна, это позволит вам дышать свежим воздухом снаружи и избежать медленного заполнения комнаты дымом.\n'
-                '•Если возможно, прикройте нос и рот каким-нибудь мокрым материалом, это отфильтрует дым и облегчит дыхание.\n'
-                '•Только в случае крайней необходимости открывайте окно полностью или разбивайте стекло. В этом случае дым может'
-                ' проникнуть в помещение и снаружи дома. Кроме того, стекло будет разбито, и вы уже не сможете закрыть окно.\n'
-                '•Если вы находитесь на первом этаже и можете безопасно выбраться наружу, сделайте это.\n'
-                '•Если вы находитесь выше первого этажа, лучше воздержаться от прыжка. Многие люди, которые могли бы '
-                'пережить пожар, дождавшись помощи в своей комнате, погибли, прыгнув с опасной высоты.',
+                '•If you feel the door is hot when you feel it, do not open it. It may mean that there is a fire behind the door. If you open the door, '
+                'flames will immediately enter the room. A closed door can shield you from the fire and protect you until emergency services arrive.\n'
+                '•If the door is hot, plug the gaps. Damp towels, blankets are best for this. Sheets and clothing are also helpful.\n'
+                '•If you have a phone and there is no smoke in the room you are in, call 112.\n'
+                '•Crawl over to the window and open it slightly. If you open the window all the way, you will create a draft that will encourage smoke to '
+                'enter the room.\n'
+                '•Stay lower by the window, this will allow you to breathe fresh air outside and avoid slowly filling the room with smoke.\n'
+                '•If possible, cover your nose and mouth with some wet material, this will filter the smoke and make breathing easier.\n'
+                '•Only in case of emergency, open the window completely or break the glass. In this case, smoke can enter the room and the outside of '
+                'the house. In addition, the glass will be broken and you will no longer be able to close the window.\n'
+                '•If you are on the first floor and can get out safely, do so.\n'
+                '•If you are above the first floor, it is best to avoid jumping. Many people who could have survived the fire by waiting for help in '
+                'their room have died by jumping from dangerous heights.',
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),
@@ -217,15 +212,15 @@ class FireBuildingENPage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
               child: Text(
-                "Как привлечь внимание, если вы не можете выйти из комнаты:",
+                "How to attract attention if you can't leave the room:",
                 style: TextStyle(color: Colors.red, fontSize: 25),
               ),
             ),
             Padding(
               padding: EdgeInsets.only(left: 24.0, right: 8, top: 8, bottom: 8),
               child: Text(
-                '•Шумите, чтобы дать другим понять, где вы находитесь. Для этого лучше всего постучать каким-либо предметом, а не кричать.\n'
-                '•Размахивание полотенцем или простыней через окно привлечет внимание к вашему местонахождению.',
+                '•Make a noise to let others know where you are. The best way to do this is to knock with an object rather than shout.\n'
+                '•Waving a towel or sheet through the window will draw attention to your location.',
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),

@@ -19,7 +19,7 @@ class _GasLeakENPageState extends State<GasLeakENPage> {
           ),
           iconTheme: IconThemeData(color: Colors.white),
           title: const Text(
-            'Утечка газа',
+            'Gas leak',
             style: TextStyle(fontSize: 24, color: Colors.white),
           ),
           actions: <Widget>[],
@@ -33,7 +33,7 @@ class _GasLeakENPageState extends State<GasLeakENPage> {
           child: Column(children: <Widget>[
             const ExpansionTile(
               title: Text(
-                'Кратко и конкретно',
+                'Briefly and concretely',
                 style: TextStyle(fontSize: 20),
               ),
               controlAffinity: ListTileControlAffinity.leading,
@@ -41,50 +41,49 @@ class _GasLeakENPageState extends State<GasLeakENPage> {
                 Padding(
                   padding: EdgeInsets.only(left: 25.0),
                   child: ListTile(
-                    title:
-                        Text('•Позвоните по номеру 112 для получения помощи'),
+                    title: Text('•Call 112 for help'),
                     visualDensity: VisualDensity(vertical: -4),
                   ),
                 ),
                 Padding(
                   padding: EdgeInsets.only(left: 25.0),
                   child: ListTile(
-                    title: Text('•Не допускайте возгорания'),
+                    title: Text('•Do not let fire break out'),
                     visualDensity: VisualDensity(vertical: -4),
                   ),
                 ),
                 Padding(
                   padding: EdgeInsets.only(left: 25.0),
                   child: ListTile(
-                    title: Text('•Проветривайте помещения'),
+                    title: Text('•Ventilate rooms'),
                     visualDensity: VisualDensity(vertical: -4),
                   ),
                 ),
                 Padding(
                   padding: EdgeInsets.only(left: 25.0),
                   child: ListTile(
-                    title: Text('•Покиньте помещение'),
+                    title: Text('•Leave the rooms'),
                     visualDensity: VisualDensity(vertical: -4),
                   ),
                 ),
                 Padding(
                   padding: EdgeInsets.only(left: 25.0),
                   child: ListTile(
-                    title: Text('•Вызовите медицинскую помощь'),
+                    title: Text('•Call for medical help'),
                     visualDensity: VisualDensity(vertical: -4),
                   ),
                 ),
                 ListTile(
                   title: Padding(
                     padding: EdgeInsets.only(left: 25.0),
-                    child: Text('•Остановите утечку, перекрыв подачу газа'),
+                    child: Text('•Stop the leak by cutting off the gas supply'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
                 ListTile(
                   title: Padding(
                     padding: EdgeInsets.only(left: 25.0),
-                    child: Text('•Сохраняйте спокойствие'),
+                    child: Text('•Stay calm'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
@@ -95,7 +94,7 @@ class _GasLeakENPageState extends State<GasLeakENPage> {
               child: Padding(
                 padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                 child: Text(
-                  "Что может указывать на утечку газа:",
+                  "What could indicate a gas leak:",
                   style: TextStyle(color: Colors.red, fontSize: 25),
                 ),
               ),
@@ -103,22 +102,18 @@ class _GasLeakENPageState extends State<GasLeakENPage> {
             Padding(
               padding: const EdgeInsets.only(left: 16.0, right: 8.0, bottom: 8),
               child: Text(
-                "Наиболее очевидным признаком утечки является запах газа. Поскольку природный газ не имеет запаха, вкуса и "
-                "цвета, для раннего обнаружения утечки в него добавляют специфический пахучий фермент (меркаптан), "
-                "придающий ему сернистый запах (тухлых яиц).\n"
-                "Признаком утечки газа также может плохое самочувствие. В низких концентрациях природный газ может "
-                "вызывать головокружение, головную боль, тошноту и потерю координации. При появлении любого из этих "
-                "симптомов и подозрении на утечку природного газа следует немедленно покинуть помещение. При высоких "
-                "концентрациях в замкнутых пространствах, если вовремя не обнаружить специфический запах газа, "
-                "количество пригодного для дыхания кислорода уменьшается, и возможно удушающее действие природного газа. "
-                "Симптомы: нарушение движений, потеря сознания, рвота. Пострадавший может не почувствовать "
-                "предупреждающих симптомов возможной асфиксии и впасть в глубокий сон (бессознательное состояние), "
-                "который может привести к смерти.\n"
-                "В случае утечки газа у домашних животных также происходят изменения в их самочувствии. Владельцы "
-                "домашних животных должны обращать внимание на следующие признаки: затрудненное дыхание, изменение "
-                "поведения, дезориентация, потеря аппетита, красные или слезящиеся глаза, рвота.\n"
-                "Небольшие утечки газа могут не иметь запаха. Помимо изменения самочувствия, если в "
-                "доме есть утечка, вы можете заметить несколько изменений, требующих внимания:",
+                "The most obvious sign of a leak is the smell of gas. Since natural gas is odorless, tasteless and colorless, "
+                "a specific odorous enzyme (mercaptan) is added to it for early detection of a leak, giving it a sulfurous smell (rotten eggs).\n"
+                "A sign of a gas leak can also be a bad feeling. At low concentrations, natural gas can cause dizziness, headaches, nausea, and loss "
+                "of coordination. If any of these symptoms occur and a natural gas leak is suspected, you should leave the room immediately. At "
+                "high concentrations in confined spaces, if the specific odor of the gas is not detected in time, the amount of breathable oxygen "
+                "is reduced and the natural gas may be asphyxiating."
+                "Symptoms: impaired movement, loss of consciousness, vomiting. The victim may not feel the warning symptoms of possible asphyxiation "
+                "and falls into a deep sleep (unconsciousness), which can lead to death.\n"
+                "In the case of a gas leak, pets also experience changes in their well-being. Pet owners should watch for the following signs: difficulty "
+                "breathing, behavioral changes, disorientation, loss of appetite, red or watery eyes, and vomiting.\n"
+                "Small gas leaks may be odorless. In addition to a change in well-being, if there is a leak in the house, you may notice several changes "
+                "that need attention:",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),
@@ -126,19 +121,15 @@ class _GasLeakENPageState extends State<GasLeakENPage> {
             Padding(
                 padding: EdgeInsets.only(left: 32),
                 child: Text(
-                  "•Свистящий или шипящий звук вблизи газовой трубы. Иногда при утечке газа возникает низкий, похожий на "
-                  "шипение звук. Это означает, что газ уходит довольно быстро, и любой шум, исходящий из газовой "
-                  "системы, обычно не является хорошим признаком.\n"
-                  "•Белое облако или облако пыли возле газовой трубы. Иногда при утечке газа на улице может образовываться "
-                  "мелкий туман. Это происходит из-за утечки газа из подземного трубопровода. Конденсат собирается и "
-                  "образует низкую, неестественную дымку вокруг дома\n"
-                  "•Bojāta gāzes caurule\n"
-                  "•Мёртвые комнатные растения. Утечки газа вредны для всего живого. Растения как производят, так и потребляют"
-                  " кислород, поэтому если в помещении его недостаточно, они начнут медленно погибать. Если "
-                  "растения в доме внезапно умирают одновременно (при условии, что их поливают по мере необходимости), "
-                  "это может быть признаком утечки газа.\n"
-                  "•Потребление природного газа стремительно выросло. Обратите внимание на причину, так как газ из газовых "
-                  "труб и приборов может просачиваться в дом или на его территорию.",
+                  "•A whistling or hissing sound near the gas pipe. Sometimes there is a low, hissing sound when gas leaks. This means that the gas "
+                  "is escaping fairly quickly, and any noise coming from the gas system is usually not a good sign.\n"
+                  "•A white cloud or dust cloud near the gas pipe. Sometimes a fine mist may form when gas leaks outside. This is caused by a gas leak "
+                  "from an underground pipeline. Condensation collects and forms a low, unnatural haze around the house.\n"
+                  "•A damaged gas pipe.\n"
+                  "•Dead houseplants. Gas leaks are bad for all living things. Plants both produce and consume oxygen, so if there is not enough oxygen "
+                  "in the room, they will begin to slowly die. If the plants in the house suddenly die at the same time (assuming they are watered "
+                  "as needed), it could be a sign of a gas leak.\n"
+                  "•Natural gas consumption has skyrocketed. Pay attention to the cause, as g as from gas pipes and appliances may be leaking into or onto the house.",
                   style: TextStyle(fontSize: 16),
                 )),
             Align(
@@ -146,7 +137,7 @@ class _GasLeakENPageState extends State<GasLeakENPage> {
               child: Padding(
                 padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                 child: Text(
-                  "Что делать при обнаружении утечки газа:",
+                  "What to do when a gas leak is detected:",
                   style: TextStyle(color: Colors.red, fontSize: 25),
                 ),
               ),
@@ -154,29 +145,25 @@ class _GasLeakENPageState extends State<GasLeakENPage> {
             Padding(
               padding: const EdgeInsets.only(left: 16.0, right: 8.0, bottom: 8),
               child: Text(
-                "Если произошла утечка газа, важно действовать быстро, но осмотрительно:",
+                "If there is a gas leak, it is important to act quickly but cautiously:",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),
             ),
             Padding(
-                padding: EdgeInsets.only(left: 32),
+                padding: EdgeInsets.only(left: 32, bottom: 8),
                 child: Text(
-                  '•Вызовите помощь. В случае утечки природного газа или при появлении специфического запаха следует '
-                  'немедленно позвонить по номеру 112.\n'
-                  '•Не допускайте возникновения пожара. Необходимо избегать потенциальных источников воспламенения, '
-                  'не допуская искр и открытого пламени. Светильники и другое электрооборудование не следует включать '
-                  'и выключать, так как это может вызвать искру и дальнейшее воспламенение.\n'
-                  "•Проветривай помещения. Обеспечьте достаточную вентиляцию закрытых помещений. Открывайте окна и "
-                  "двери перед тем, как покинуть помещение.\n"
-                  "•Покиньте помещение. Позаботьтесь о своем здоровье и безопасности, а затем о своих ближних. "
-                  "Предупредите других жильцов здания об утечке или возможной утечке газа, помогите им выбраться "
-                  "из здания и дождитесь аварийной газовой службы на достаточном расстоянии от места утечки.\n"
-                  "•И люди, и животные нуждаются в медицинской помощи при возникновении утечки газа. В случае тяжелых"
-                  " симптомов вызовите неотложную медицинскую помощь по номеру 112.\n"
-                  "•Если это возможно и если это не угрожает вашему здоровью, остановите утечку, перекрыв подачу природного газа путем закрытия вентилей.\n"
-                  "•Важно сохранять спокойствие и ставить на первое место собственную безопасность и здоровье, и только потом "
-                  "думать о том, как предотвратить или уменьшить последствия утечки газа.",
+                  '•Call for help. In case of a natural gas leak or a specific odor, call 112 immediately.\n'
+                  '•Do not allow a fire to break out. Potential ignition sources should be avoided by avoiding sparks and open flames. Light fixtures '
+                  'and other electrical equipment should not be turned on or off, as this can cause sparks and further ignition.\n'
+                  "•Ventilate the rooms. Ensure adequate ventilation of enclosed spaces. Open windows and doors before leaving the room.\n"
+                  "•Leave the room. Take care of your health and safety, and then take care of your family members. Warn other residents of the building "
+                  "of a gas leak or possible gas leak, help them get out of the building, and wait for the emergency gas service at a safe distance "
+                  "from the leak.\n"
+                  "•Both humans and animals need medical aid in the case of a gas leak. In case of severe symptoms, call emergency medical assistance at 112.\n"
+                  "•If possible and if it does not endanger your health, stop the leak by shutting off the natural gas supply by closing the valves.\n"
+                  "•It is important to remain calm and put your own safety and health first, and only then think about how to prevent or reduce the "
+                  "consequences of a gas leak.",
                   style: TextStyle(fontSize: 16),
                 ))
           ]),

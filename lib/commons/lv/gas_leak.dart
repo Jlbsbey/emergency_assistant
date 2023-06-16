@@ -155,7 +155,7 @@ class _GasLeakPageState extends State<GasLeakPage> {
               ),
             ),
             Padding(
-                padding: EdgeInsets.only(left: 32),
+                padding: EdgeInsets.only(left: 32, bottom: 8),
                 child: Text(
                   '•Izsauc palīdzību. Dabasgāzes noplūdes gadījumā vai sajūtot tās specifisko smaku, nekavējoties jāizsauc gāzes '
                   'avārijas dienests (114) vai Valsts ugunsdzēsības un glābšanas dienestu (112) (114 dabasgāzei un 112 propan-butānam un "balonu gāzei").\n'

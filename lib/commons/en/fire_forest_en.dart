@@ -14,7 +14,7 @@ class FireForestENPage extends StatelessWidget {
           ),
           iconTheme: IconThemeData(color: Colors.white),
           title: const Text(
-            'Пожар в лесу',
+            'Fire in forest',
             style: TextStyle(fontSize: 24, color: Colors.white),
           ),
           actions: <Widget>[],
@@ -28,7 +28,7 @@ class FireForestENPage extends StatelessWidget {
           child: Column(children: <Widget>[
             const ExpansionTile(
               title: Text(
-                'Кратко и конкретно',
+                'Briefly and concretely',
                 style: TextStyle(fontSize: 20),
               ),
               controlAffinity: ListTileControlAffinity.leading,
@@ -37,7 +37,7 @@ class FireForestENPage extends StatelessWidget {
                   padding: EdgeInsets.only(left: 25.0),
                   child: ListTile(
                     title: Text(
-                        '•Если пожар достаточно мал, постарайтесь немедленно его потушить.'),
+                        '•If the fire is small enough, try to extinguish it immediately.'),
                     visualDensity: VisualDensity(vertical: -4),
                   ),
                 ),
@@ -45,7 +45,7 @@ class FireForestENPage extends StatelessWidget {
                   padding: EdgeInsets.only(left: 25.0),
                   child: ListTile(
                     title: Text(
-                        '•Если пожар не удается потушить, убегайте от огня.'),
+                        '•If the fire cannot be extinguished, run away from the fire.'),
                     visualDensity: VisualDensity(vertical: -4),
                   ),
                 ),
@@ -53,7 +53,7 @@ class FireForestENPage extends StatelessWidget {
                   padding: EdgeInsets.only(left: 25.0),
                   child: ListTile(
                     title: Text(
-                        '•Двигайтесь перпендикулярно направлению распространения огня.'),
+                        '•Move perpendicular to the direction the fire is spreading.'),
                     visualDensity: VisualDensity(vertical: -4),
                   ),
                 ),
@@ -61,7 +61,7 @@ class FireForestENPage extends StatelessWidget {
                   padding: EdgeInsets.only(left: 25.0),
                   child: ListTile(
                     title: Text(
-                        '•Если отбежать от огня невозможно, погрузитесь в воду или накройте себя мокрой одеждой.'),
+                        "•If you can't run away from the fire, soak in water or cover yourself with wet clothes."),
                     visualDensity: VisualDensity(vertical: -4),
                   ),
                 ),
@@ -69,15 +69,14 @@ class FireForestENPage extends StatelessWidget {
                   padding: EdgeInsets.only(left: 25.0),
                   child: ListTile(
                     title: Text(
-                        '•Если вы находитесь в лесной лужайке, прижмитесь ближе к земле.'),
+                        '•If you are in a wooded meadow, get close to the ground.'),
                     visualDensity: VisualDensity(vertical: -4),
                   ),
                 ),
                 ListTile(
                   title: Padding(
                     padding: EdgeInsets.only(left: 25.0),
-                    child: Text(
-                        '•Покидая место происшествия, позвоните по телефону 112.'),
+                    child: Text('•When leaving the scene, call 112.'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
@@ -88,7 +87,7 @@ class FireForestENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                 child: Text(
-                  "Во-первых, существует 3 типа лесных пожаров:",
+                  "First, there are three types of wildfires:",
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                   textAlign: TextAlign.justify,
                 ),
@@ -99,7 +98,7 @@ class FireForestENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                 child: Text(
-                  "Торфяной пожар:",
+                  "Ground fire:",
                   style: TextStyle(color: Colors.red, fontSize: 25),
                   textAlign: TextAlign.left,
                 ),
@@ -108,12 +107,11 @@ class FireForestENPage extends StatelessWidget {
             Padding(
               padding: EdgeInsets.only(left: 15.0, right: 8.0),
               child: Text(
-                "Торфяные пожары продвигаются медленно, несколько метров в день. Они особенно опасны из-за неожиданных "
-                "всплесков огня из подземного очага и того, что его кромка не всегда видна и можно провалиться в "
-                "горящий торф. Поэтому во время пожара торфяники следует обходить стороной, а при необходимости "
-                "передвигаться по торфяному полю только группой, причем первый человек в группе должен проверять землю "
-                "шестом, как будто идет по тонкому льду. Признаком подземного пожара является то, что земля горячая и "
-                "из почвы идет дым.",
+                "Ground fires move slowly, a few meters a day. They are especially dangerous because of the sudden bursts of fire from the underground "
+                "hearth and the fact that its edge is not always visible and you can fall into the burning peat. Therefore you should avoid peat "
+                "fields in the case of fire, and if necessary, only move around in a group, and the first person in the group should check the ground "
+                "with a pole, as if he were walking on thin ice. A sign of an underground fire is that the ground is hot and smoke is coming out of "
+                "the ground.",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),
@@ -123,7 +121,7 @@ class FireForestENPage extends StatelessWidget {
               child: Padding(
                 padding: EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                 child: Text(
-                  "Низовой пожар:",
+                  "Surface fire:",
                   style: TextStyle(color: Colors.red, fontSize: 25),
                   textAlign: TextAlign.left,
                 ),
@@ -132,10 +130,9 @@ class FireForestENPage extends StatelessWidget {
             Padding(
               padding: EdgeInsets.only(left: 15.0, right: 8, top: 8),
               child: Text(
-                'При низовом пожаре (90% всех случаев) сгорают нижние части деревьев, трава, валежник и корни. '
-                'Скорость распространения огня составляет от 1 до 3 метров в минуту, высота пламени - от полуметра '
-                'до полутора метров. При скорости распространения 3-4 метра в минуту пожар становится большим'
-                'за 10-14 часов.',
+                'Surface fires (90% of all fires) burn the lower parts of trees, grass, deadwood, and roots. The speed of fire spreading is from 1 to 3 '
+                'meters per minute and the height of the flames is from half a meter to one and a half meters. At a spreading speed of 3 to 4 meters '
+                'per minute, the fire becomes large in 10 to 14 hours.',
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),
@@ -145,7 +142,7 @@ class FireForestENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                 child: Text(
-                  "Верховой пожар:",
+                  "Crown fire:",
                   style: TextStyle(color: Colors.red, fontSize: 25),
                 ),
               ),
@@ -153,9 +150,8 @@ class FireForestENPage extends StatelessWidget {
             Padding(
               padding: EdgeInsets.only(left: 15.0, right: 8, top: 8),
               child: Text(
-                'Верховой пожар возможен при сильном ветре: огонь движется через полог деревьев со скоростью '
-                'от 5 до 100 метров в минуту и более. Ветер поднимает горящие ветки и искры, которые воспламеняют '
-                'лес на десятки метров вперед и создают новые очаги возгорания.',
+                'A crown fire is possible when the wind is strong: the fire moves through the tree crowns at a speed of 5 to 100 meters per minute or more. '
+                'The wind picks up burning branches and sparks that ignite the forest dozens of meters ahead and create new hotspots.',
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),
@@ -165,7 +161,7 @@ class FireForestENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                 child: Text(
-                  "Во-вторых, что если в лесу случился пожар?",
+                  "Second, what if there was a fire in the forest?",
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                   textAlign: TextAlign.justify,
                 ),
@@ -176,7 +172,7 @@ class FireForestENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                 child: Text(
-                  "Порядок действий:",
+                  "Order of action:",
                   style: TextStyle(color: Colors.red, fontSize: 25),
                 ),
               ),
@@ -184,15 +180,13 @@ class FireForestENPage extends StatelessWidget {
             Padding(
               padding: EdgeInsets.only(left: 24.0, right: 8, top: 8, bottom: 8),
               child: Text(
-                '•Если пожар маленький, то вы должны попытаться немедленно потушить его, ударяя по пламени ветками или покрывалом. Удары следует '
-                'наносить наискосок в сторону сгоревшего участка.\n'
-                '•Если пожар слишком большой для тушения, немедленно предупредите окружающих и поспешите покинуть место пожара. '
-                'Двигайтесь перпендикулярно направлению распространения огня к дороге, лесополосе, полю или берегу '
-                'водоема.\n'
-                '•Если нет возможности покинуть место пожара и поблизости есть вода, погрузитесь в нее или накройте '
-                'себя мокрой одеждой. Если вы находитесь в лесной опушке, прижмитесь как можно ближе к земле, где '
-                'воздух менее задымлен.\n'
-                '•Когда вы окажетесь в безопасном месте, позвоните по номеру 112, чтобы сообщить о лесном пожаре.',
+                '•If the fire is small, you should try to extinguish it immediately by hitting the flames with branches or a blanket. Strikes should be '
+                'struck obliquely toward the burned area.\n'
+                '•If the fire is too big to extinguish, immediately warn others around you and hurry to leave the scene of the fire. Move perpendicular to '
+                'the direction the fire is spreading toward a road, forest belt, field, or lake shore.\n'
+                '•If there is no way to leave the scene of the fire and there is water nearby, immerse yourself in it or cover yourself with wet clothing. '
+                'If you are in a forest clearing, get as close to the ground as possible where the air is less smoky.\n'
+                '•Once you are in a safe place, call 112 to report a wildfire.',
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),

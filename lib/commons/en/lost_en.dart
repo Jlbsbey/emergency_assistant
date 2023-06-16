@@ -19,7 +19,7 @@ class _LostENPageState extends State<LostENPage> {
           ),
           iconTheme: IconThemeData(color: Colors.white),
           title: const Text(
-            'Заблудился',
+            'Lost in forest',
             style: TextStyle(fontSize: 24, color: Colors.white),
           ),
           actions: <Widget>[],
@@ -33,7 +33,7 @@ class _LostENPageState extends State<LostENPage> {
           child: Column(children: <Widget>[
             const ExpansionTile(
               title: Text(
-                'Кратко и конкретно',
+                'Briefly and concretely',
                 style: TextStyle(fontSize: 20),
               ),
               controlAffinity: ListTileControlAffinity.leading,
@@ -41,14 +41,7 @@ class _LostENPageState extends State<LostENPage> {
                 ListTile(
                   title: Padding(
                     padding: EdgeInsets.only(left: 25.0),
-                    child: Text('•Сохраняйте спокойствие.'),
-                  ),
-                  visualDensity: VisualDensity(vertical: -4),
-                ),
-                ListTile(
-                  title: Padding(
-                    padding: EdgeInsets.only(left: 25.0),
-                    child: Text('•Реконструируй ход событий.'),
+                    child: Text('•Stay calm.'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
@@ -56,14 +49,22 @@ class _LostENPageState extends State<LostENPage> {
                   title: Padding(
                     padding: EdgeInsets.only(left: 25.0),
                     child: Text(
-                        '•Вспомните, где было Солнце, когда вы начали поход.'),
+                        '•Go over in your mind how you got to where you are.'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
                 ListTile(
                   title: Padding(
                     padding: EdgeInsets.only(left: 25.0),
-                    child: Text('•Звоните в 112'),
+                    child: Text(
+                        '•Remember where was the Sun when you began your journey'),
+                  ),
+                  visualDensity: VisualDensity(vertical: -4),
+                ),
+                ListTile(
+                  title: Padding(
+                    padding: EdgeInsets.only(left: 25.0),
+                    child: Text('•Call 112'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
@@ -74,7 +75,7 @@ class _LostENPageState extends State<LostENPage> {
               child: Row(
                 children: [
                   Text(
-                    "Остановитесь:",
+                    "Stop:",
                     style: TextStyle(color: Colors.red, fontSize: 25),
                   ),
                 ],
@@ -83,7 +84,7 @@ class _LostENPageState extends State<LostENPage> {
             Padding(
               padding: const EdgeInsets.only(left: 16.0, right: 8.0),
               child: Text(
-                "Как только вы поймете, что заблудились: остановитесь, сохраняйте спокойствие. Паника - ваш худший враг.",
+                "As soon as you realize you may be lost: stop, stay calm, stay put. Panic is your greatest enemy.",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),
@@ -93,7 +94,7 @@ class _LostENPageState extends State<LostENPage> {
               child: Row(
                 children: [
                   Text(
-                    "Подумайте:",
+                    "Think::",
                     style: TextStyle(color: Colors.red, fontSize: 25),
                     textAlign: TextAlign.justify,
                   ),
@@ -103,8 +104,8 @@ class _LostENPageState extends State<LostENPage> {
             Padding(
               padding: const EdgeInsets.only(left: 16.0, right: 8.0),
               child: Text(
-                "Подумайте о том, как вы оказались там, где находитесь. Какие ориентиры вы должны были бы увидеть? "
-                "Не двигайтесь вообще, пока у вас нет конкретной причины куда-то идти.",
+                "Go over in your mind how you got to where you are. What landmarks should you be able to see? Do not move at all until you have a "
+                "specific reason to take a step.",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),
@@ -114,7 +115,7 @@ class _LostENPageState extends State<LostENPage> {
               child: Row(
                 children: [
                   Text(
-                    "Наблюдайте:",
+                    "Observe:",
                     style: TextStyle(color: Colors.red, fontSize: 25),
                   ),
                 ],
@@ -123,8 +124,8 @@ class _LostENPageState extends State<LostENPage> {
             Padding(
               padding: const EdgeInsets.only(left: 16.0, right: 8.0),
               child: Text(
-                "Возьмите компас (если он у вас есть) и определите направление, исходя из вашего местоположения. "
-                "Если вы находитесь на тропе, оставайтесь на ней.",
+                "Get out your compass and determine the directions based on where you are standing. Do not walk aimlessly."
+                "If you are on a trail, stay on it.",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),
@@ -134,7 +135,7 @@ class _LostENPageState extends State<LostENPage> {
               child: Row(
                 children: [
                   Text(
-                    "Планируйте:",
+                    "Plan:",
                     style: TextStyle(color: Colors.red, fontSize: 25),
                     textAlign: TextAlign.left,
                   ),
@@ -144,9 +145,9 @@ class _LostENPageState extends State<LostENPage> {
             Padding(
               padding: const EdgeInsets.only(left: 16.0, right: 8.0, bottom: 8),
               child: Text(
-                "На основе своих мыслей и наблюдений придумайте несколько возможных планов, обдумайте их и затем действуйте "
-                "по одному из них. Если вы не очень, очень уверены в маршруте, всегда лучше оставаться на месте. Если "
-                "стемнело, вы травмированы или устали, оставайтесь на месте.",
+                "Based on your thinking and observations, come up with some possible plans, think them through then act on one of them."
+                " If you are not very, very confident in the route, then it’s always better to stay put.  it’s nightfall, you are injured or you are "
+                "near exhaustion, stay in place.",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),
