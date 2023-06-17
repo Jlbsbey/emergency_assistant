@@ -14,7 +14,7 @@ class AnimalENPage extends StatelessWidget {
           ),
           iconTheme: IconThemeData(color: Colors.white),
           title: const Text(
-            'Укус животного',
+            'Animal bite',
             style: TextStyle(fontSize: 24, color: Colors.white),
           ),
           actions: <Widget>[],
@@ -28,7 +28,7 @@ class AnimalENPage extends StatelessWidget {
           child: Column(children: <Widget>[
             const ExpansionTile(
               title: Text(
-                'Кратко и конкретно',
+                'Briefly and concretely',
                 style: TextStyle(fontSize: 20),
               ),
               controlAffinity: ListTileControlAffinity.leading,
@@ -36,7 +36,7 @@ class AnimalENPage extends StatelessWidget {
                 ListTile(
                   title: Padding(
                     padding: EdgeInsets.only(left: 25.0),
-                    child: Text('•Лучше позвонить по номеру 112.'),
+                    child: Text('•It is better to call 112.'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
@@ -44,7 +44,7 @@ class AnimalENPage extends StatelessWidget {
                   title: Padding(
                     padding: EdgeInsets.only(left: 25.0),
                     child: Text(
-                        '•Если рана не сильно кровоточит, перевяжите ее и обратитесь в приемную больницы.'),
+                        '•If the wound is not bleeding much, bandage it and go to the hospital emergency room.'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
@@ -52,15 +52,14 @@ class AnimalENPage extends StatelessWidget {
                   title: Padding(
                     padding: EdgeInsets.only(left: 25.0),
                     child: Text(
-                        '•Если вас укусила змея, в любом случае звоните по номеру 112'),
+                        '•If you are bitten by a snake, call 112 in any case.'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
                 ListTile(
                   title: Padding(
                     padding: EdgeInsets.only(left: 25.0),
-                    child: Text(
-                        '•Успокойте пострадавшего и дайте ему немного жидкости(воды).'),
+                    child: Text('•Calm the victim and give him some water.'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
@@ -71,7 +70,7 @@ class AnimalENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                 child: Text(
-                  "Раны от укусов животных:",
+                  "Wounds from animal bites:",
                   style: TextStyle(color: Colors.red, fontSize: 25),
                 ),
               ),
@@ -79,9 +78,8 @@ class AnimalENPage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(left: 16.0, right: 8.0),
               child: Text(
-                "Различные дикие и домашние животные могут передавать бешенство, обратитесь в приемный покой больницы "
-                "или отделение неотложной помощи. Обратите внимание, что вакцинация сразу после укуса животного "
-                "защищает от бешенства.\nКак помочь пострадавшему?",
+                "Various wild and domestic animals can transmit rabies, go to a hospital emergency room or emergency room. Note that vaccination immediately "
+                "after an animal bite protects against rabies. \nHow to help an injured person?",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),
@@ -89,11 +87,10 @@ class AnimalENPage extends StatelessWidget {
             Padding(
                 padding: EdgeInsets.only(left: 32),
                 child: Text(
-                  "•Если рана не сильно кровоточит, промойте ее водой с мылом\n"
-                  "•Перевяжите рану\n"
-                  "•Если кровотечение не сильное, пострадавшему следует самостоятельно или с помощью родственника "
-                  "обратиться в приемное отделение больницы. В случае сильного кровотечения вызовите неотложную "
-                  "медицинскую помощь по телефону 112.",
+                  "•If the wound is not bleeding much, wash it with soap and water.\n"
+                  "•Bandage the wound.\n"
+                  "•If the bleeding is not severe, the victim should go to the emergency room of a hospital on his/her own or with the help of a relative. "
+                  "If he or she is bleeding heavily, call 112 for emergency medical assistance.",
                   style: TextStyle(fontSize: 16),
                 )),
             Padding(
@@ -101,7 +98,7 @@ class AnimalENPage extends StatelessWidget {
               child: Row(
                 children: [
                   Text(
-                    "Укус змеи:",
+                    "Snakebite:",
                     style: TextStyle(color: Colors.red, fontSize: 25),
                     textAlign: TextAlign.justify,
                   ),
@@ -113,7 +110,7 @@ class AnimalENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 16.0, right: 8.0),
                 child: Text(
-                  "Что делать, если укусила змея?",
+                  "What to do if a snake bites?",
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                   textAlign: TextAlign.justify,
                 ),
@@ -124,9 +121,9 @@ class AnimalENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 16.0, right: 8.0),
                 child: Text(
-                  "Если вас укусила змея, место укуса будет болеть и может появиться отек. В более тяжелых случаях укус "
-                  "змеи может вызвать серьезные проблемы с сердцем, одышку, тошноту, рвоту и диарею. Опухший участок "
-                  "укушенного тела может заметно увеличиться, кожа может стать синевато-фиолетовой.",
+                  "If you are bitten by a snake, the bite will hurt and swelling may occur. In more severe cases, a snake bite can cause serious heart "
+                  "problems, shortness of breath, nausea, vomiting and diarrhea. The swollen area of the bitten body may swell noticeably and the "
+                  "skin may turn bluish purple.",
                   style: TextStyle(
                     fontSize: 16,
                   ),
@@ -139,7 +136,7 @@ class AnimalENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 16.0, right: 8.0),
                 child: Text(
-                  "Если укусила змея, то нужно бать худший возможный вариант, что змея ядовитая. В этом случае:",
+                  "If a snake bites, you have to take the worst possible scenario, that the snake is poisonous. In that case:",
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                   textAlign: TextAlign.justify,
                 ),
@@ -148,14 +145,14 @@ class AnimalENPage extends StatelessWidget {
             Padding(
                 padding: EdgeInsets.only(left: 32, right: 8, bottom: 8),
                 child: Text(
-                  "•Вызовите скорую помощь по номеру 113, так как пострадавшему необходимо оказать помощь как можно скорее.\n"
-                  "•Уложите пострадавшего, помогите ему успокоиться.\n"
-                  "•Постарайтесь не двигать и не тереть укушенную часть тела, чтобы яд не распространялся так быстро.\n"
-                  "•Не позволяйте пострадавшему охлаждаться/защищайте его от воздействия окружающей среды.\n"
-                  "•Если возможно, давайте больше воды, чтобы обеспечить организм влагой.\n"
-                  "•К месту укуса можно приложить что-нибудь холодное, чтобы снять зуд и сузить кровеносные сосуды.\n"
-                  "Ни в коем случае не накладывайте жгут или повязку, не всасывайте яд в рот, не режьте и не жгите место укуса.\n"
-                  "•Нельзя давать никаких лекарств, так как неизвестно, как лекарство будет реагировать со змеиным ядом.",
+                  "•Call an ambulance at 112, as the victim needs to be treated as soon as possible.\n"
+                  "•Lay the victim down, help him/her to calm down.\n"
+                  "•Try not to move or rub the bitten part of the body so the poison doesn't spread as quickly.\n"
+                  "•Do not let the victim cool/protect him/her from the environment.\n"
+                  "•If possible, give more water to keep the body hydrated.\n"
+                  "•You can put something cold to the bite site to relieve the itching and constrict the blood vessels.\n"
+                  "•Never apply a tourniquet or bandage, do not suck venom with your mouth, and do not cut or burn the bite area.\n"
+                  "•Do not give any medication, as it is not known how the medicine will react with the snake venom.",
                   style: TextStyle(fontSize: 16),
                 )),
           ]),

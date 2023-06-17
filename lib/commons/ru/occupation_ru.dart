@@ -37,7 +37,7 @@ class OccupationRUPage extends StatelessWidget {
                   title: Padding(
                     padding: EdgeInsets.only(left: 25.0),
                     child: Text(
-                        '•Эвакуируйтесь в часть страны, контролируемую вооруженными силами твоей страны.'),
+                        '•Эвакуируйтесь в часть страны, контролируемую вооруженными силами вашей страны.'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
@@ -182,7 +182,7 @@ class OccupationRUPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 16.0, right: 8.0),
                 child: Text(
-                  "Если вы решите сопротивляться, у вас есть на это право:",
+                  "Если вы решите сопротивляться, у вас есть право на это:",
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                   textAlign: TextAlign.left,
                 ),

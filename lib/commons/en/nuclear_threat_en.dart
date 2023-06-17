@@ -37,7 +37,7 @@ class NuclearENPage extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.only(left: 16.0, right: 8.0),
+              padding: const EdgeInsets.only(left: 16.0, right: 8.0, bottom: 8),
               child: Text(
                 "•If you are outside at the time of the explosion, hide from the blast as soon as possible behind anything that can provide protection "
                 "(e.g., buildings, low-lying areas)\n"

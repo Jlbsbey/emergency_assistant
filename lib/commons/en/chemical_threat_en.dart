@@ -51,7 +51,7 @@ class ChemicalENPage extends StatelessWidget {
                 "•If you are indoors, close the windows and air conditioning system.\n"
                 "•If possible, choose rooms without windows.\n"
                 "•Outdoors, immediately cover your mouth and nose with a wet cloth.\n"
-                "•Leave a sheltered area as quickly as possible, moving perpendicular to the wind flow (so that the wind blows from the sides).\n"
+                "•Leave the contaminated area as quickly as possible, moving perpendicular to the wind flow (so that the wind blows from the sides).\n"
                 "•Help the injured, but do not return to the contaminated area.\n"
                 "•Get rid of clothing and wash your body with soap and water.\n"
                 "•Wait for help and follow the instructions of the authorities. Do not go to the hospital or home on your own.",

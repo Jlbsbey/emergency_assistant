@@ -94,7 +94,7 @@ class _LostENPageState extends State<LostENPage> {
               child: Row(
                 children: [
                   Text(
-                    "Think::",
+                    "Think:",
                     style: TextStyle(color: Colors.red, fontSize: 25),
                     textAlign: TextAlign.justify,
                   ),

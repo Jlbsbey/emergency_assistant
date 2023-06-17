@@ -182,7 +182,7 @@ class FireForestPage extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: EdgeInsets.only(left: 25.0, right: 8, top: 8),
+              padding: EdgeInsets.only(left: 25.0, right: 8, top: 8, bottom: 8),
               child: Text(
                 '•Ja ugunsgrēks ir diezgan mazs, tad uzreiz jāmeģina to nodzēst, sitot liesmas ar zariem vai segu. Sitieni jāveic slīpi izdegušā laukuma virzienā.\n'
                 '•Ja ugunsgrēks ir parāk liels dzēšanai, nekavējoties jābrīdina citi un steidzīgi jāatstāj ugunsgrēka vieta. Perpendikulāri uguns izplatīšanās virzienam jādodas uz ceļu, meža stigu, lauku vai ūdenskrātuves krastu.\n'

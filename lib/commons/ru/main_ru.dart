@@ -230,7 +230,7 @@ class MyHomeRUPage extends StatelessWidget {
                   children: <Widget>[
                     Divider(),
                     SizedBox(
-                      width: 170,
+                      width: 180,
                       child: OutlinedButton.icon(
                         onPressed: () {
                           Navigator.push(
@@ -243,14 +243,14 @@ class MyHomeRUPage extends StatelessWidget {
                           child: Image.asset('lib/icons/latvia.png'),
                         ),
                         label: Text(
-                          "Latviski    ",
+                          "Латышский",
                           style: TextStyle(fontSize: 16),
                         ),
                         //child: child
                       ),
                     ),
                     SizedBox(
-                      width: 170,
+                      width: 180,
                       child: OutlinedButton.icon(
                         onPressed: () {
                           Navigator.push(
@@ -262,9 +262,12 @@ class MyHomeRUPage extends StatelessWidget {
                           height: 40,
                           child: Image.asset('lib/icons/united-kingdom.png'),
                         ),
-                        label: Text(
-                          "In English",
-                          style: TextStyle(fontSize: 16),
+                        label: Align(
+                          alignment: Alignment.centerLeft,
+                          child: Text(
+                            "English",
+                            style: TextStyle(fontSize: 16),
+                          ),
                         ),
                         //child: child
                       ),

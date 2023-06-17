@@ -254,8 +254,7 @@ class _EarthquakeRUPageState extends State<EarthquakeRUPage> {
               ),
             ),
             Padding(
-              padding:
-                  const EdgeInsets.only(left: 16.0, right: 8.0, bottom: 16),
+              padding: const EdgeInsets.only(left: 16.0, right: 8.0, bottom: 8),
               child: Text(
                 "Если вы оказались под завалами, постарайтесь не паниковать и как можно меньше двигаться, чтобы не поднимать пыль. "
                 "Не делайте резких движений, даже если у вас зажата рука или нога, и не пытайтесь освободиться, так как это может "

@@ -83,7 +83,7 @@ class _HowToServicesENPageState extends State<HowToServicesENPage> {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.only(left: 32.0, right: 8.0),
+              padding: const EdgeInsets.only(left: 32.0, right: 8.0, bottom: 8),
               child: Text(
                 "•Be available for contact in case the dispatcher needs to contact you again.\n"
                 "•Specific answers can speed up the process of getting help.\n"

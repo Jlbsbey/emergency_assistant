@@ -37,7 +37,7 @@ class NuclearPage extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.only(left: 16.0, right: 8.0),
+              padding: const EdgeInsets.only(left: 16.0, right: 8.0, bottom: 8),
               child: Text(
                 "•Ja atrodieties ārpus telpām, kad notiek detonācija, pēc iespējas īsākā laikā "
                 "paslēpies no sprādziena aiz visa, kas varētu nodrošināt aizsardzību(piemēram, ēkas, zemienes)\n"

@@ -256,8 +256,7 @@ class _EarthquakePageState extends State<EarthquakePage> {
               ),
             ),
             Padding(
-              padding:
-                  const EdgeInsets.only(left: 16.0, right: 8.0, bottom: 16),
+              padding: const EdgeInsets.only(left: 16.0, right: 8.0, bottom: 8),
               child: Text(
                 "Ja esat iesprostots zem drupām cenšaties neļauties panikai un kustēties pēc iespējas mazāk, lai nesaceltu putekļus. "
                 "Neveiciet asas kustības pat tad ja jums ir iespiesta roka vai kāja, un necenšaties arī atbrīvoties jo tas var "

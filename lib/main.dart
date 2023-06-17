@@ -310,7 +310,7 @@ class MyHomePage extends StatelessWidget {
                           child: Image.asset('lib/icons/russia.png'),
                         ),
                         label: Text(
-                          "По русски",
+                          "Русский",
                           style: TextStyle(fontSize: 16),
                         ),
                         //child: child
@@ -330,7 +330,7 @@ class MyHomePage extends StatelessWidget {
                           child: Image.asset('lib/icons/united-kingdom.png'),
                         ),
                         label: Text(
-                          "In English",
+                          "English",
                           style: TextStyle(fontSize: 16),
                         ),
                         //child: child

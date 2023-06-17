@@ -83,7 +83,7 @@ class _HowToServicesRUPageState extends State<HowToServicesRUPage> {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.only(left: 32.0, right: 8.0),
+              padding: const EdgeInsets.only(left: 32.0, right: 8.0, bottom: 8),
               child: Text(
                 "•Будьте доступны для связи на случай, если диспетчеру понадобится связаться с вами снова.\n"
                 "•Конкретные ответы могут ускорить процесс получения помощи.\n"

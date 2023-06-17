@@ -143,8 +143,7 @@ class _LostPageState extends State<LostPage> {
               ),
             ),
             Padding(
-              padding:
-                  const EdgeInsets.only(left: 16.0, right: 8.0, bottom: 16),
+              padding: const EdgeInsets.only(left: 16.0, right: 8.0, bottom: 8),
               child: Text(
                 "Pamatojoties uz savām domām un novērojumiem, izdomājiet dažus iespējamos plānus, "
                 "pārdomājiet tos un pēc tam rīkojieties saskaņā ar kādu no tiem.Ja neesi ļoti, ļoti pārliecināts par maršrutu, tad vienmēr labāk palikt vietā.Ja iestājas tumsa, esat ievainots vai esat noguris, palieciet savā vietā.",

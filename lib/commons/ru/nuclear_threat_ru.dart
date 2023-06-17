@@ -37,7 +37,7 @@ class NuclearRUPage extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.only(left: 16.0, right: 8.0),
+              padding: const EdgeInsets.only(left: 16.0, right: 8.0, bottom: 8),
               child: Text(
                 "•Если вы находитесь на улице в момент взрыва, как можно скорее спрячьтесь от взрыва за всем, "
                 "что может обеспечить защиту (например, за зданиями, низменными участками)\n"

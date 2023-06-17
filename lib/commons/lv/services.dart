@@ -83,7 +83,7 @@ class _HowToServicesPageState extends State<HowToServicesPage> {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.only(left: 32.0, right: 8.0),
+              padding: const EdgeInsets.only(left: 32.0, right: 8.0, bottom: 8),
               child: Text(
                 "•Esi sazvanāms, gadījumam, ja dispečeram var rasties nepieciešamība ar Tevi sazināties atkārtoti.\n"
                 "•Konkrētas atbildes var paātrināt palīdzības saņemšanu.\n"

@@ -69,7 +69,7 @@ class FireForestRUPage extends StatelessWidget {
                   padding: EdgeInsets.only(left: 25.0),
                   child: ListTile(
                     title: Text(
-                        '•Если вы находитесь в лесной лужайке, прижмитесь ближе к земле.'),
+                        '•Если вы находитесь на лесной лужайке, прижмитесь ближе к земле.'),
                     visualDensity: VisualDensity(vertical: -4),
                   ),
                 ),

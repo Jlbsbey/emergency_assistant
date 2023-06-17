@@ -53,7 +53,7 @@ class _HurricanePageState extends State<HurricanePage> {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.only(left: 32.0, right: 8.0),
+              padding: const EdgeInsets.only(left: 32.0, right: 8.0, bottom: 8),
               child: Text(
                 "•Izmantojiet portatīvo radio, lai klausītos svarīgus vētras atjauninājumus, informāciju un norādījumus.\n"
                 "•Palieciet iekšā un turieties tālāk no visiem logiem un stikla durvīm. Dodieties uz drošu zonu, piemēram, iekšējo "

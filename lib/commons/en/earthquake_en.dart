@@ -243,8 +243,7 @@ class _EarthquakeENPageState extends State<EarthquakeENPage> {
               ),
             ),
             Padding(
-              padding:
-                  const EdgeInsets.only(left: 16.0, right: 8.0, bottom: 16),
+              padding: const EdgeInsets.only(left: 16.0, right: 8.0, bottom: 8),
               child: Text(
                 "If you find yourself under rubble, try not to panic and move as little as possible to avoid raising dust. Do not make any sudden movements, "
                 "even if your arm or leg is trapped, and do not try to free yourself, as this may contribute to the further collapse of the building. "

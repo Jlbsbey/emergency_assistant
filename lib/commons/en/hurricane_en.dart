@@ -52,7 +52,7 @@ class _HurricaneENPageState extends State<HurricaneENPage> {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.only(left: 32.0, right: 8.0),
+              padding: const EdgeInsets.only(left: 32.0, right: 8.0, bottom: 8),
               child: Text(
                 "•Use a portable radio to listen to important storm updates, information and instructions.\n"
                 "•Stay inside and keep away from all windows, skylights and glass doors. Go to a safe area, such as an interior room, closet or downstairs "

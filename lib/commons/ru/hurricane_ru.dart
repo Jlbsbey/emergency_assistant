@@ -53,7 +53,7 @@ class _HurricaneRUPageState extends State<HurricaneRUPage> {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.only(left: 32.0, right: 8.0),
+              padding: const EdgeInsets.only(left: 32.0, right: 8.0, bottom: 8),
               child: Text(
                 "•Используйте портативное радио для прослушивания важных обновлений, информации и указаний об урагане.\n"
                 "•Не выходите из дома и держитесь подальше от всех окон и стеклянных дверей. Перейдите в безопасное место, "
