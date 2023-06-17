@@ -14,7 +14,7 @@ class LandslideENPage extends StatelessWidget {
           ),
           iconTheme: IconThemeData(color: Colors.white),
           title: const Text(
-            'Оползень',
+            'Landslide',
             style: TextStyle(fontSize: 24, color: Colors.white),
           ),
           actions: <Widget>[],
@@ -28,7 +28,7 @@ class LandslideENPage extends StatelessWidget {
           child: Column(children: <Widget>[
             const ExpansionTile(
               title: Text(
-                'Кратко и конкретно',
+                'Briefly and concretely',
                 style: TextStyle(fontSize: 20),
               ),
               controlAffinity: ListTileControlAffinity.leading,
@@ -36,15 +36,7 @@ class LandslideENPage extends StatelessWidget {
                 Padding(
                   padding: EdgeInsets.only(left: 25.0),
                   child: ListTile(
-                    title: Text('•Если находитесь дома:'),
-                    visualDensity: VisualDensity(vertical: -4),
-                  ),
-                ),
-                Padding(
-                  padding: EdgeInsets.only(left: 50.0),
-                  child: ListTile(
-                    title:
-                        Text('•Занесите в дом все вещи со двора или балкона.'),
+                    title: Text('•If you are at home:'),
                     visualDensity: VisualDensity(vertical: -4),
                   ),
                 ),
@@ -52,14 +44,7 @@ class LandslideENPage extends StatelessWidget {
                   padding: EdgeInsets.only(left: 50.0),
                   child: ListTile(
                     title: Text(
-                        '•Уберите из дома все ядовитые и легко воспламеняющиемя вещества.'),
-                    visualDensity: VisualDensity(vertical: -4),
-                  ),
-                ),
-                Padding(
-                  padding: EdgeInsets.only(left: 50.0),
-                  child: ListTile(
-                    title: Text('•Перекройте электричество, газ и воду.'),
+                        '•Bring all things from the yard or balcony into the house.'),
                     visualDensity: VisualDensity(vertical: -4),
                   ),
                 ),
@@ -67,14 +52,28 @@ class LandslideENPage extends StatelessWidget {
                   padding: EdgeInsets.only(left: 50.0),
                   child: ListTile(
                     title: Text(
-                        '•Плотно закройте двери, окна и вентиляционные отверстия.'),
+                        '•Remove all poisonous and flammable substances from your home.'),
+                    visualDensity: VisualDensity(vertical: -4),
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsets.only(left: 50.0),
+                  child: ListTile(
+                    title: Text('•Shut off the electricity, gas and water.'),
+                    visualDensity: VisualDensity(vertical: -4),
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsets.only(left: 50.0),
+                  child: ListTile(
+                    title: Text('•Close doors, windows and vents tightly.'),
                     visualDensity: VisualDensity(vertical: -4),
                   ),
                 ),
                 ListTile(
                   title: Padding(
                     padding: EdgeInsets.only(left: 25.0),
-                    child: Text('•Если находитесь не дома:'),
+                    child: Text('•If you are not at home:'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
@@ -82,21 +81,23 @@ class LandslideENPage extends StatelessWidget {
                   title: Padding(
                     padding: EdgeInsets.only(left: 50.0),
                     child: Text(
-                        '•Перемещайтесь не в противоположну. сторону от оползня, а вбок.'),
+                        '•Do not move to the opposite side of the landslide, but to the side.'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
                 ListTile(
                   title: Padding(
                     padding: EdgeInsets.only(left: 50.0),
-                    child: Text('•Сообщите соседям о приближающейся беде.'),
+                    child: Text(
+                        '•Let your neighbors know that disaster is coming.'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
                 ListTile(
                   title: Padding(
                     padding: EdgeInsets.only(left: 50.0),
-                    child: Text('•Срочно уйдите с линии опозня.'),
+                    child:
+                        Text('•Get out of the line of landslide immediately.'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
@@ -107,7 +108,7 @@ class LandslideENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                 child: Text(
-                  "Если вы дома:",
+                  "If you are at home:",
                   style: TextStyle(color: Colors.red, fontSize: 25),
                   textAlign: TextAlign.left,
                 ),
@@ -116,20 +117,15 @@ class LandslideENPage extends StatelessWidget {
             Padding(
               padding: EdgeInsets.only(left: 25.0, right: 8.0),
               child: Text(
-                "•Внесите в дом все вещи со двора или с балкона. Если есть возможность, упакуйте вещи, "
-                "которые могут пострадать от влаги, в полиэтиленовую плёнку.\n"
-                '•Уберите из дома ядовитые и легковоспламеняющиеся вещества. Их можно закопать в саду '
-                'или поместить в погреб. Вход в погреб тоже нужно тщательно закрыть.\n'
-                '•Перекройте электричество, газ и воду. Выдерните электроприборы из розеток. '
-                'Отсоедините газовый баллон, если пользуетесь им.\n'
-                '•Плотно закройте двери, окна, вентиляционные отверстия. Это необходимо, чтобы'
-                ' потоки грязи и воды не попали в дом.\n'
-                'Затем отправляйтесь к пункту организованной эвакуации или покидайте населённый пункт'
-                ' на своём автомобиле. Если уезжаете самостоятельно, заранее узнайте безопасный маршрут,'
-                ' а также выясните, где найти пункт помощи эвакуированным. \n'
-                'Если вас захватил оползень и ваш дом движется вместе с почвой, на которой стоит, нужно '
-                'выйти из помещения. Постарайтесь держаться ближе к центру и как можно выше. '
-                'Не подходите к краям движущегося участка.',
+                "•Bring all belongings into the house from the yard or balcony. If possible, wrap things that can be damaged by moisture in plastic wrap.\n"
+                '•Remove poisonous and flammable substances from the house. They can be buried in the garden or placed in the cellar. The entrance to the '
+                'cellar should also be carefully covered.\n'
+                '•Cut off electricity, gas, and water. Unplug electrical appliances from outlets. Disconnect the gas cylinder if you use it.\n'
+                '•Close doors, windows, and vents tightly. This is necessary to keep dirt and water streams from entering the house.\n'
+                'Then go to the organized evacuation point or leave the settlement by your car. If you leave on your own, find out a safe route and '
+                'where to find an evacuation point. \n'
+                'If you are overtaken by a landslide and your home is moving with the soil on which it is standing, you need to leave the premises. Try '
+                'to stay close to the center and as high as possible. Stay away from the edges of the moving area.',
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),
@@ -139,7 +135,7 @@ class LandslideENPage extends StatelessWidget {
               child: Padding(
                 padding: EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                 child: Text(
-                  "Если вы вне дома:",
+                  "If you are away from home:",
                   style: TextStyle(color: Colors.red, fontSize: 25),
                   textAlign: TextAlign.left,
                 ),
@@ -148,9 +144,8 @@ class LandslideENPage extends StatelessWidget {
             Padding(
               padding: EdgeInsets.only(left: 15.0, right: 8, top: 8),
               child: Text(
-                'Вы можете услышать или грохот камней, когда будете на улице '
-                'своего населённого пункта. Возможно, вы окажетесь в горах — один или вместе с группой. '
-                'В этих случаях нужно немедленно уйти от приближающегося оползня.',
+                'You may hear or hear rumbling rocks when you are outside your settlement. You may find yourself in the mountains, alone or with a group. '
+                'In these cases, you should immediately move away from the approaching landslide.',
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),
@@ -158,17 +153,13 @@ class LandslideENPage extends StatelessWidget {
             Padding(
               padding: EdgeInsets.only(left: 25.0, right: 8, top: 8),
               child: Text(
-                '•В посёлке или городе двигайтесь не в противоположную сторону от оплзня, а вбок. '
-                'Безопасными местами будут склоны гор или другие возвышенности, где нет опасности '
-                'селя или оползня. Постарайтесь как можно быстрее добраться до таких участков.\n'
-                '•Сообщите о приближающемся бедствии соседям. Если шум разбушевавшейся стихии '
-                'застал вас на улице селения или города, говорите об опасности всем, кого '
-                'встретите по пути. Возможно, кто-то узнает об обвале или лавине от вас.\n'
-                '•В горах срочно уходите с линии движения оползня. Применяйте ту же '
-                'тактику — двигайтесь в сторону и вверх. Если вы в низине, немедленно '
-                'поднимайтесь на высоту более 50–100 метров. Помните, что во время оползня из '
-                'него могут вылетать тяжёлые камни. Большая скорость делает их опасными для жизни, '
-                'поэтому постарайтесь не медлить. \nНельзя укрываться в долинах и ущельях.',
+                '•In a town or city, do not move to the opposite side of a landslide, but to the side. Safe places are mountain slopes or other high ground '
+                'where there is no danger of mudslides or landslides. Try to get to such areas as quickly as possible.\n'
+                '•Inform your neighbors of the impending disaster. If the noise of a raging disaster catches you on the streets of a town or city, tell '
+                'everyone you meet along the way about the danger. Perhaps someone will hear about the landslide or avalanche from you.\n'
+                "•In the mountains, get out of the landslide's line of movement right away. Use the same tactic - move sideways and upward. If you are in "
+                "the lowlands, immediately climb to a height of more than 50-100 meters. Remember that during a landslide, heavy rocks can fly out of "
+                "it. The high speed makes them life-threatening, so try not to hesitate.\nDo not hide in valleys and gorges.",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),
@@ -178,7 +169,7 @@ class LandslideENPage extends StatelessWidget {
               child: Padding(
                 padding: EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                 child: Text(
-                  "Что делать, когда оползень закончится:",
+                  "What to do when the landslide is over:",
                   style: TextStyle(color: Colors.red, fontSize: 25),
                   textAlign: TextAlign.left,
                 ),
@@ -187,17 +178,14 @@ class LandslideENPage extends StatelessWidget {
             Padding(
               padding: EdgeInsets.only(left: 15.0, right: 8, top: 8, bottom: 8),
               child: Text(
-                'Если вы экстренно спасались от стихии и добрались до ближайшего безопасного '
-                'места, убедитесь, что угрозы больше нет. После этого возвращайтесь в свой населённый пункт.\n'
-                'При работающей связи сообщите близким, что с вами всё в порядке.\n'
-                'Затем, если вы хорошо себя чувствуете, помогите спасателям. '
-                'Вы можете присоединиться к поиску пострадавших и разбору завалов.'
-                'Если вы сами пострадали, обратитесь за помощью.\n'
-                'Не входите в дом, пока его не осмотрят специалисты. Они должны убедиться, что несущие '
-                'конструкции в порядке. Важно проверить, чтобы в жилье не было утечки газа. Не включайте электричество, '
-                'пока не получите подтверждение, что сеть исправна.\n'
-                'Продолжайте следить за информацией от экстренных служб. В этом случае '
-                'новый катаклизм не застанет вас врасплох.',
+                'If you had an emergency escape from the elements and made it to the nearest safe place, make sure there is no longer a threat. After that, '
+                'return to your settlement. With a working communication, let your relatives know that you are all right.\n'
+                'Then, if you are feeling well, help the rescuers. You can join in the search for victims and debris removal. If you are hurt yourself, '
+                'ask for help.\n'
+                'Do not enter the house until it has been examined by specialists. They need to make sure the supporting structures are okay. It is '
+                'important to check that there are no gas leaks in the home. Do not turn on the electricity until you have received confirmation that '
+                'the grid is working properly.\n'
+                'Continue to watch for information from emergency services. This way, you will not be caught unawares by a new cataclysm.',
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),

@@ -19,7 +19,7 @@ class _EmergencyInfoPageState extends State<EmergencyInfoPage> {
           ),
           iconTheme: IconThemeData(color: Colors.white),
           title: const Text(
-            'Iedzivotāju bridināšana \nun informēšana',
+            'Iedzīvotāju bridināšana \nun informēšana',
             style: TextStyle(fontSize: 24, color: Colors.white),
           ),
           actions: <Widget>[],

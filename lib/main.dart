@@ -267,7 +267,7 @@ class MyHomePage extends StatelessWidget {
                   ),
                   ListTile(
                     leading: Icon(Icons.luggage),
-                    title: Text('Pazaudējis dokumentus ārzemēs'),
+                    title: Text('Pazaudēti dokumentus ārzemēs'),
                     onTap: () {
                       Navigator.push(
                           context,
@@ -499,7 +499,7 @@ class MyHomePage extends StatelessWidget {
                         child: Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Text(
-                            "Pazudies",
+                            "Apmaldijies",
                             textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 22),
                           ),

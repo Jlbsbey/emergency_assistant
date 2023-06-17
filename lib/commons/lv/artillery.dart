@@ -145,7 +145,7 @@ class ArtilleryPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 16.0, right: 8.0),
                 child: Text(
-                  "Nekādā gadījumā neslēpietieies pie ēku sienām. Šāviņam iekļūstot sienā, jūs varat būt savainoti ar ķieģeļu, betona atlūzām vai vispār apkrauti.",
+                  "Nekādā gadījumā neslēpieties pie ēku sienām. Šāviņam iekļūstot sienā, jūs varat būt savainoti ar ķieģeļu, betona atlūzām vai vispār apkrauti.",
                   style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                   textAlign: TextAlign.justify,
                 ),
@@ -170,7 +170,7 @@ class ArtilleryPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                 child: Text(
-                  "Kur ir drošāk telpā?",
+                  "Kur ir visdrošāk telpā?",
                   style: TextStyle(color: Colors.red, fontSize: 25),
                 ),
               ),

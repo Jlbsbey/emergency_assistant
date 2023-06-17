@@ -15,7 +15,7 @@ class SourceENPage extends StatelessWidget {
           ),
           iconTheme: IconThemeData(color: Colors.white),
           title: const Text(
-            'Информация \nо приложении',
+            'Information about\napplication',
             style: TextStyle(fontSize: 24, color: Colors.white),
           ),
           actions: <Widget>[],
@@ -29,7 +29,7 @@ class SourceENPage extends StatelessWidget {
             child: Column(children: [
           const ExpansionTile(
             title: Text(
-              'Ссылки',
+              'Sources',
               style: TextStyle(fontSize: 20),
             ),
             controlAffinity: ListTileControlAffinity.leading,
@@ -180,7 +180,7 @@ class SourceENPage extends StatelessWidget {
               child: Row(
                 children: [
                   Text(
-                    "Авторы:",
+                    "Authors:",
                     style: TextStyle(color: Colors.red, fontSize: 25),
                   ),
                 ],
@@ -191,7 +191,7 @@ class SourceENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 16.0, right: 8.0),
                 child: Text(
-                  "Программист: Никита Смориго",
+                  "Programmer: Nikita Smorigo",
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                   textAlign: TextAlign.justify,
                 ),
@@ -232,7 +232,7 @@ class SourceENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 16.0, right: 8.0),
                 child: Text(
-                  "Дизайнер: Диана Иванова",
+                  "Designer: Diana Ivanova",
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                   textAlign: TextAlign.justify,
                 ),

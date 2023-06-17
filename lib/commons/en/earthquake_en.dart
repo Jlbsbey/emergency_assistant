@@ -19,7 +19,7 @@ class _EarthquakeENPageState extends State<EarthquakeENPage> {
           ),
           iconTheme: IconThemeData(color: Colors.white),
           title: const Text(
-            'Землетрясение',
+            'Eathquake',
             style: TextStyle(fontSize: 24, color: Colors.white),
           ),
           actions: <Widget>[],
@@ -33,7 +33,7 @@ class _EarthquakeENPageState extends State<EarthquakeENPage> {
           child: Column(children: <Widget>[
             const ExpansionTile(
               title: Text(
-                'Кратко и конкретно',
+                'Briefly and concretely',
                 style: TextStyle(fontSize: 20),
               ),
               controlAffinity: ListTileControlAffinity.leading,
@@ -41,8 +41,7 @@ class _EarthquakeENPageState extends State<EarthquakeENPage> {
                 ListTile(
                   title: Padding(
                     padding: EdgeInsets.only(left: 25.0),
-                    child: Text(
-                        '•Если вы находитесь в помещении, оставайтесь там.'),
+                    child: Text('•If you are indoors, stay there.'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
@@ -50,7 +49,7 @@ class _EarthquakeENPageState extends State<EarthquakeENPage> {
                   title: Padding(
                     padding: EdgeInsets.only(left: 25.0),
                     child: Text(
-                        '•Если вы готовите пищу, выключите плиту и спрячьтесь.'),
+                        '•If you are cooking, turn off the stove and hide.'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
@@ -58,9 +57,7 @@ class _EarthquakeENPageState extends State<EarthquakeENPage> {
                   title: Padding(
                     padding: EdgeInsets.only(left: 25.0),
                     child: Text(
-                        '•Если вы находитесь на улице, перейдите на открытое '
-                        'место, где падающие предметы вряд ли попадут в вас. Отойдите '
-                        'подальше от зданий, линий электропередач и деревьев.'),
+                        '•If you are outside, move to an open area where falling objects are unlikely to hit you. Move away from buildings, power lines, and trees.'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
@@ -68,7 +65,7 @@ class _EarthquakeENPageState extends State<EarthquakeENPage> {
                   title: Padding(
                     padding: EdgeInsets.only(left: 25.0),
                     child: Text(
-                        '•Никогда не пытайтесь выбраться из здания во время землетрясения.'),
+                        '•Never try to get out of a building during an earthquake.'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
@@ -76,7 +73,7 @@ class _EarthquakeENPageState extends State<EarthquakeENPage> {
                   title: Padding(
                     padding: EdgeInsets.only(left: 25.0),
                     child: Text(
-                        '•Если вы находитесь в месте, где много людей, избегайте паники и не спешите к выходу. Встаньте на колени и прикройте голову и шею руками и ладонями.'),
+                        '•If you are in a place with many people, avoid panic and do not rush to the exit. Kneel down and cover your head and neck with your hands and palms.'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
@@ -84,7 +81,7 @@ class _EarthquakeENPageState extends State<EarthquakeENPage> {
                   title: Padding(
                     padding: EdgeInsets.only(left: 25.0),
                     child: Text(
-                        '•Если вы находитесь в автомобиле, медленно сбавьте скорость и остановитесь на обочине улицы.'),
+                        '•If you are in a car, slowly slow down and pull over to the side of the street.'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
@@ -95,7 +92,7 @@ class _EarthquakeENPageState extends State<EarthquakeENPage> {
               child: Padding(
                 padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                 child: Text(
-                  "Если вы находитесь в 2- или 3-этажном здании:",
+                  "If you are in a 2 or 3-story building:",
                   style: TextStyle(color: Colors.red, fontSize: 25),
                 ),
               ),
@@ -103,10 +100,11 @@ class _EarthquakeENPageState extends State<EarthquakeENPage> {
             Padding(
               padding: const EdgeInsets.only(left: 16.0, right: 8.0),
               child: Text(
-                "Как только вы почувствуете первый толчок, постарайтесь покинуть здание. С момента, когда вы почувствуете первые толчки, до того, как они станут опасными для здания, у вас будет примерно 15-20 секунд.\n"
-                "Возьмите свою сумку и тревожный чемоданчик. Не пользуйтесь лифтом, а поднимайтесь по лестнице, так как во время землетрясения лифт может застрять вместе с вами.\n"
-                "Выходя из помещения, держитесь как можно дальше от зданий, столбов, балконов и других опасных предметов, которые могут упасть на вас во время землетрясения.\n"
-                "Избегайте порванных проводов. Старайтесь всегда оставаться на открытом пространстве, сохраняйте спокойствие и ждите окончания землетрясения.",
+                "As soon as you feel the first tremor, try to leave the building. From the time you feel the first tremors until they become dangerous to the building, you will have about 15-20 seconds.\n"
+                "Take your bag and a emergency kit. Do not use the elevator, but take the stairs, as the elevator may get stuck with you during an earthquake.\n"
+                "When leaving a room, stay as far away as possible from buildings, pillars, balconies, and other dangerous objects that could fall on you "
+                "during an earthquake.\n"
+                "Avoid torn wires. Try to stay outdoors at all times, stay calm, and wait for the earthquake to end.",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),
@@ -116,7 +114,7 @@ class _EarthquakeENPageState extends State<EarthquakeENPage> {
               child: Padding(
                 padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                 child: Text(
-                  "В высотке:",
+                  "In the high-rise:",
                   style: TextStyle(color: Colors.red, fontSize: 25),
                   textAlign: TextAlign.justify,
                 ),
@@ -125,28 +123,24 @@ class _EarthquakeENPageState extends State<EarthquakeENPage> {
             Padding(
               padding: const EdgeInsets.only(left: 16.0, right: 8.0),
               child: Text(
-                "Не паникуйте. Если вы находитесь выше третьего этажа, вы можете не успеть выбраться из здания до того, "
-                "как землетрясение станет опасным для строения. В этой ситуации вероятность получения травм будет меньше, если "
-                "вы останетесь на месте и найдете максимально безопасное место.\n"
-                "Устройтесь на полу под прочным столом, стулом или кроватью, желательно у внутренней стены. Примите позу эмбриона. "
-                "Если возможно, накройте голову и шею чем-нибудь подходящим, например, подушкой, чтобы защититься от падающих "
-                "осколков и битого стекла. Если ничего подходящего нет, прикройте голову руками.\n"
-                "Держитесь подальше от шкафов, полок и другой мебели, которая может упасть на вас. Также избегайте внешних "
-                "стен, так как они обрушатся первыми.\n"
-                "Несмотря на миф о том, что спинка прочного мягкого кресла или дивана может спасти вас при обрушении верхнего этажа, "
-                "эта теория ошибочна. Главным образом потому, что слишком сложно предсказать, где произойдет вторжение. Кроме "
-                "того, диван может защитить только в том случае, если вторжение на потолок происходит целыми секциями, а не частями. "
-                "По этой причине лучше спрятаться под прочным столом или кроватью и использовать диван только тогда, когда других вариантов нет.\n"
-                "Существует также мнение, что во время землетрясения нужно стоять в дверном проеме. Это может быть верно для старых кирпичных "
-                "или каменных стен с деревянной перегородкой. Однако в современных сборных и каркасных домах дверные проемы могут быть "
-                "не намного прочнее, чем любая другая часть здания. Более того, основной причиной смерти при землетрясении является не "
-                "обрушение верхнего этажа, а травмы из-за падения относительно мелких обломков, и в таких случаях дверной проем не будет "
-                "надежным убежищем.\n"
-                "Если вы находитесь на кухне, при первых признаках землетрясения выключите плиту. Это необходимо для того, чтобы снизить "
-                "риск возникновения пожара. Однако если до плиты нужно идти относительно далеко, лучше не терять времени и спрятаться.\n"
-                "Если вы лежите в кровати и не можете спрятаться под ней, накройтесь одеялами и подушками. Если вы находитесь в инвалидной "
-                "коляске, не забудьте заблокировать колеса.\n"
-                "Переждите в своем укрытии, пока землетрясение не закончится.",
+                "Do not panic. If you are above the third floor, you may not have time to get out of the building before the earthquake becomes dangerous "
+                "to the structure. In this situation, you are less likely to be injured if you stay where you are and find as safe a place as possible.\n"
+                "Sit on the floor under a sturdy table, chair or bed, preferably near an interior wall. Adopt a fetal position. If possible, cover your head "
+                "and neck with something suitable, such as a pillow, to protect yourself from falling pieces and broken glass. If nothing suitable is "
+                "available, cover your head with your hands.\n"
+                "Stay away from cabinets, shelves, and other furniture that could fall on you. Also avoid exterior walls, as they will collapse first.\n"
+                "Despite the myth that the back of a sturdy upholstered chair or sofa can save you if the top floor collapses, this theory is wrong. Mainly "
+                "because it is too difficult to predict where the ceiling collapse will occur. Also, a couch can only protect if the ceiling collapses "
+                "in whole sections, not in parts. For this reason, it is better to hide under a sturdy table or bed and use the couch only when there "
+                "are no other options.\n"
+                "There is also the belief that you should stand in the doorway during an earthquake. This may be true for old brick or stone walls with a "
+                "wooden partition. However, in modern prefabricated and frame houses, doorways may not be much stronger than any other part of the "
+                "building. Moreover, the main cause of death in an earthquake is not the collapse of the upper floor, but injuries due to falling "
+                "relatively small debris, and in such cases a doorway would not be a reliable shelter.\n"
+                "If you are in the kitchen, turn off the stove at the first sign of an earthquake. This is to reduce the risk of fire. However, if you have "
+                "to walk relatively far to the stove, it is best to waste no time and hide.\n"
+                "If you are lying in bed and cannot hide under it, cover yourself with blankets and pillows. If you are in a wheelchair, remember to lock the wheels.\n"
+                "Wait in your shelter until the earthquake is over.",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),
@@ -156,7 +150,7 @@ class _EarthquakeENPageState extends State<EarthquakeENPage> {
               child: Row(
                 children: [
                   Text(
-                    "На открытом воздухе:",
+                    "Outdoors:",
                     style: TextStyle(color: Colors.red, fontSize: 25),
                   ),
                 ],
@@ -165,10 +159,9 @@ class _EarthquakeENPageState extends State<EarthquakeENPage> {
             Padding(
               padding: const EdgeInsets.only(left: 16.0, right: 8.0),
               child: Text(
-                "Во время землетрясения безопаснее всего находиться на открытом воздухе, поэтому не пытайтесь зайти в помещение. "
-                "Стойте как можно дальше от зданий, топливных и газовых труб, канализационных люков и линий электропередач, которые "
-                "могут упасть на вас. Кроме того, не стойте под балконами, арками и другими частями зданий, так как они могут обрушиться, "
-                "даже если само здание останется целым.",
+                "It is safest to be outdoors during an earthquake, so don't try to go indoors. Stay as far away as possible from buildings, fuel and gas "
+                "pipes, sewer manholes, and power lines that could fall on you. Also, do not stand under balconies, arches, or other parts of "
+                "buildings, as they may collapse even if the building itself remains unharmed.",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),
@@ -178,7 +171,7 @@ class _EarthquakeENPageState extends State<EarthquakeENPage> {
               child: Row(
                 children: [
                   Text(
-                    "В машине:",
+                    "In the car:",
                     style: TextStyle(color: Colors.red, fontSize: 25),
                   ),
                 ],
@@ -187,15 +180,13 @@ class _EarthquakeENPageState extends State<EarthquakeENPage> {
             Padding(
               padding: const EdgeInsets.only(left: 16.0, right: 8.0),
               child: Text(
-                "Останавливайтесь на обочине дороги как можно дальше от столбов, линий электропередач, мостов и других объектов, на которые "
-                "вы можете упасть. Также не останавливайтесь над подземными переходами, так как они могут обрушиться во время землетрясения.\n"
-                "Поставьте машину на ручной тормоз и дождитесь прекращения землетрясения. Не выходите из автомобиля, так как он может "
-                "служить защитой от падающих осколков и предметов.\n"
-                "Не забудьте включить радио, так как по нему может передаваться важная информация. Если на машину упал электрический провод, "
-                "позвоните по телефону 112 и оставайтесь в машине, пока спасатели убирают провод.\n"
-                "Когда землетрясение закончится и вы сможете продолжить свой путь, внимательно следите за препятствиями на дороге."
-                "Это могут быть поваленные столбы, оборванные линии электропередач, трещины в дорожном покрытии, затопленные участки "
-                "из-за дамб, обрушившиеся мосты и эстакады.",
+                "Stop on the side of the road as far away as possible from poles, power lines, bridges, and other objects on which you could fall. Also, "
+                "do not stop over underpasses, as they may collapse during an earthquake.\n"
+                "Put your car on the handbrake and wait for the earthquake to stop. Don't get out of your car, as it can serve as protection from falling debris and objects.\n"
+                "Remember to turn on the radio, as it may transmit important information. If an electrical wire falls on your car, call 112 and stay in "
+                "your car while rescuers remove the wire.\n"
+                "When the earthquake is over and you can continue on your way, watch carefully for obstacles in the road. These may include fallen poles, "
+                "broken power lines, cracks in the road surface, flooded areas due to levees, and collapsed bridges and overpasses.",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),
@@ -205,7 +196,7 @@ class _EarthquakeENPageState extends State<EarthquakeENPage> {
               child: Row(
                 children: [
                   Text(
-                    "В общественном месте:",
+                    "In a public place:",
                     style: TextStyle(color: Colors.red, fontSize: 25),
                   ),
                 ],
@@ -214,10 +205,9 @@ class _EarthquakeENPageState extends State<EarthquakeENPage> {
             Padding(
               padding: const EdgeInsets.only(left: 16.0, right: 8.0),
               child: Text(
-                "Если вы находитесь на стадионе, в театре или подобном месте, не бегите сразу к выходу, потому что у всех остальных в "
-                "голове будет та же мысль, и толпа может просто придавить вас. Оставайтесь на своем месте, сидите между креслами и "
-                "прикрывайте голову и шею руками, курткой или сумкой. Когда землетрясение закончится, уходите, стараясь не быть "
-                "раздавленным или чтобы вам ничего не упало на голову.",
+                "If you are in a stadium, theater, or similar place, don't run straight to the exit, because everyone else will have the same thought in "
+                "their head and the crowd might just crush you. Stay in your seat, sit between seats and cover your head and neck with your hands, "
+                "jacket or bag. When the earthquake is over, leave, being careful not to be crushed or have anything fall on your head.",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),
@@ -227,7 +217,7 @@ class _EarthquakeENPageState extends State<EarthquakeENPage> {
               child: Row(
                 children: [
                   Text(
-                    "На берегу моря:",
+                    "On the seashore:",
                     style: TextStyle(color: Colors.red, fontSize: 25),
                   ),
                 ],
@@ -236,11 +226,10 @@ class _EarthquakeENPageState extends State<EarthquakeENPage> {
             Padding(
               padding: const EdgeInsets.only(left: 16.0, right: 8.0),
               child: Text(
-                "Теоретически, на открытом морском берегу, вдали от зданий и линий электропередач, во время землетрясения должно быть безопасно. "
-                "Однако если землетрясение длится 20 минут и более, вам следует поспешить и уйти на возвышенность. Это связано с тем, "
-                "что землетрясение может вызвать цунами. Уходите вглубь материка, на расстояние не менее 3 километров, или в место, "
-                "которое находится на высоте не менее 30 метров над уровнем моря. Передвигайтесь быстро и пешком, чтобы избежать пробок, "
-                "автомобильных аварий и других опасных ситуаций.",
+                "In theory, an open seashore, away from buildings and power lines, should be safe during an earthquake. However, if an earthquake lasts "
+                "20 minutes or more, you should hurry and move to higher ground. This is because an earthquake can cause a tsunami. Go inland, at "
+                "least 3 kilometers away, or to a place that is at least 30 meters above sea level. Move quickly and on foot to avoid traffic jams, "
+                "car accidents, and other dangerous situations.",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),
@@ -248,7 +237,7 @@ class _EarthquakeENPageState extends State<EarthquakeENPage> {
             Padding(
               padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
               child: Text(
-                "Что делать, если вы оказались погребены под завалами:",
+                "What to do if you are buried under rubble:",
                 style: TextStyle(color: Colors.red, fontSize: 25),
                 textAlign: TextAlign.left,
               ),
@@ -257,23 +246,19 @@ class _EarthquakeENPageState extends State<EarthquakeENPage> {
               padding:
                   const EdgeInsets.only(left: 16.0, right: 8.0, bottom: 16),
               child: Text(
-                "Если вы оказались под завалами, постарайтесь не паниковать и как можно меньше двигаться, чтобы не поднимать пыль. "
-                "Не делайте резких движений, даже если у вас зажата рука или нога, и не пытайтесь освободиться, так как это может "
-                "способствовать дальнейшему обрушению здания. Прикройте нос и рот платком или одеждой, чтобы не дышать пылью. "
-                "Если у вас есть телефон, используйте его для вызова службы 112 и спасателей.\n"
-                "Если вы используете телефон для освещения, периодически выключайте его, чтобы сэкономить заряд батареи. Не "
-                "разжигайте огонь, так как искры могут привести к взрыву, если поблизости есть утечка газа или разлив топлива. "
-                "Кроме того, при горении потребляется кислород, что может быть опасно в замкнутом пространстве. Если возможно, "
-                "закрепите потолок над собой с помощью подручных предметов, например, досок или обрезков мебели.\n"
-                "Если вы долгое время находитесь под завалами, помните, что воду можно пить из бака с водой, а трубы радиатора "
-                "можно использовать для объявления своего местонахождения. Берегите силы и не паникуйте, помните, что человек "
-                "может обходиться без еды более 2 недель.\n"
-                "Когда прибудут спасатели, постучите по трубам радиатора или по стене, чтобы привлечь внимание спасателей и "
-                "сообщить о своем местонахождении. Однако не бейте слишком сильно, так как это может привести к тому, что на "
-                "вас что-нибудь упадет. Вы можете греметь связкой ключей, использовать телефон или свисток, чтобы сообщить о своем "
-                "местонахождении звуком. Кричите только в случае крайней необходимости, чтобы не тратить энергию и кислород.\n"
-                "Когда спасатели услышат вас и начнут искать, назовите свое имя, расскажите о своих травмах, сообщите, где вы "
-                "находились в здании в момент землетрясения и что вы видите вокруг себя.",
+                "If you find yourself under rubble, try not to panic and move as little as possible to avoid raising dust. Do not make any sudden movements, "
+                "even if your arm or leg is trapped, and do not try to free yourself, as this may contribute to the further collapse of the building. "
+                "Cover your nose and mouth with a handkerchief or clothing to avoid breathing the dust. If you have a telephone, use it to call 112.\n"
+                "If you use your phone for lighting, turn it off periodically to save battery power. Do not light a fire, as sparks can cause an explosion "
+                "if there is a gas leak or fuel spill nearby. Also, combustion consumes oxygen, which can be dangerous in a confined space. If possible, "
+                "secure the ceiling above you with improvised items, such as boards or scraps of furniture.\n"
+                "If you are under rubble for a long time, remember that you can drink water from a water tank and that radiator pipes can be used to "
+                "indicate your location. Take care of your strength and don't panic, remember that a person can go without food for more than 2 weeks.\n"
+                "When rescuers arrive, tap the radiator tubes or wall to get the rescuers' attention and to announce your whereabouts. Don't hit too hard, "
+                "however, as it may cause something to fall on you. You can rattle a bunch of keys or use a telephone or whistle to signal your "
+                "whereabouts by sound. Yell only if absolutely necessary, so as not to waste energy and oxygen.\n"
+                "When rescuers hear you and start looking for you, give your name, tell them about your injuries, tell them where you were in the building "
+                "at the time of the earthquake and what you see around you.",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),

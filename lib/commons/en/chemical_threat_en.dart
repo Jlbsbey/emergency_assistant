@@ -14,7 +14,7 @@ class ChemicalENPage extends StatelessWidget {
           ),
           iconTheme: IconThemeData(color: Colors.white),
           title: const Text(
-            'Химическая атака',
+            'Chemical attack',
             style: TextStyle(fontSize: 24, color: Colors.white),
           ),
           actions: <Widget>[],
@@ -31,7 +31,7 @@ class ChemicalENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                 child: Text(
-                  "Что делать в случае химической атаки:",
+                  "What to do in case of a chemical attack:",
                   style: TextStyle(color: Colors.red, fontSize: 25),
                 ),
               ),
@@ -39,9 +39,8 @@ class ChemicalENPage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(left: 16.0, right: 8.0),
               child: Text(
-                "На химическую атаку может указывать наличие подозрительного дыма, газа или капель, запах или раздражающее ощущение "
-                "в дыхательных путях вас или других людей, находящихся поблизости. Если вы столкнулись с такой ситуацией, порядок "
-                "действий должен быть следующим:",
+                "A chemical attack may be indicated by the presence of suspicious smoke, gas or droplets, an odor, or an irritating sensation in the "
+                "respiratory tract of you or others in the vicinity. If you encounter such a situation, the procedure should be following:",
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                 textAlign: TextAlign.justify,
               ),
@@ -49,13 +48,13 @@ class ChemicalENPage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(left: 32.0, right: 8.0, bottom: 8),
               child: Text(
-                "•Если вы находитесь в помещении, закройте окна и систему кондиционирования.\n"
-                "•Если возможно, выбирайте помещения без окон.\n"
-                "•На улице немедленно прикройте рот и нос влажной тканью.\n"
-                "•Как можно быстрее покиньте защищенное место, двигаясь перпендикулярно потоку ветра (так, чтобы ветер дул с боков).\n"
-                "•Окажите помощь пострадавшим, но не возвращайтесь в укрытие.\n"
-                "•Избавьтесь от придатка, вымойте тело водой с мылом.\n"
-                "•Дождитесь помощи и следуйте указаниям властей. Не отправляйтесь в больницу или домой самовольно.",
+                "•If you are indoors, close the windows and air conditioning system.\n"
+                "•If possible, choose rooms without windows.\n"
+                "•Outdoors, immediately cover your mouth and nose with a wet cloth.\n"
+                "•Leave a sheltered area as quickly as possible, moving perpendicular to the wind flow (so that the wind blows from the sides).\n"
+                "•Help the injured, but do not return to the contaminated area.\n"
+                "•Get rid of clothing and wash your body with soap and water.\n"
+                "•Wait for help and follow the instructions of the authorities. Do not go to the hospital or home on your own.",
                 style: TextStyle(fontSize: 18),
                 textAlign: TextAlign.justify,
               ),

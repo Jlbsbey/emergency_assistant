@@ -19,7 +19,7 @@ class _LostDocENPageState extends State<LostDocENPage> {
           ),
           iconTheme: IconThemeData(color: Colors.white),
           title: const Text(
-            'Потерял документы \nза границей',
+            'Lost documents abroad',
             style: TextStyle(fontSize: 24, color: Colors.white),
           ),
           actions: <Widget>[],
@@ -34,25 +34,24 @@ class _LostDocENPageState extends State<LostDocENPage> {
             Padding(
               padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
               child: Text(
-                "Что делать, если у меня возникли проблемы с паспортом во время пребывания за границей?",
+                "What should I do if I have problems with my passport while abroad?",
                 style: TextStyle(color: Colors.red, fontSize: 25),
               ),
             ),
             Padding(
               padding: const EdgeInsets.only(left: 16.0, right: 8.0, bottom: 8),
               child: Text(
-                "Первым делом отправляйтесь в ближайшее отделение полиции и пишите заявление об утере или краже паспорта. Это нужно для того, "
-                "чтобы получить справку-подтверждение факта потери документа. Если не владеете языком страны, в которой находитесь, "
-                "постарайтесь объяснить ситуацию с помощью Google Переводчика. \n"
-                "Затем обратитесь в посольство или консульство своей страны. Получите свидетельство на возвращение или подайте документы на новый "
-                "паспорт (если вы за границей надолго или, например, переехали на ПМЖ. Обычно паспорт приходится ждать около трех месяцев. "
-                "В консульстве вам сообщат все детали).\n"
-                "Если вы в стране не надолго, то нужно получить свидетельство на съезд. Это временный документ, заменяющий загранпаспорт, "
-                "если тот утрачен или истек за границей. Свидетельство позволяет пребывать на территории страны, в которой вы находитесь, "
-                "а также дает возможность вернуться обратно. О вынужденном транзите через другие страны лучше уточнять у работников "
-                "консульства. Свидетельство действует не более 30 дней со дня оформления. И в этот период вам нужно успеть улететь домой."
-                "После возвращения обратно необходимо будет обратиться в отдел по делам гражданства, иммиграции и регистрации физических лиц, "
-                "сдать свидетельство и получить новый паспорт.",
+                "First of all, go to the nearest police station and write a statement about the loss or theft of your passport. It is necessary to get a "
+                "certificate confirming the loss of the document. If you do not speak the language of the country you are in, try to explain the "
+                "situation using Google Translator. \n"
+                "Then go to your country's embassy or consulate. Get a certificate of return or apply for a new passport (if you are abroad for a long "
+                "time or, for example, moved for permanent residence. You usually have to wait about three months for your passport. The consulate "
+                "will tell you all the details).\n"
+                "If you are in the country for a short time, you need to get a certificate of arrival. This is a temporary document that replaces your "
+                "passport if it is lost or expired abroad. The certificate allows you to stay in the country you are in and allows you to return back. "
+                "If you have to transit through another country, it is better to check with the consulate staff. The certificate is valid not more than "
+                "30 days from the date of issue. And in this period you need to have time to fly home. After you return home, you must go to the "
+                "Department of Citizenship, Immigration and Registration, turn in the certificate and get a new passport.",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),

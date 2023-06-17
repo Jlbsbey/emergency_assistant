@@ -19,7 +19,7 @@ class _HurricaneENPageState extends State<HurricaneENPage> {
           ),
           iconTheme: IconThemeData(color: Colors.white),
           title: const Text(
-            'Ураган',
+            'Hurricane',
             style: TextStyle(fontSize: 24, color: Colors.white),
           ),
           actions: <Widget>[],
@@ -36,7 +36,7 @@ class _HurricaneENPageState extends State<HurricaneENPage> {
               child: Row(
                 children: [
                   Text(
-                    "Что делать во время урагана?",
+                    "What to Do During a Hurricane?",
                     style: TextStyle(color: Colors.red, fontSize: 25),
                   ),
                 ],
@@ -45,9 +45,8 @@ class _HurricaneENPageState extends State<HurricaneENPage> {
             Padding(
               padding: const EdgeInsets.only(left: 16.0, right: 8.0),
               child: Text(
-                "В первую очередь эвакуируйтесь , если вам приказали это сделать или если вы чувствуете, что оставаться в доме может "
-                "быть небезопасно. Если вы остаетесь дома, следуйте этим советам, чтобы помочь себе и своей семье оставаться в "
-                "безопасности во время урагана:",
+                "First, evacuate if you are directed to do so or if you feel it might be unsafe to remain in your home. If you remain in your home, follow "
+                "these tips to help you and your family stay safe during the storm:",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),
@@ -55,17 +54,15 @@ class _HurricaneENPageState extends State<HurricaneENPage> {
             Padding(
               padding: const EdgeInsets.only(left: 32.0, right: 8.0),
               child: Text(
-                "•Используйте портативное радио для прослушивания важных обновлений, информации и указаний об урагане.\n"
-                "•Не выходите из дома и держитесь подальше от всех окон и стеклянных дверей. Перейдите в безопасное место, "
-                "например, во внутреннюю комнату (комнату без окон), кладовку или ванную комнату на нижнем этаже.\n"
-                "•Никогда не выходите за пределы своего дома или убежища, пока не получите подтверждение, что ураган миновал этот район. "
-                "Глаз бури может создать временное затишье, когда остальная часть урагана все еще приближается.\n"
-                "•Если пропало электричество, держите холодильник закрытым, чтобы задержать холодный воздух и предотвратить "
-                "порчу скоропортящихся продуктов.\n"
-                "•При использовании портативного генератора следуйте всем инструкциям производителя. Генераторы должны быть правильно "
-                "заземлены во избежание поражения электрическим током, и их никогда не следует эксплуатировать в закрытых помещениях, "
-                "гаражах, подвалах или на открытом воздухе вблизи окон, дверей или вентиляционных отверстий. Поскольку генераторы выделяют "
-                "угарный газ (CO), убедитесь, что у вас дома есть работающий детектор CO.",
+                "•Use a portable radio to listen to important storm updates, information and instructions.\n"
+                "•Stay inside and keep away from all windows, skylights and glass doors. Go to a safe area, such as an interior room, closet or downstairs "
+                "bathroom.\n"
+                "•Never go outside the protection of your home or shelter before there is confirmation that the storm has passed the area. The eye of the "
+                "storm could create a temporary and deceptive lull, with high winds still approaching.\n"
+                "•If power is lost, keep the refrigerator closed to keep cold air trapped and delay spoilage of perishable food.\n"
+                "•If you use a portable generator, follow all the manufacturer’s instructions. Generators should be properly grounded to prevent electrical "
+                "shock and should never be operated indoors, in garages, basements or outdoors near any windows, doors or vents. Because generators produce "
+                "carbon monoxide (CO), make sure you have a working CO detector in your home.",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),

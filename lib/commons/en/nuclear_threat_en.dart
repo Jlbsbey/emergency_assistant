@@ -14,7 +14,7 @@ class NuclearENPage extends StatelessWidget {
           ),
           iconTheme: IconThemeData(color: Colors.white),
           title: const Text(
-            'Ядерная угроза',
+            'Nuclear attack',
             style: TextStyle(fontSize: 24, color: Colors.white),
           ),
           actions: <Widget>[],
@@ -31,7 +31,7 @@ class NuclearENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                 child: Text(
-                  "Действия в случае ядерной угрозы:",
+                  "Actions in the case of a nuclear threat:",
                   style: TextStyle(color: Colors.red, fontSize: 25),
                 ),
               ),
@@ -39,14 +39,14 @@ class NuclearENPage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(left: 16.0, right: 8.0),
               child: Text(
-                "•Если вы находитесь на улице в момент взрыва, как можно скорее спрячьтесь от взрыва за всем, "
-                "что может обеспечить защиту (например, за зданиями, низменными участками)\n"
-                "•Зайдите в ближайшее здание. Если возможно, выберите железобетонное или кирпичное здание.\n"
-                "•Закройте окна здания (если таковые остались), не проветривайте помещения, не используйте кондиционеры.\n"
-                "•Внутри здания зайдите в подвал дома, если подвала нет, избегайте верхних этажей и внешних стен.\n"
-                "•Избавьтесь от одежды, вымойте тело водой с мылом.\n"
-                "•Оставайтесь в помещении не менее 24 часов. Связь может быть нарушена, поэтому следите за объявлениями по радио.\n"
-                "•Употребляйте только упакованные продукты, не курите, не берите воду из открытых водоемов.",
+                "•If you are outside at the time of the explosion, hide from the blast as soon as possible behind anything that can provide protection "
+                "(e.g., buildings, low-lying areas)\n"
+                "•Go into the nearest building. If possible, choose a reinforced concrete or brick building.\n"
+                "•Close building windows (if any are left), do not ventilate rooms, and do not use air conditioning.\n"
+                "•Inside the building, go into the basement of the house; if there is no basement, avoid the upper floors and exterior walls.\n"
+                "•Get rid of clothing, wash your body with soap and water.\n"
+                "•Stay indoors for at least 24 hours. Communications may be down, so watch for announcements on the radio.\n"
+                "•Consume only packaged foods, don't smoke, and don't take water from open sources.",
                 style: TextStyle(fontSize: 18),
                 textAlign: TextAlign.justify,
               ),

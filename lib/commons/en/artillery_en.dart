@@ -14,7 +14,7 @@ class ArtilleryENPage extends StatelessWidget {
           ),
           iconTheme: IconThemeData(color: Colors.white),
           title: const Text(
-            'Артобстрел',
+            'Shelling',
             style: TextStyle(fontSize: 24, color: Colors.white),
           ),
           actions: <Widget>[],
@@ -28,7 +28,7 @@ class ArtilleryENPage extends StatelessWidget {
           child: Column(children: <Widget>[
             const ExpansionTile(
               title: Text(
-                'Кратко и конкретно',
+                'Briefly and concretely',
                 style: TextStyle(fontSize: 20),
               ),
               controlAffinity: ListTileControlAffinity.leading,
@@ -37,7 +37,7 @@ class ArtilleryENPage extends StatelessWidget {
                   title: Padding(
                     padding: EdgeInsets.only(left: 25.0),
                     child: Text(
-                        '•Если вы находитесь на улице, падайте где стоите и оставайтесь на месте, пока все не закончится.'),
+                        '•If you are on the street, fall where you are standing and stay where you are until it is over.'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
@@ -45,7 +45,7 @@ class ArtilleryENPage extends StatelessWidget {
                   title: Padding(
                     padding: EdgeInsets.only(left: 25.0),
                     child: Text(
-                        '•Если вы находитесь внутри помещения, зайдите в комнату без окон и несущих стен и переждите там.'),
+                        '•If you are indoors, go into a room without windows or load-bearing walls and wait there.'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
@@ -53,7 +53,7 @@ class ArtilleryENPage extends StatelessWidget {
                   title: Padding(
                     padding: EdgeInsets.only(left: 25.0),
                     child: Text(
-                        '•Ни в коем случае не бегите по улице и не позволяйте этого делать другим.'),
+                        '•Never run down the street and do not let others do it.'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
@@ -61,7 +61,7 @@ class ArtilleryENPage extends StatelessWidget {
                   title: Padding(
                     padding: EdgeInsets.only(left: 25.0),
                     child: Text(
-                        '•Если вы находитесь достаточно близко к подвалу, идите туда.'),
+                        '•If you are close enough to the basement, go there.'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
@@ -72,7 +72,7 @@ class ArtilleryENPage extends StatelessWidget {
               child: Row(
                 children: [
                   Text(
-                    "Как звучат выстрелы?",
+                    "How do the shots sound?",
                     style: TextStyle(color: Colors.red, fontSize: 25),
                   ),
                 ],
@@ -81,9 +81,10 @@ class ArtilleryENPage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(left: 16.0, right: 8.0),
               child: Text(
-                "Звуки настоящих прилётов — это тяжёлые, с характерным треском при попаданиях в дома, и более глухие, если снаряд попадает в землю."
-                "82-миллиметровые мины, самые маленькие из используемых, издают при полёте характерный свист, 120-миллиметровые — шипение, реактивные танковые снаряды — ни с чем не сравнимый вой."
-                "«Грады» и прочие реактивные снаряды вообще не слышны во время полёта. Исходящий залп «Града» напоминает звук высыпающегося на стол гороха.",
+                "The sounds of real shell hits are heavy, with a characteristic crackle when hitting houses, and more muffled if the shell hits the ground. "
+                "The 82 mm mines, the smallest used, make a characteristic whistle as they fly, the 120 mm hiss, and the tank rockets make an "
+                "incomparable howl.  Rockets are not audible in flight at all. The outgoing volley of rocket artillery resembles the sound of peas "
+                "spilling out on the table.",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),
@@ -93,7 +94,7 @@ class ArtilleryENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                 child: Text(
-                  "Что делать при первых звуках снарядов?",
+                  "What to do at the first sound of shells?",
                   style: TextStyle(color: Colors.red, fontSize: 25),
                 ),
               ),
@@ -103,13 +104,13 @@ class ArtilleryENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 16.0, right: 8.0),
                 child: Text(
-                  "Падайте, где стоите, и переждите обстрел там. Меняйте местоположение только в крайнем случае. Слушайте и одновременно присматривайте "
-                  "место для укрытия. Вам нужно поймать ритм: звук залпа, время полёта снаряда и падение. Считайте секунды от залпа до падения и "
-                  "начинайте бежать сразу после прилёта. Вам нужно упасть за пару секунд до расчётного времени очередного попадания. Если работает "
-                  "два и более орудий, считайте от последнего.\n"
-                  "Откройте рот и закройте уши руками. Это позволит избежать контузии и сохранит слух при особо близких взрывах. Если случилось "
-                  "так, что после прилётов вы перестали слышать, не пугайтесь. Обычно, если нет физических повреждений, слух восстанавливается в "
-                  "течение 3–7 дней. Закрывайте глаза, чтобы уберечь их от пыли и каменной крошки.",
+                  "Drop down where you are standing and wait out the shelling there. Change location only as a last resort. Listen and at the same time "
+                  "look for a place to take cover. You need to catch the rhythm: the sound of the volley, the flight time of the shell and the fall. "
+                  "Count the seconds from the volley to the fall and start running immediately after the hit. You need to fall a couple of seconds "
+                  "before the estimated time of the next hit. If two or more units are running, count from the last one.\n"
+                  "Open your mouth and cover your ears with your hands. This will help you avoid concussion and keep your ears open for particularly close "
+                  "bursts. If you happen to stop hearing after shell explosion, don't be frightened. Usually, if there is no physical damage, hearing will "
+                  "recover within 3-7 days. Close your eyes to keep them free of dust and stone chips.",
                   style: TextStyle(fontSize: 16),
                   textAlign: TextAlign.justify,
                 ),
@@ -120,7 +121,7 @@ class ArtilleryENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                 child: Text(
-                  "Где укрыться?",
+                  "Where can I hide?",
                   style: TextStyle(color: Colors.red, fontSize: 25),
                 ),
               ),
@@ -130,10 +131,10 @@ class ArtilleryENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 16.0, right: 8.0),
                 child: Text(
-                  "Чем ниже вы будете по отношению к поверхности земли, тем лучше. Подземные переходы, подвалы, люки коллекторов "
-                  "(при условии, что оттуда не валит пар), канавы, траншеи и даже просто высокий бордюр. Подойдёт любой рельеф "
-                  "местности, который сможет защитить вас от осколков. Во время взрыва осколки разлетаются вверх и в стороны по "
-                  "касательной, поэтому чем ниже относительно уровня земли вы заляжете, тем выше шансы остаться невредимым.",
+                  "The lower you are in relation to the surface of the ground, the better. Underpasses, basements, sewer manholes (as long as there is no "
+                  "steam escaping), ditches, trenches, and even just a high curb. Any terrain that can protect you from shrapnel is suitable. During "
+                  "the explosion, fragments fly upwards and sideways tangentially, so the lower relative to ground level you lie down, the better your "
+                  "chances of staying unharmed.",
                   style: TextStyle(fontSize: 16),
                   textAlign: TextAlign.justify,
                 ),
@@ -144,7 +145,7 @@ class ArtilleryENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 16.0, right: 8.0),
                 child: Text(
-                  "Ни в коем случае не прячьтесь у стен зданий. При попадании в стену вас может ранить обломками кирпичей, бетона или вовсе завалить.",
+                  "Never hide near the walls of buildings. If wall aws hit by shell, you may be hit by brick fragments, concrete, or even be knocked over.",
                   style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                   textAlign: TextAlign.justify,
                 ),
@@ -155,10 +156,10 @@ class ArtilleryENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 16.0, right: 8.0),
                 child: Text(
-                  "То же касается окон и витрин: одно небольших размеров окно превращается после взрыва в ведро мелких осколков, часть которых вылетает "
-                  "на улицу и может серьёзно ранить вас. \n"
-                  "Избегайте различных нагромождений из ящиков, контейнеров и прочих предметов, которыми вас может завалить даже от ударной волны. "
-                  "Не стоит залезать и под машины: они никак не спасут вас и не защитят от осколков.",
+                  "The same goes for windows and shop windows: one small window becomes a bucket of small shards after an explosion, some of which fly "
+                  "out into the street and can seriously injure you. \n"
+                  "Avoid the various piles of crates, containers, and other items that could get you killed even by a shock wave. You don't want to get "
+                  "under cars, either: they won't save you or protect you from shrapnel.",
                   style: TextStyle(fontSize: 16),
                   textAlign: TextAlign.justify,
                 ),
@@ -169,7 +170,7 @@ class ArtilleryENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                 child: Text(
-                  "Где безопаснее в помещении?",
+                  "Where is it safer indoors?",
                   style: TextStyle(color: Colors.red, fontSize: 25),
                 ),
               ),
@@ -179,8 +180,8 @@ class ArtilleryENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 16.0, right: 8.0),
                 child: Text(
-                  "Самым безопасным местом во время обстрелов (оно же место вашего ночлега) должна стать внутренняя комната, желательно с "
-                  "несущими стенами, без окон или с окнами, выходящими на стену другого дома. Позаботьтесь о коврике или каремате на полу.",
+                  "The safest place during shelling (aka your sleeping place) should be an inner room, preferably with load-bearing walls, no windows, or "
+                  "with windows facing the wall of another house. Take care of a rug or mat on the floor.",
                   style: TextStyle(fontSize: 16),
                   textAlign: TextAlign.justify,
                 ),
@@ -191,11 +192,9 @@ class ArtilleryENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 16.0, right: 8.0),
                 child: Text(
-                  "По возможности накрывайтесь сверху толстым одеялом — это дополнительная защита как от осколков на излёте, так и от "
-                  "каменной крошки и стекла. "
-                  "Не тратьте время на спуск в подвал, если вы живёте на верхних этажах. Лучше ложитесь в проёме двери или на лестничной площадке. "
-                  "Снаряд с одинаковой вероятностью может попасть как в девятый, так и в третий этаж в тот момент, когда вы будете бежать по лестнице. "
-                  "Не рискуйте из-за бесполезных предвижений.",
+                  "If possible, cover the top with a thick blanket - this is additional protection both from flying splinters and from crumbs and glass."
+                  "Don't waste time going down to the basement if you live on higher floors. Better to lie down in the doorway or on the landing. A shell "
+                  "is equally likely to hit either the ninth or third floor as you run up the stairs. Don't risk because of useless movements.",
                   style: TextStyle(fontSize: 16),
                   textAlign: TextAlign.justify,
                 ),
@@ -206,7 +205,7 @@ class ArtilleryENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                 child: Text(
-                  "Что делать, если стрельба застала в дороге?",
+                  "What to do if shelling catches you on the road?",
                   style: TextStyle(color: Colors.red, fontSize: 25),
                 ),
               ),
@@ -216,9 +215,8 @@ class ArtilleryENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 16.0, right: 8.0),
                 child: Text(
-                  "Если вы передвигаетесь на машине по линии соприкосновения — не закрывайте окна. Это позволит контролировать ситуацию, в случае "
-                  "чего быстро остановиться и выйти из машины."
-                  "Даже если на улице суровые морозы, держите окна авто открытыми, пока не покинете зону обстрелов.",
+                  "If you drive a car along the line of contact, leave the windows open. This will allow you to control the situation and, if necessary, "
+                  "stop quickly and get out of the car. Even if it is freezing outside, keep your windows open until you leave the firing zone.",
                   style: TextStyle(fontSize: 16),
                   textAlign: TextAlign.justify,
                 ),
@@ -229,7 +227,7 @@ class ArtilleryENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                 child: Text(
-                  "Как справиться с эмоциями?",
+                  "How do you deal with emotions?",
                   style: TextStyle(color: Colors.red, fontSize: 25),
                 ),
               ),
@@ -240,13 +238,13 @@ class ArtilleryENPage extends StatelessWidget {
                 padding:
                     const EdgeInsets.only(left: 16.0, right: 8.0, bottom: 8),
                 child: Text(
-                  "Старайтесь успокоиться. Атеисты могут считать до ста, верующие — молиться. И те и другие — стараться ровно и глубоко дышать.\n"
-                  "Что бы ни происходило вокруг, главное — не паниковать. Не надо бежать, особенно если вокруг люди. Кто-то может последовать "
-                  "вашему глупому примеру. Очень часто женщины в таких ситуациях теряются, могут застыть на месте или побежать. Повалите их "
-                  "на землю (плевать на грязь, лужи и мусор под ногами) и не давайте двигаться.\n"
-                  "Если вы попали под обстрел с девушкой или ребёнком, крепко держите их за руку и не давайте выпрямиться и побежать. Не бойтесь "
-                  "отвесить пару пощёчин, чтобы привести в чувства.\n"
-                  "Если совсем невтерпёж — можете кричать. Под обстрелами страшно всем, исключений нет.",
+                  "Try to calm down. Atheists can count to a hundred, believers can pray. Both can try to breathe calmly and deeply.\n"
+                  "No matter what is going on around you, the main goal is not to panic. You don't have to run, especially if there are people around. "
+                  "Someone may follow your silly example. Very often women in such situations get lost, they may freeze or run away. Put them on the "
+                  "ground (don't care about the dirt, puddles, and trash underfoot) and don't let them move.\n"
+                  "If you come under fire with a girl or child, hold their hand tightly and don't let them straighten up and run. Don't be afraid to "
+                  "slap them to bring them to their senses.\n"
+                  "If you can't stand it at all, you can scream. Everyone is scared under fire, there are no exceptions.",
                   style: TextStyle(fontSize: 16),
                   textAlign: TextAlign.justify,
                 ),

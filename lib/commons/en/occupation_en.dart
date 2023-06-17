@@ -14,7 +14,7 @@ class OccupationENPage extends StatelessWidget {
           ),
           iconTheme: IconThemeData(color: Colors.white),
           title: const Text(
-            'Оккупация',
+            'Military occupation',
             style: TextStyle(fontSize: 24, color: Colors.white),
           ),
           actions: <Widget>[],
@@ -28,7 +28,7 @@ class OccupationENPage extends StatelessWidget {
           child: Column(children: <Widget>[
             const ExpansionTile(
               title: Text(
-                'Кратко и конкретно',
+                'Briefly and concretely',
                 style: TextStyle(fontSize: 20),
               ),
               controlAffinity: ListTileControlAffinity.leading,
@@ -37,28 +37,21 @@ class OccupationENPage extends StatelessWidget {
                   title: Padding(
                     padding: EdgeInsets.only(left: 25.0),
                     child: Text(
-                        '•Эвакуируйтесь в часть страны, контролируемую вооруженными силами твоей страны.'),
+                        "•Evacuate to a part of the country controlled by your country's armed forces."),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
                 ListTile(
                   title: Padding(
                     padding: EdgeInsets.only(left: 25.0),
-                    child: Text('•Продолжайте соблюдать законы своей страны'),
+                    child: Text('•Continue to follow the laws of your country'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
                 ListTile(
                   title: Padding(
                     padding: EdgeInsets.only(left: 25.0),
-                    child: Text('•Не сотрудничайте с оккупационной властью:'),
-                  ),
-                  visualDensity: VisualDensity(vertical: -4),
-                ),
-                ListTile(
-                  title: Padding(
-                    padding: EdgeInsets.only(left: 50.0),
-                    child: Text('•Отстранитесь от их решений и действий'),
+                    child: Text('•Do not cooperate with the occupying power:'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
@@ -66,7 +59,7 @@ class OccupationENPage extends StatelessWidget {
                   title: Padding(
                     padding: EdgeInsets.only(left: 50.0),
                     child: Text(
-                        '•Не участвуйте в организованных ими публичных мероприятиях, не давайте им интервью и не позволяйте снимать себя на камеру'),
+                        '•Disassociate yourself from their decisions and actions'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
@@ -74,7 +67,15 @@ class OccupationENPage extends StatelessWidget {
                   title: Padding(
                     padding: EdgeInsets.only(left: 50.0),
                     child: Text(
-                        '•Не участвуйте в незаконных выборах, референдумах и голосованиях'),
+                        '•Do not participate in public events organized by them, do not give them interviews and do not allow yourself to be filmed'),
+                  ),
+                  visualDensity: VisualDensity(vertical: -4),
+                ),
+                ListTile(
+                  title: Padding(
+                    padding: EdgeInsets.only(left: 50.0),
+                    child: Text(
+                        '•Do not participate in illegal elections, referendums and voting'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
@@ -85,7 +86,7 @@ class OccupationENPage extends StatelessWidget {
               child: Row(
                 children: [
                   Text(
-                    "Сопротивление:",
+                    "Resistance:",
                     style: TextStyle(color: Colors.red, fontSize: 25),
                   ),
                 ],
@@ -94,8 +95,8 @@ class OccupationENPage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(left: 16.0, right: 8.0),
               child: Text(
-                "Даже если в результате военных действий контроль над частью территории будет временно утрачен, "
-                "вооруженные силы будут продолжать защищать страну, оказывая сопротивление до восстановления независимости.",
+                "Even if, as a result of military action, control over part of the territory is temporarily lost, the armed forces will continue to "
+                "defend the country, resisting until independence is restored.",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),
@@ -105,7 +106,7 @@ class OccupationENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 16.0, right: 8.0),
                 child: Text(
-                  "Если вы находитесь на оккупированной территории:",
+                  "If you are in occupied territory:",
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                   textAlign: TextAlign.left,
                 ),
@@ -116,29 +117,9 @@ class OccupationENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 32.0, right: 8.0),
                 child: Text(
-                  "•Эвакуируйтесь в часть страны, контролируемую вооруженными силами своей страны.",
-                  style: TextStyle(fontSize: 16),
-                  textAlign: TextAlign.justify,
-                ),
-              ),
-            ),
-            Container(
-              alignment: Alignment.centerLeft,
-              child: Padding(
-                padding: const EdgeInsets.only(left: 32.0, right: 8.0),
-                child: Text(
-                  "•Продолжать соблюдать законы своей страны.",
-                  style: TextStyle(fontSize: 16),
-                  textAlign: TextAlign.justify,
-                ),
-              ),
-            ),
-            Container(
-              alignment: Alignment.centerLeft,
-              child: Padding(
-                padding: const EdgeInsets.only(left: 32.0, right: 8.0),
-                child: Text(
-                  "•Не сотрудничайте с оккупационной властью:",
+                  "•Evacuate to a part of the country controlled by your country's armed forces.\n"
+                  "•Continue to follow the laws of your country.\n"
+                  "•Do not cooperate with the occupying power:",
                   style: TextStyle(fontSize: 16),
                   textAlign: TextAlign.justify,
                 ),
@@ -149,29 +130,9 @@ class OccupationENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 48.0, right: 8.0),
                 child: Text(
-                  "•Отстранитесь от их решений и действий.",
-                  style: TextStyle(fontSize: 16),
-                  textAlign: TextAlign.justify,
-                ),
-              ),
-            ),
-            Container(
-              alignment: Alignment.centerLeft,
-              child: Padding(
-                padding: const EdgeInsets.only(left: 48.0, right: 8.0),
-                child: Text(
-                  "•Не участвуйте в организованных ими публичных мероприятиях, не давайте им интервью и не позволяйте снимать себя на камеру.",
-                  style: TextStyle(fontSize: 16),
-                  textAlign: TextAlign.justify,
-                ),
-              ),
-            ),
-            Container(
-              alignment: Alignment.centerLeft,
-              child: Padding(
-                padding: const EdgeInsets.only(left: 48.0, right: 8.0),
-                child: Text(
-                  "•Не участвуйте в незаконных выборах, референдумах и голосованиях.",
+                  "•Disassociate yourself from their decisions and actions.\n"
+                  "•Do not participate in public events organized by them, do not give them interviews and do not allow yourself to be filmed.\n"
+                  "•Do not participate in illegal elections, referendums and voting.",
                   style: TextStyle(fontSize: 16),
                   textAlign: TextAlign.justify,
                 ),
@@ -182,7 +143,7 @@ class OccupationENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 16.0, right: 8.0),
                 child: Text(
-                  "Если вы решите сопротивляться, у вас есть на это право:",
+                  "If you choose to resist, you have the right to do so:",
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                   textAlign: TextAlign.left,
                 ),
@@ -191,29 +152,12 @@ class OccupationENPage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(left: 32.0, right: 8.0),
               child: Text(
-                "•Оказывать вооруженное сопротивление (включая саботаж, подрывные действия) против противника в составе вооруженных сил своей страны.",
+                "•To resist (including sabotage, subversion) the enemy with the armed forces of your own country.\n"
+                "•Engage in civil disobedience - for example, disobeying laws issued by the occupation authorities, refusing to serve and work for them, "
+                "organizing mass strikes.\n"
+                "•Support resistance.",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.only(left: 32.0, right: 8.0),
-              child: Text(
-                "•Воплощать гражданское неповиновение - например, неподчинение законам, изданным оккупационными властями, "
-                "отказ служить и работать на них, организация массовых забастовок",
-                style: TextStyle(fontSize: 16),
-                textAlign: TextAlign.justify,
-              ),
-            ),
-            Container(
-              alignment: Alignment.centerLeft,
-              child: Padding(
-                padding: const EdgeInsets.only(left: 32.0, right: 8.0),
-                child: Text(
-                  "•Поддерживать сопротивление",
-                  style: TextStyle(fontSize: 16),
-                  textAlign: TextAlign.justify,
-                ),
               ),
             ),
             Padding(
@@ -221,7 +165,7 @@ class OccupationENPage extends StatelessWidget {
               child: Row(
                 children: [
                   Text(
-                    "Эвакуация:",
+                    "Evacuation:",
                     style: TextStyle(color: Colors.red, fontSize: 25),
                   ),
                 ],
@@ -232,7 +176,7 @@ class OccupationENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 16.0, right: 8.0),
                 child: Text(
-                  "Если власти издали распоряжение об эвакуации:",
+                  "If the authorities have issued an evacuation order:",
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                   textAlign: TextAlign.left,
                 ),
@@ -241,13 +185,13 @@ class OccupationENPage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(left: 32.0, right: 8.0),
               child: Text(
-                "•Внимательно слушайте объявление об эвакуации, запоминайте и записывайте направление эвакуации, пункт назначения или сбора.\n"
-                "•Носите с собой удостоверение личности, куда бы вы ни пошли.\n"
-                "•Если есть возможность, перед эвакуацией отключите газ, электричество и воду в доме, закройте окна и заприте двери.\n"
-                "•Пользуйтесь маршрутами, рекомендованными госслужбами, и не ездите по незнакомым маршрутам.\n"
-                "•Если вы не можете воспользоваться собственным автомобилем, отправляйтесь в ближайший назначенный пункт сбора эвакуирующихся.\n"
-                "•В случае эвакуации оповестите родственников.\n"
-                "•Возьмите с собой тревожный чемоданчик.",
+                "•Listen carefully to evacuation announcements, memorize and write down the evacuation direction, destination or pick-up point. Carry "
+                "identification with you wherever you go.\n"
+                "•If possible, turn off gas, electricity, and water in your home, close windows, and lock doors before evacuating.\n"
+                "•Use the routes recommended by public services and don't take unfamiliar routes.\n"
+                "•If you cannot use your own vehicle, go to the nearest designated evacuation collection point.\n"
+                "•In the event of an evacuation, notify relatives.\n"
+                "•Bring an emergency kit with you.",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),
@@ -257,7 +201,7 @@ class OccupationENPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 16.0, right: 8.0),
                 child: Text(
-                  "Обратите внимание:",
+                  "Please note:",
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                   textAlign: TextAlign.justify,
                 ),
@@ -266,13 +210,12 @@ class OccupationENPage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(left: 32.0, right: 8.0, bottom: 8),
               child: Text(
-                "•Не пытайтесь вернуться домой до получения разрешения от властей.\n"
-                "•Не носите военизированную одежду, камуфляжную форму или военизированные сумки, когда находитесь вне службы.\n"
-                "•Не приближайтесь без необходимости к неопознанным вооруженным людям, не провоцируйте их и не снимайте на камеру, "
-                "не подбирайте брошенное оружие или подозрительные предметы.\n"
-                "•Не пытайтесь самостоятельно перемещать неразорвавшиеся боеприпасы, мины или обезвреживать самодельные взрывные устройства.\n"
-                "•Не распространяйте информацию (фотографии, видео, тексты) о передвижениях, местах дислокации и позициях "
-                "вооруженных сил своей страны.",
+                "•Do not attempt to return home before obtaining permission from the authorities.\n"
+                "•Do not wear paramilitary clothing, camouflage uniforms or paramilitary bags when off duty.\n"
+                "•Do not approach unidentified armed people unnecessarily, do not provoke them or film them, and do not pick up abandoned weapons or "
+                "suspicious objects.\n"
+                "•Do not attempt to move unexploded ammunition, mines, or disarm improvised explosive devices yourself.\n"
+                "•Do not spread information (photos, videos, texts) about the movements, locations, and positions of your country's armed forces.",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),
