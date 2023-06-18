@@ -174,6 +174,10 @@ class SourceENPage extends StatelessWidget {
                   visualDensity: VisualDensity(vertical: -4)),
             ],
           ),
+          Divider(
+            color: Colors.black,
+            height: 1,
+          ),
           Column(children: <Widget>[
             Padding(
               padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),

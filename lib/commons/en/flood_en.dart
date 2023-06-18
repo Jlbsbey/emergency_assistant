@@ -105,6 +105,10 @@ class FloodENPage extends StatelessWidget {
                 ),
               ],
             ),
+            Divider(
+              color: Colors.black,
+              height: 1,
+            ),
             Container(
               alignment: Alignment.centerLeft,
               child: Padding(

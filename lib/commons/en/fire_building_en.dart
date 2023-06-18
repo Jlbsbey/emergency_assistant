@@ -133,6 +133,10 @@ class FireBuildingENPage extends StatelessWidget {
                 ),
               ],
             ),
+            Divider(
+              color: Colors.black,
+              height: 1,
+            ),
             Padding(
               padding: const EdgeInsets.only(left: 16.0, right: 8.0, top: 16),
               child: Text(

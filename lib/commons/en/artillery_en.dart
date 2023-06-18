@@ -67,6 +67,10 @@ class ArtilleryENPage extends StatelessWidget {
                 ),
               ],
             ),
+            Divider(
+              color: Colors.black,
+              height: 1,
+            ),
             Padding(
               padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
               child: Row(

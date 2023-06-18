@@ -29,7 +29,7 @@ class SourcePage extends StatelessWidget {
             child: Column(children: [
           const ExpansionTile(
             title: Text(
-              'Saites',
+              'Avoti',
               style: TextStyle(fontSize: 20),
             ),
             controlAffinity: ListTileControlAffinity.leading,
@@ -173,6 +173,10 @@ class SourcePage extends StatelessWidget {
                   ),
                   visualDensity: VisualDensity(vertical: -4)),
             ],
+          ),
+          Divider(
+            color: Colors.black,
+            height: 1,
           ),
           Column(children: <Widget>[
             Padding(

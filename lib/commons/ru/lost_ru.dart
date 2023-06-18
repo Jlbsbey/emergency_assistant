@@ -48,7 +48,7 @@ class _LostRUPageState extends State<LostRUPage> {
                 ListTile(
                   title: Padding(
                     padding: EdgeInsets.only(left: 25.0),
-                    child: Text('•Реконструируй ход событий.'),
+                    child: Text('•Реконструируйте ход событий.'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
@@ -68,6 +68,10 @@ class _LostRUPageState extends State<LostRUPage> {
                   visualDensity: VisualDensity(vertical: -4),
                 ),
               ],
+            ),
+            Divider(
+              color: Colors.black,
+              height: 1,
             ),
             Padding(
               padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),

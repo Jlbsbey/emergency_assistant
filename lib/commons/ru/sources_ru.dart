@@ -29,7 +29,7 @@ class SourceRUPage extends StatelessWidget {
             child: Column(children: [
           const ExpansionTile(
             title: Text(
-              'Ссылки',
+              'Источники',
               style: TextStyle(fontSize: 20),
             ),
             controlAffinity: ListTileControlAffinity.leading,
@@ -173,6 +173,10 @@ class SourceRUPage extends StatelessWidget {
                   ),
                   visualDensity: VisualDensity(vertical: -4)),
             ],
+          ),
+          Divider(
+            color: Colors.black,
+            height: 1,
           ),
           Column(children: <Widget>[
             Padding(

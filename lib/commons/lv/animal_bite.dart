@@ -65,6 +65,10 @@ class AnimalPage extends StatelessWidget {
                 ),
               ],
             ),
+            Divider(
+              color: Colors.black,
+              height: 1,
+            ),
             Align(
               alignment: Alignment.centerLeft,
               child: Padding(

@@ -88,6 +88,10 @@ class _EarthquakePageState extends State<EarthquakePage> {
                 ),
               ],
             ),
+            Divider(
+              color: Colors.black,
+              height: 1,
+            ),
             Align(
               alignment: Alignment.centerLeft,
               child: Padding(

@@ -90,6 +90,10 @@ class _EarthquakeRUPageState extends State<EarthquakeRUPage> {
                 ),
               ],
             ),
+            Divider(
+              color: Colors.black,
+              height: 1,
+            ),
             Align(
               alignment: Alignment.centerLeft,
               child: Padding(
