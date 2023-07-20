@@ -1,165 +1,223 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-class AnimalENPage extends StatelessWidget {
+class AnimalENPage extends StatefulWidget {
+  @override
+  State<AnimalENPage> createState() => _AnimalENPageState();
+}
+
+class _AnimalENPageState extends State<AnimalENPage> {
+  bool _showBackToTopButton = false;
+  late ScrollController _scrollController;
+  void _scrollToTop() {
+    _scrollController.animateTo(0,
+        duration: const Duration(seconds: 1), curve: Curves.linear);
+  }
+
+  @override
+  void initState() {
+    _scrollController = ScrollController()
+      ..addListener(() {
+        setState(() {
+          if (_scrollController.offset >= 400) {
+            _showBackToTopButton = true; // show the back-to-top button
+          } else {
+            _showBackToTopButton = false; // hide the back-to-top button
+          }
+        });
+      });
+
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    _scrollController.dispose(); // dispose the controller
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
+    double h = MediaQuery.of(context).size.height * 0.06;
     return Scaffold(
-        appBar: AppBar(
-          toolbarHeight: kToolbarHeight * 1.5,
-          systemOverlayStyle: SystemUiOverlayStyle(
-            statusBarColor: Colors.transparent,
-            statusBarIconBrightness: Brightness.light,
-            statusBarBrightness: Brightness.light,
-          ),
-          iconTheme: IconThemeData(color: Colors.white),
-          title: const Text(
-            'Animal bite',
-            style: TextStyle(fontSize: 24, color: Colors.white),
-          ),
-          actions: <Widget>[],
-          flexibleSpace: Container(
-            decoration: BoxDecoration(
-                image: DecorationImage(
-                    image: AssetImage('assets/earth.jpg'), fit: BoxFit.cover)),
-          ),
+      appBar: AppBar(
+        toolbarHeight: kToolbarHeight * 1.5,
+        systemOverlayStyle: SystemUiOverlayStyle(
+          statusBarColor: Colors.transparent,
+          statusBarIconBrightness: Brightness.light,
+          statusBarBrightness: Brightness.light,
         ),
-        body: SingleChildScrollView(
-          child: Column(children: <Widget>[
-            const ExpansionTile(
-              title: Text(
-                'Briefly and concretely',
-                style: TextStyle(fontSize: 20),
+        iconTheme: IconThemeData(color: Colors.white),
+        title: const Text(
+          'Animal bite',
+          style: TextStyle(fontSize: 24, color: Colors.white),
+        ),
+        actions: <Widget>[],
+        flexibleSpace: Container(
+          decoration: BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage('assets/earth.jpg'), fit: BoxFit.cover)),
+        ),
+      ),
+      body: SingleChildScrollView(
+        controller: _scrollController,
+        child: Column(children: <Widget>[
+          const ExpansionTile(
+            title: Text(
+              'Overview',
+              style: TextStyle(fontSize: 20),
+            ),
+            controlAffinity: ListTileControlAffinity.leading,
+            children: <Widget>[
+              ListTile(
+                title: Padding(
+                  padding: EdgeInsets.only(left: 25.0),
+                  child: Text('•It is better to call 112.'),
+                ),
+                visualDensity: VisualDensity(vertical: -4),
               ),
-              controlAffinity: ListTileControlAffinity.leading,
-              children: <Widget>[
-                ListTile(
-                  title: Padding(
-                    padding: EdgeInsets.only(left: 25.0),
-                    child: Text('•It is better to call 112.'),
-                  ),
-                  visualDensity: VisualDensity(vertical: -4),
+              ListTile(
+                title: Padding(
+                  padding: EdgeInsets.only(left: 25.0),
+                  child: Text(
+                      '•If the wound is not bleeding much, bandage it and go to the hospital emergency room.'),
                 ),
-                ListTile(
-                  title: Padding(
-                    padding: EdgeInsets.only(left: 25.0),
-                    child: Text(
-                        '•If the wound is not bleeding much, bandage it and go to the hospital emergency room.'),
-                  ),
-                  visualDensity: VisualDensity(vertical: -4),
-                ),
-                ListTile(
-                  title: Padding(
-                    padding: EdgeInsets.only(left: 25.0),
-                    child: Text(
-                        '•If you are bitten by a snake, call 112 in any case.'),
-                  ),
-                  visualDensity: VisualDensity(vertical: -4),
-                ),
-                ListTile(
-                  title: Padding(
-                    padding: EdgeInsets.only(left: 25.0),
-                    child: Text('•Calm the victim and give him some water.'),
-                  ),
-                  visualDensity: VisualDensity(vertical: -4),
-                ),
-              ],
-            ),
-            Divider(
-              color: Colors.black,
-              height: 1,
-            ),
-            Align(
-              alignment: Alignment.centerLeft,
-              child: Padding(
-                padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
-                child: Text(
-                  "Wounds from animal bites:",
-                  style: TextStyle(color: Colors.red, fontSize: 25),
-                ),
+                visualDensity: VisualDensity(vertical: -4),
               ),
-            ),
-            Padding(
-              padding: const EdgeInsets.only(left: 16.0, right: 8.0),
-              child: Text(
-                "Various wild and domestic animals can transmit rabies, go to a hospital emergency room or emergency room. Note that vaccination immediately "
-                "after an animal bite protects against rabies. \nHow to help an injured person?",
-                style: TextStyle(fontSize: 16),
-                textAlign: TextAlign.justify,
+              ListTile(
+                title: Padding(
+                  padding: EdgeInsets.only(left: 25.0),
+                  child: Text(
+                      '•If you are bitten by a snake, call 112 in any case.'),
+                ),
+                visualDensity: VisualDensity(vertical: -4),
               ),
+              ListTile(
+                title: Padding(
+                  padding: EdgeInsets.only(left: 25.0),
+                  child: Text('•Calm the victim and give him some water.'),
+                ),
+                visualDensity: VisualDensity(vertical: -4),
+              ),
+            ],
+          ),
+          Divider(
+            color: Colors.black,
+            height: 1,
+          ),
+          ExpansionTile(
+            title: Text(
+              'Full guide',
+              style: TextStyle(fontSize: 20),
             ),
-            Padding(
-                padding: EdgeInsets.only(left: 32),
-                child: Text(
-                  "•If the wound is not bleeding much, wash it with soap and water.\n"
-                  "•Bandage the wound.\n"
-                  "•If the bleeding is not severe, the victim should go to the emergency room of a hospital on his/her own or with the help of a relative. "
-                  "If he or she is bleeding heavily, call 112 for emergency medical assistance.",
-                  style: TextStyle(fontSize: 16),
-                )),
-            Padding(
-              padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
-              child: Row(
-                children: [
-                  Text(
-                    "Snakebite:",
+            controlAffinity: ListTileControlAffinity.leading,
+            initiallyExpanded: true,
+            children: <Widget>[
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Padding(
+                  padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 0),
+                  child: Text(
+                    "Wounds from animal bites:",
                     style: TextStyle(color: Colors.red, fontSize: 25),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(left: 16.0, right: 8.0),
+                child: Text(
+                  "Various wild and domestic animals can transmit rabies, go to a hospital emergency room or emergency room. Note that vaccination immediately "
+                  "after an animal bite protects against rabies. \nHow to help an injured person?",
+                  style: TextStyle(fontSize: 16),
+                  textAlign: TextAlign.justify,
+                ),
+              ),
+              Padding(
+                  padding: EdgeInsets.only(left: 32),
+                  child: Text(
+                    "•If the wound is not bleeding much, wash it with soap and water.\n"
+                    "•Bandage the wound.\n"
+                    "•If the bleeding is not severe, the victim should go to the emergency room of a hospital on his/her own or with the help of a relative. "
+                    "If he or she is bleeding heavily, call 112 for emergency medical assistance.",
+                    style: TextStyle(fontSize: 16),
+                  )),
+              Padding(
+                padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
+                child: Row(
+                  children: [
+                    Text(
+                      "Snakebite:",
+                      style: TextStyle(color: Colors.red, fontSize: 25),
+                      textAlign: TextAlign.justify,
+                    ),
+                  ],
+                ),
+              ),
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Padding(
+                  padding: const EdgeInsets.only(left: 16.0, right: 8.0),
+                  child: Text(
+                    "What to do if a snake bites?",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                     textAlign: TextAlign.justify,
                   ),
-                ],
-              ),
-            ),
-            Align(
-              alignment: Alignment.centerLeft,
-              child: Padding(
-                padding: const EdgeInsets.only(left: 16.0, right: 8.0),
-                child: Text(
-                  "What to do if a snake bites?",
-                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-                  textAlign: TextAlign.justify,
                 ),
               ),
-            ),
-            Align(
-              alignment: Alignment.centerLeft,
-              child: Padding(
-                padding: const EdgeInsets.only(left: 16.0, right: 8.0),
-                child: Text(
-                  "If you are bitten by a snake, the bite will hurt and swelling may occur. In more severe cases, a snake bite can cause serious heart "
-                  "problems, shortness of breath, nausea, vomiting and diarrhea. The swollen area of the bitten body may swell noticeably and the "
-                  "skin may turn bluish purple.",
-                  style: TextStyle(
-                    fontSize: 16,
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Padding(
+                  padding: const EdgeInsets.only(left: 16.0, right: 8.0),
+                  child: Text(
+                    "If you are bitten by a snake, the bite will hurt and swelling may occur. In more severe cases, a snake bite can cause serious heart "
+                    "problems, shortness of breath, nausea, vomiting and diarrhea. The swollen area of the bitten body may swell noticeably and the "
+                    "skin may turn bluish purple.",
+                    style: TextStyle(
+                      fontSize: 16,
+                    ),
+                    textAlign: TextAlign.justify,
                   ),
-                  textAlign: TextAlign.justify,
                 ),
               ),
-            ),
-            Align(
-              alignment: Alignment.centerLeft,
-              child: Padding(
-                padding: const EdgeInsets.only(left: 16.0, right: 8.0),
-                child: Text(
-                  "If a snake bites, you have to take the worst possible scenario, that the snake is poisonous. In that case:",
-                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-                  textAlign: TextAlign.justify,
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Padding(
+                  padding: const EdgeInsets.only(left: 16.0, right: 8.0),
+                  child: Text(
+                    "If a snake bites, you have to take the worst possible scenario, that the snake is poisonous. In that case:",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                    textAlign: TextAlign.justify,
+                  ),
                 ),
               ),
+              Padding(
+                  padding: EdgeInsets.only(left: 32, right: 8, bottom: h),
+                  child: Text(
+                    "•Call an ambulance at 112, as the victim needs to be treated as soon as possible.\n"
+                    "•Lay the victim down, help him/her to calm down.\n"
+                    "•Try not to move or rub the bitten part of the body so the poison doesn't spread as quickly.\n"
+                    "•Do not let the victim cool/protect him/her from the environment.\n"
+                    "•If possible, give more water to keep the body hydrated.\n"
+                    "•You can put something cold to the bite site to relieve the itching and constrict the blood vessels.\n"
+                    "•Never apply a tourniquet or bandage, do not suck venom with your mouth, and do not cut or burn the bite area.\n"
+                    "•Do not give any medication, as it is not known how the medicine will react with the snake venom.",
+                    style: TextStyle(fontSize: 16),
+                  )),
+            ],
+          ),
+        ]),
+      ),
+      floatingActionButton: _showBackToTopButton == false
+          ? null
+          : SizedBox(
+              width: MediaQuery.of(context).size.width * 0.95,
+              height: MediaQuery.of(context).size.height * 0.04,
+              child: ElevatedButton.icon(
+                onPressed: _scrollToTop,
+                icon: Icon(Icons.arrow_upward),
+                label: Text("On top"),
+              ),
             ),
-            Padding(
-                padding: EdgeInsets.only(left: 32, right: 8, bottom: 8),
-                child: Text(
-                  "•Call an ambulance at 112, as the victim needs to be treated as soon as possible.\n"
-                  "•Lay the victim down, help him/her to calm down.\n"
-                  "•Try not to move or rub the bitten part of the body so the poison doesn't spread as quickly.\n"
-                  "•Do not let the victim cool/protect him/her from the environment.\n"
-                  "•If possible, give more water to keep the body hydrated.\n"
-                  "•You can put something cold to the bite site to relieve the itching and constrict the blood vessels.\n"
-                  "•Never apply a tourniquet or bandage, do not suck venom with your mouth, and do not cut or burn the bite area.\n"
-                  "•Do not give any medication, as it is not known how the medicine will react with the snake venom.",
-                  style: TextStyle(fontSize: 16),
-                )),
-          ]),
-        ));
+    );
   }
 }

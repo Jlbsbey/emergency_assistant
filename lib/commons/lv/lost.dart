@@ -33,7 +33,7 @@ class _LostPageState extends State<LostPage> {
           child: Column(children: <Widget>[
             const ExpansionTile(
               title: Text(
-                'Īsi un konkrēti',
+                'Īsi',
                 style: TextStyle(fontSize: 20),
               ),
               controlAffinity: ListTileControlAffinity.leading,
@@ -73,87 +73,101 @@ class _LostPageState extends State<LostPage> {
               color: Colors.black,
               height: 1,
             ),
-            Padding(
-              padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
-              child: Row(
-                children: [
-                  Text(
-                    "Apstājieties:",
-                    style: TextStyle(color: Colors.red, fontSize: 25),
+            ExpansionTile(
+              title: Text(
+                'Izvērsti',
+                style: TextStyle(fontSize: 20),
+              ),
+              controlAffinity: ListTileControlAffinity.leading,
+              initiallyExpanded: true,
+              children: <Widget>[
+                Padding(
+                  padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 0),
+                  child: Row(
+                    children: [
+                      Text(
+                        "Apstājieties:",
+                        style: TextStyle(color: Colors.red, fontSize: 25),
+                      ),
+                    ],
                   ),
-                ],
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.only(left: 16.0, right: 8.0),
-              child: Text(
-                "Tiklīdz saprotat, ka esat apmaldījušies: apstājieties, palieciet mierīgi. "
-                "Panika ir jūsu lielākais ienaidnieks.",
-                style: TextStyle(fontSize: 16),
-                textAlign: TextAlign.justify,
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
-              child: Row(
-                children: [
-                  Text(
-                    "Padomājiet:",
-                    style: TextStyle(color: Colors.red, fontSize: 25),
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(left: 16.0, right: 8.0),
+                  child: Text(
+                    "Tiklīdz saprotat, ka esat apmaldījušies: apstājieties, palieciet mierīgi. "
+                    "Panika ir jūsu lielākais ienaidnieks.",
+                    style: TextStyle(fontSize: 16),
                     textAlign: TextAlign.justify,
                   ),
-                ],
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.only(left: 16.0, right: 8.0),
-              child: Text(
-                "Pārdomājiet, kā nonācāt tur, kur atrodaties. Kādus orientierus jums vajadzētu redzēt? "
-                "Nekustieties vispār, kamēr jums nav konkrēts iemesls kaut kur iet.",
-                style: TextStyle(fontSize: 16),
-                textAlign: TextAlign.justify,
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
-              child: Row(
-                children: [
-                  Text(
-                    "Ievērojiet:",
-                    style: TextStyle(color: Colors.red, fontSize: 25),
+                ),
+                Padding(
+                  padding:
+                      const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
+                  child: Row(
+                    children: [
+                      Text(
+                        "Padomājiet:",
+                        style: TextStyle(color: Colors.red, fontSize: 25),
+                        textAlign: TextAlign.justify,
+                      ),
+                    ],
                   ),
-                ],
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.only(left: 16.0, right: 8.0),
-              child: Text(
-                "Izņemiet kompasu(ja tāds jums ir) un nosakiet virzienus, pamatojoties uz jūsu atrašanās "
-                "vietu. Nestaigājiet bezmērķīgi.Ja esat uz takas, palieciet uz tās.",
-                style: TextStyle(fontSize: 16),
-                textAlign: TextAlign.justify,
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
-              child: Row(
-                children: [
-                  Text(
-                    "Plānojiet:",
-                    style: TextStyle(color: Colors.red, fontSize: 25),
-                    textAlign: TextAlign.left,
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(left: 16.0, right: 8.0),
+                  child: Text(
+                    "Pārdomājiet, kā nonācāt tur, kur atrodaties. Kādus orientierus jums vajadzētu redzēt? "
+                    "Nekustieties vispār, kamēr jums nav konkrēts iemesls kaut kur iet.",
+                    style: TextStyle(fontSize: 16),
+                    textAlign: TextAlign.justify,
                   ),
-                ],
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.only(left: 16.0, right: 8.0, bottom: 8),
-              child: Text(
-                "Pamatojoties uz savām domām un novērojumiem, izdomājiet dažus iespējamos plānus, "
-                "pārdomājiet tos un pēc tam rīkojieties saskaņā ar kādu no tiem.Ja neesi ļoti, ļoti pārliecināts par maršrutu, tad vienmēr labāk palikt vietā.Ja iestājas tumsa, esat ievainots vai esat noguris, palieciet savā vietā.",
-                style: TextStyle(fontSize: 16),
-                textAlign: TextAlign.justify,
-              ),
+                ),
+                Padding(
+                  padding:
+                      const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
+                  child: Row(
+                    children: [
+                      Text(
+                        "Ievērojiet:",
+                        style: TextStyle(color: Colors.red, fontSize: 25),
+                      ),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(left: 16.0, right: 8.0),
+                  child: Text(
+                    "Izņemiet kompasu(ja tāds jums ir) un nosakiet virzienus, pamatojoties uz jūsu atrašanās "
+                    "vietu. Nestaigājiet bezmērķīgi.Ja esat uz takas, palieciet uz tās.",
+                    style: TextStyle(fontSize: 16),
+                    textAlign: TextAlign.justify,
+                  ),
+                ),
+                Padding(
+                  padding:
+                      const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
+                  child: Row(
+                    children: [
+                      Text(
+                        "Plānojiet:",
+                        style: TextStyle(color: Colors.red, fontSize: 25),
+                        textAlign: TextAlign.left,
+                      ),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding:
+                      const EdgeInsets.only(left: 16.0, right: 8.0, bottom: 8),
+                  child: Text(
+                    "Pamatojoties uz savām domām un novērojumiem, izdomājiet dažus iespējamos plānus, "
+                    "pārdomājiet tos un pēc tam rīkojieties saskaņā ar kādu no tiem.Ja neesi ļoti, ļoti pārliecināts par maršrutu, tad vienmēr labāk palikt vietā.Ja iestājas tumsa, esat ievainots vai esat noguris, palieciet savā vietā.",
+                    style: TextStyle(fontSize: 16),
+                    textAlign: TextAlign.justify,
+                  ),
+                ),
+              ],
             ),
           ]),
         ));
