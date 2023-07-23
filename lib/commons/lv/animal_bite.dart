@@ -101,7 +101,7 @@ class _AnimalPageState extends State<AnimalPage> {
             ],
           ),
           Divider(
-            color: Colors.black,p
+            color: Colors.black,
             height: 1,
           ),
           ExpansionTile(
