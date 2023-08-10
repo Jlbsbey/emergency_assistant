@@ -39,8 +39,8 @@ class ChemicalPage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(left: 16.0, right: 8.0),
               child: Text(
-                "Par ķīmisko uzbrukumu var liecināt aizdomīga dūmu, gāzes vai pilienu klātbūtne, smakšanas vai kairinoša "
-                "sajūta elpceļos Jums vai apkārtējiem cilvēkiem esošajā teritorijā. Ja saskaries ar šādu situāciju, tad ricību kartība ir sekojoša:",
+                "Par ķīmisko uzbrukumu var liecināt aizdomīga dūmu, gāzes vai pilienu klātbūtne, kairinoša vai smakšanas "
+                "sajūta elpceļos Jums vai apkārtējiem cilvēkiem esošajā teritorijā. Ja saskaries ar šādu situāciju, tad rīcību kārtība ir sekojoša:",
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                 textAlign: TextAlign.justify,
               ),
@@ -51,8 +51,8 @@ class ChemicalPage extends StatelessWidget {
                 "•Ja esi iekštelpās - aizver logus, dabīgās ventilācijas un kondicionēšanas sistēmas. "
                 "•Ja iespējams, izvēlies telpas, kurās nav logi.\n"
                 "•Ārpus telpām nekavējoties aizsedz muti un degunu ar mitru audumu.\n"
-                "•Cik iespējams ātri pametiet piesarņoto teritoriju, virzoties perpendikulāri vēja plūsmai(lai vējš pūš no sāniem).\n"
-                "•Palīdziet apkartējiem, bet nedodieties atpakaļ piesarņotajā teritorijā.\n"
+                "•Cik iespējams ātri pametiet piesārņoto teritoriju, virzoties perpendikulāri vēja plūsmai(lai vējš pūš no sāniem).\n"
+                "•Palīdziet apkartējiem, bet nedodieties atpakaļ piesārņotajā teritorijā.\n"
                 "•Atbrīvojieties no apģerba, nomazgājiet ķermeni ar ziepēm un ūdeni.\n"
                 "•Sagaidiet palidzību un sekojiet atbildīgo dienestu rīkojumiem. Patvaļīgi nedodieties uz slimnīcu vai mājām.",
                 style: TextStyle(fontSize: 18),
