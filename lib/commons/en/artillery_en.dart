@@ -158,7 +158,7 @@ class _ArtilleryENPageState extends State<ArtilleryENPage> {
                     "Count the seconds from the volley to the fall and start running immediately after the hit. You need to fall a couple of seconds "
                     "before the estimated time of the next hit. If two or more units are running, count from the last one.\n"
                     "Open your mouth and cover your ears with your hands. This will help you avoid concussion and keep your ears open for particularly close "
-                    "bursts. If you happen to stop hearing after shell explosion, don't be frightened. Usually, if there is no physical damage, hearing will "
+                    "bursts. If you happen to stop hearing after а shell explosion, don't be frightened. Usually, if there is no physical damage, hearing will "
                     "recover within 3-7 days. Close your eyes to keep them free of dust and stone chips.",
                     style: TextStyle(fontSize: 16),
                     textAlign: TextAlign.justify,
@@ -195,7 +195,7 @@ class _ArtilleryENPageState extends State<ArtilleryENPage> {
                 child: Padding(
                   padding: const EdgeInsets.only(left: 16.0, right: 8.0),
                   child: Text(
-                    "Never hide near the walls of buildings. If wall aws hit by shell, you may be hit by brick fragments, concrete, or even be knocked over.",
+                    "Never hide near the walls of buildings. If the wall was hit by a shell, you may be hit by brick fragments, concrete, or even be knocked over.",
                     style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                     textAlign: TextAlign.justify,
                   ),
@@ -245,7 +245,7 @@ class _ArtilleryENPageState extends State<ArtilleryENPage> {
                   child: Text(
                     "If possible, cover the top with a thick blanket - this is additional protection both from flying splinters and from crumbs and glass."
                     "Don't waste time going down to the basement if you live on higher floors. Better to lie down in the doorway or on the landing. A shell "
-                    "is equally likely to hit either the ninth or third floor as you run up the stairs. Don't risk because of useless movements.",
+                    "is equally likely to hit either the ninth or third floor as you run up the stairs. Don't risk it because of useless movements.",
                     style: TextStyle(fontSize: 16),
                     textAlign: TextAlign.justify,
                   ),
