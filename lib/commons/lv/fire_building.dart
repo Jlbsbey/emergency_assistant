@@ -64,7 +64,7 @@ class _FireBuildingPageState extends State<FireBuildingPage> {
         child: Column(children: <Widget>[
           const ExpansionTile(
             title: Text(
-              'Īsi',
+              'Īsumā',
               style: TextStyle(fontSize: 20),
             ),
             controlAffinity: ListTileControlAffinity.leading,
@@ -79,7 +79,7 @@ class _FireBuildingPageState extends State<FireBuildingPage> {
               Padding(
                 padding: EdgeInsets.only(left: 50.0),
                 child: ListTile(
-                  title: Text('•Bēdziet arā nedomajot ne par ko'),
+                  title: Text('•Bēdziet ārā nedomājot ne par ko'),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
               ),
@@ -175,7 +175,7 @@ class _FireBuildingPageState extends State<FireBuildingPage> {
           ),
           ExpansionTile(
             title: Text(
-              'Izvērsti',
+              'Plašāk',
               style: TextStyle(fontSize: 20),
             ),
             controlAffinity: ListTileControlAffinity.leading,
@@ -205,11 +205,11 @@ class _FireBuildingPageState extends State<FireBuildingPage> {
                 padding: EdgeInsets.only(left: 15.0, right: 8.0),
                 child: Text(
                   "•Ja, uztaustījuši durvis, jūtat, ka tās nav karstas, mazliet paveriet tās un pārliecinieties, vai ārpusē nav dūmi un uguns. Kad atstājat istabu, aizveriet durvis, tas mazinās uguns izplatību un aizsargās Jūsu īpašumu. Neaizmirstiet paņemt atslēgas. Ja visi evakuācijas ceļi būs slēgti un pamest ēku nevarēsiet, Jums vajadzēs atslēgu, lai atgrieztos dzīvoklī, kas kļūs par drošāko patvēruma vietu.\n"
-                  "•Nemēģiniet meklēt, kurā vietā deg. Vērtīgais laiks, ko tādējādi zaudēsiet, var būt izšķirošs, lai paspētu glābties.\n"
+                  "•Nemēģiniet meklēt, kura vieta deg. Vērtīgais laiks, ko tādējādi zaudēsiet, var būt izšķirošs, lai paspētu glābties.\n"
                   "•Nekavējieties kāpņu telpās un gaiteņos, domājot, ko darīt. Pametiet māju pēc iespējas ātrāk. Jums jāzina, kuri mājas gaiteņi ved strupceļā, centieties izvairīties no tiem.\n"
                   "•Vienmēr izmantojiet tikai kāpnes. Nekādā gadījumā neizmantojiet liftu.\n"
                   "•Rēķinieties ar to, ka visapkārt būs panika. Tāpēc turieties pie kāpņu margām, tas palīdzēs Jums noturēties, ja kāpņu telpā būs drūzma.\n"
-                  "•Pirms atstājat ēku, nemēģiniet iekštelpās satikt visus tuviniekus, jo dārga ir katra minūte.\n"
+                  "•Pirms atstājat ēku, nemēģiniet iekštelpās satikt visus tuviniekus, jo katra minūte ir dārga.\n"
                   "•Kad esat nokļuvuši drošībā, zvaniet Valsts ugunsdzēsības un glābšanas dienestam. Neuzskatiet par pašsaprotamu, ka to jau būs izdarījis kāds no kaimiņiem. Nenolieciet klausuli, kamēr dispečeri nav saņēmuši visu viņiem nepieciešamo informāciju.\n"
                   "•Neejiet atpakaļ mājā, kamēr ugunsdzēsēji to nav atļāvuši.",
                   style: TextStyle(fontSize: 16),
@@ -234,7 +234,6 @@ class _FireBuildingPageState extends State<FireBuildingPage> {
                   'ka aiz durvīm plosās uguns. Atverot durvis, liesmas uzreiz iekļūs istabā. Aizvērtās durvis var būt '
                   'par aizsegu no uguns un pasargāt Jūs, kamēr ierodas glābēji.\n'
                   '•Ja durvis ir karstas, aizbāziet spraugas. Šim nolūkam vislabāk kalpos mitri dvieļi, segas. Noderēs arī palagi, drēbes.\n'
-                  '•Ja ir pieejams telefons un telpā, kurā atrodaties nav dūmu, zvaniet uz tālruni 112.\n'
                   '•Ja ir pieejams telefons un telpā, kurā atrodaties nav dūmu, zvaniet uz tālruni 112.\n'
                   '•Rāpojiet pie loga un mazliet paveriet to. Atverot logu pilnīgi, Jūs radīsiet caurvēju, kas veicinās '
                   'dūmu pieplūdumu istabā.\n'
