@@ -76,9 +76,9 @@ class _EmergencyItemsPageState extends State<EmergencyItemsPage> {
             padding: const EdgeInsets.only(left: 32.0, right: 8.0), //•
             child: Text(
               "•Uzmanīgi ieklausies paziņojumā par evakuācijas norisi, iegaumē un ievēro evakuācijas "
-              "virzienu, galamērki vai pulcēšanās vietu.\n"
+              "virzienu, galamērķi vai pulcēšanās vietu.\n"
               "•Ja iespējams, izmanto savu transportlīdzekli un brauc norādītajā evakuācijas virzienā uz "
-              "galamērki vai uz iepriekš izvēlēto vietu, kur esi plānojis patverties un kas sakrīt ar "
+              "galamērķi vai uz iepriekš izvēlēto vietu, kur esi plānojis patverties un kas sakrīt ar "
               "evakuācijas virzienu.\n"
               "•Ja nav iespējams izmantot savu transportlīdzekli, dodies uz tuvāko norādīto evakuācijas "
               "pulcēšanās vietu.\n"
@@ -142,7 +142,7 @@ class _EmergencyItemsPageState extends State<EmergencyItemsPage> {
               "•Pirmās palīdzības aptieciņu.\n"
               "•Apģērbu, rezerves apakšveļu un ērtus apavus.\n"
               "•Guļammaisu vai segu, tūristu paklājiņu, vēlams telti.\n"
-              "•Higiënas piederumus, dvieli, tualetes papīru, vienreiz lietojamās salvetes.\n"
+              "•Higiēnas piederumus, dvieli, tualetes papīru, vienreiz lietojamās salvetes.\n"
               "•Pārtiku, ko var lietot bez termiskas apstrādes un ar ilgu derīguma termiņu - "
               "sausās zupas, konservus, sausiņus, saldumus ar augstu kaloriju saturu.\n"
               "•Dzeramo ūdeni vairākām dienām (ieteicams plastmasas pudelēs).\n",
