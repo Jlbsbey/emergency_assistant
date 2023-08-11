@@ -64,7 +64,7 @@ class _ArtilleryPageState extends State<ArtilleryPage> {
         child: Column(children: <Widget>[
           const ExpansionTile(
             title: Text(
-              'Īsi',
+              'Īsumā',
               style: TextStyle(fontSize: 20),
             ),
             controlAffinity: ListTileControlAffinity.leading,
@@ -73,7 +73,7 @@ class _ArtilleryPageState extends State<ArtilleryPage> {
                 title: Padding(
                   padding: EdgeInsets.only(left: 25.0),
                   child: Text(
-                      '•Ja esiet uz ielas, tad krītiet, kur stāvat kamēr viss beigsies.'),
+                      '•Ja esat uz ielas, tad krītiet uz zemes turpat, kur stāvējāt, un gaidiet kamēr viss beigsies.'),
                 ),
                 visualDensity: VisualDensity(vertical: -4),
               ),
@@ -81,7 +81,7 @@ class _ArtilleryPageState extends State<ArtilleryPage> {
                 title: Padding(
                   padding: EdgeInsets.only(left: 25.0),
                   child: Text(
-                      '•Ja esat iekšā, tad ejiet telpā bez logiem un ar nesošajām sienām un gaidiet tur.'),
+                      '•Ja esat iekšā, tad ejiet telpā bez logiem, kurai ir nesošās sienas, un gaidiet tur.'),
                 ),
                 visualDensity: VisualDensity(vertical: -4),
               ),
@@ -89,14 +89,14 @@ class _ArtilleryPageState extends State<ArtilleryPage> {
                 title: Padding(
                   padding: EdgeInsets.only(left: 25.0),
                   child: Text(
-                      '•Nekāda gadījumā nedrīkst skriet pa ielu un neļaviet to nevienam citam.'),
+                      '•Nekādā gadījumā nedrīkst skriet pa ielu un neļaujiet to darīt nevienam citam.'),
                 ),
                 visualDensity: VisualDensity(vertical: -4),
               ),
               ListTile(
                 title: Padding(
                   padding: EdgeInsets.only(left: 25.0),
-                  child: Text('•Ja esat pietiekami tuvu pagrabam - ejiet tur.'),
+                  child: Text('•Ja esat pietiekami tuvu pagrabam - ejiet uz to.'),
                 ),
                 visualDensity: VisualDensity(vertical: -4),
               ),
@@ -108,7 +108,7 @@ class _ArtilleryPageState extends State<ArtilleryPage> {
           ),
           ExpansionTile(
             title: Text(
-              'Izvērsti',
+              'Plašāk',
               style: TextStyle(fontSize: 20),
             ),
             controlAffinity: ListTileControlAffinity.leading,
@@ -128,7 +128,7 @@ class _ArtilleryPageState extends State<ArtilleryPage> {
               Padding(
                 padding: const EdgeInsets.only(left: 16.0, right: 8.0),
                 child: Text(
-                  "Īstas šāvienu trapīšanas skaņas ir smagas, ar raksturīgu krakšķi, iekļūstot mājās,"
+                  "Īstas šāvienu trāpīšanas skaņas ir smagas, ar raksturīgu krakšķi, iekļūstot mājās,"
                   " un kurlākas, ja šāviens trāpīja zemē.\n"
                   "82 milimetru mīnas, mazākās no izmantotajām, lidojot izdod raksturīgu svilpienu, 120 milimetru — šņākšanu, "
                   "reaktīvie tanku šāviņi — gaudošanu. “Gradi” un pārējie reaktīvas artilērijas šāviņi lidojuma laikā vispār nav dzirdami.",
@@ -142,7 +142,7 @@ class _ArtilleryPageState extends State<ArtilleryPage> {
                   padding:
                       const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                   child: Text(
-                    "Ko darīt kad izskan pirmie šāviņi?",
+                    "Ko darīt, kad izskan pirmie šāviņi?",
                     style: TextStyle(color: Colors.red, fontSize: 25),
                   ),
                 ),
@@ -152,13 +152,13 @@ class _ArtilleryPageState extends State<ArtilleryPage> {
                 child: Padding(
                   padding: const EdgeInsets.only(left: 16.0, right: 8.0),
                   child: Text(
-                    "Krītiet, kur stāvat, un gaidiet apšaudi tur. Mainiet atrašanās vietu tikai galējā gadījumā. Klausieties un vienlaikus "
+                    "Krītiet, krītiet uz zemes turpat, kur stāvējāt, un gaidiet apšaudi tur. Mainiet atrašanās vietu tikai galējā gadījumā. Klausieties un vienlaikus "
                     "pieskatiet vietu, kur patverties. Jums jānoķer ritms: zalves skaņa, šāviņa lidojuma laiks un kritiens. Skaitiet sekundes "
                     "no zalves līdz kritienam un sāciet skriet uzreiz pēc ielidošanas. Jums jānokrīt pāris sekundes pirms kārtējā trāpījuma aprēķina "
                     "laika. Ja darbojas divi un vairāki artilērijas gabali, rēķinieties no pēdējā.\n"
                     "Atveriet muti un aizveriet ausis ar rokām. Tas ļaus izvairīties no kontūzijas un saglabās dzirdi īpaši tuvos sprādzienos. "
                     "Ja gadījies tā, ka pēc šāviena trapīšanas vairs nedzirdat, nebaidieties. Parasti, ja nav fizisku bojājumu, dzirde atjaunojas "
-                    "3-7 dienu laikā. Aizveriet acis, lai pasargātu tās no putekļiem un akmens drupačām.",
+                    "3-7 dienu laikā. Aizveriet acis, lai pasargātu tās no putekļiem un smiltīm, akmeņiem.",
                     style: TextStyle(fontSize: 16),
                     textAlign: TextAlign.justify,
                   ),
@@ -181,7 +181,7 @@ class _ArtilleryPageState extends State<ArtilleryPage> {
                   padding: const EdgeInsets.only(left: 16.0, right: 8.0),
                   child: Text(
                     "Jo zemāk jūs būsiet attiecībā pret Zemes virsmu, jo labāk. Pazemes pārejas, pagrabi, kolektoru lūkas (ar nosacījumu, "
-                    "ka no turienes negāž tvaiki), grāvji, tranšejas un pat vienkārši augsta apmale. Derēs jebkurš apvidus reljefs, kas spēs "
+                    "ka no turienes nenāk tvaiki), grāvji, tranšejas un pat vienkārši augsta apmale. Derēs jebkurš apvidus reljefs, kas spēs "
                     "pasargāt jūs no šķembām. Sprādziena laikā šķembas sašķīst uz augšu un sānis pa pieskari, tāpēc, jo zemāk attiecībā pret "
                     "zemes līmeni nogulsieties, jo lielākas izredzes palikt neskartam.",
                     style: TextStyle(fontSize: 16),
@@ -194,7 +194,7 @@ class _ArtilleryPageState extends State<ArtilleryPage> {
                 child: Padding(
                   padding: const EdgeInsets.only(left: 16.0, right: 8.0),
                   child: Text(
-                    "Nekādā gadījumā neslēpieties pie ēku sienām. Šāviņam iekļūstot sienā, jūs varat būt savainoti ar ķieģeļu, betona atlūzām vai vispār apkrauti.",
+                    "Nekādā gadījumā neslēpieties pie ēku sienām. Šāviņam iekļūstot sienā, jūs varat būt savainoti ar ķieģeļu, betona atlūzām vai pat apkrauti.",
                     style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                     textAlign: TextAlign.justify,
                   ),
@@ -205,8 +205,8 @@ class _ArtilleryPageState extends State<ArtilleryPage> {
                 child: Padding(
                   padding: const EdgeInsets.only(left: 16.0, right: 8.0),
                   child: Text(
-                    "Tas pats attiecas uz logiem: viens neliela izmērs logs pārvēršas pēc sprādziena sīkās šķembās, "
-                    "no kurām daļa izlido uz ielas un var jūs nopietni ievainot. "
+                    "Tas pats attiecas uz logiem: viens neliela izmērs logs pēc sprādziena pārvēršas sīkās šķembās, "
+                    "kuras var jūs nopietni ievainot. "
                     "Izvairieties no dažādiem krāvumiem: no kastēm, konteineriem un citiem priekšmetiem, ar kuriem jūs var apkraut pat no "
                     "triecienviļņa. Nav vērts līst arī zem mašīnām: tās jūs nekādi neglābs un nepasargās no šķembām.",
                     style: TextStyle(fontSize: 16),
@@ -248,7 +248,7 @@ class _ArtilleryPageState extends State<ArtilleryPage> {
                   padding:
                       const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                   child: Text(
-                    "Ko darīt, ja šaušana pieķērusi ceļā?",
+                    "Ko darīt, ja šaušana notiek braucot?",
                     style: TextStyle(color: Colors.red, fontSize: 25),
                   ),
                 ),
@@ -284,12 +284,10 @@ class _ArtilleryPageState extends State<ArtilleryPage> {
                   child: Text(
                     "Centieties nomierināties. Ateisti var skaitīt līdz simtam, ticīgie — lūgt Dievu. Gan vieniem, gan otriem ir jācenšas elpot "
                     "vienmērīgi un dziļi. \n"
-                    "Lai kas notiktu apkārt, galvenais ir nekrist panikā. Nevajag skriet, īpaši, ja apkārt ir cilvēki. Kāds var sekot jūsu "
-                    "muļķīgajam piemēram. Ļoti bieži sievietes šādās situācijās pazūd, var sastingt uz vietas vai aizskriet. Nometiet tos zemē "
-                    "(vienalga, vai uz dubļiem, peļķēm un atkritumiem zem kājām) un neļaujiet kustēties. \n"
+                    "Lai kas notiktu apkārt, galvenais ir nekrist panikā. Nevajag skriet, īpaši, ja apkārt ir cilvēki, jo kāds var sekot jūsu "
+                    "muļķīgajam piemēram. \n"
                     "Ja esat nonācis apšaudē ar meiteni vai bērnu, stingri turiet viņus aiz rokas un neļaujiet izslieties un skriet.\n"
-                    "Nebaidieties atsvērt pāris pļauku.\n"
-                    "Ja esat ļoti nepacietīgs, varat kliegt. Ar apšaudēm ir bail visiem, izņēmumu nav.",
+                    "Ja esat ļoti nepacietīgs, varat kliegt. No apšaudēm bail ir visiem, izņēmumu nav.",
                     style: TextStyle(fontSize: 16),
                     textAlign: TextAlign.justify,
                   ),

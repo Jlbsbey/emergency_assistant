@@ -49,7 +49,7 @@ class _AnimalPageState extends State<AnimalPage> {
         ),
         iconTheme: IconThemeData(color: Colors.white),
         title: const Text(
-          'Dzīvnieku kodums',
+          'Dzīvnieku kodumi',
           style: TextStyle(fontSize: 24, color: Colors.white),
         ),
         actions: <Widget>[],
@@ -64,7 +64,7 @@ class _AnimalPageState extends State<AnimalPage> {
         child: Column(children: <Widget>[
           const ExpansionTile(
             title: Text(
-              'Īsi',
+              'Īsumā',
               style: TextStyle(fontSize: 20),
             ),
             controlAffinity: ListTileControlAffinity.leading,
@@ -72,7 +72,7 @@ class _AnimalPageState extends State<AnimalPage> {
               ListTile(
                 title: Padding(
                   padding: EdgeInsets.only(left: 25.0),
-                  child: Text('•Labāk pazvanīt 113'),
+                  child: Text('•Labāk zvaniet neatliekamās medicīniskās palīdzības tālrunim 113'),
                 ),
                 visualDensity: VisualDensity(vertical: -4),
               ),
@@ -80,21 +80,21 @@ class _AnimalPageState extends State<AnimalPage> {
                 title: Padding(
                   padding: EdgeInsets.only(left: 25.0),
                   child: Text(
-                      '•Ja brūce stipri neasiņo, pārsej to un ej uz slimnīcas uzņemšanas nodaļu'),
+                      '•Ja brūce neasiņo stipri, pārsejiet to un dodieties uz slimnīcas uzņemšanas nodaļu'),
                 ),
                 visualDensity: VisualDensity(vertical: -4),
               ),
               ListTile(
                 title: Padding(
                   padding: EdgeInsets.only(left: 25.0),
-                  child: Text('•Ja iekodusi čūska jebkurā gadījumā zvani 113'),
+                  child: Text('•Ja iekodusi čūska obligāti zvaniet neatliekamās medicīniskās palīdzības tālrunim 113'),
                 ),
                 visualDensity: VisualDensity(vertical: -4),
               ),
               ListTile(
                 title: Padding(
                   padding: EdgeInsets.only(left: 25.0),
-                  child: Text('•Nomierini cietušo un dod viņam sķidrumu'),
+                  child: Text('•Nomieriniet cietušo un dodiet viņam padzerties sķidrumu'),
                 ),
                 visualDensity: VisualDensity(vertical: -4),
               ),
@@ -106,7 +106,7 @@ class _AnimalPageState extends State<AnimalPage> {
           ),
           ExpansionTile(
             title: Text(
-              'Izvērsti',
+              'Plašāk',
               style: TextStyle(fontSize: 20),
             ),
             controlAffinity: ListTileControlAffinity.leading,
@@ -117,7 +117,7 @@ class _AnimalPageState extends State<AnimalPage> {
                 child: Padding(
                   padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 0),
                   child: Text(
-                    "Dzīvnieku kostas brūces:",
+                    "Dzīvnieku kodumu brūces:",
                     style: TextStyle(color: Colors.red, fontSize: 25),
                   ),
                 ),
@@ -125,8 +125,8 @@ class _AnimalPageState extends State<AnimalPage> {
               Padding(
                 padding: const EdgeInsets.only(left: 16.0, right: 8.0),
                 child: Text(
-                  "Dažādi meža un mājas dzīvnieki var pārnēsāt trakumsērgu, vērsies slimnīcu uzņemšanas nodaļā vai traumpunktā. "
-                  "Ņem vērā, ka no trakumsērgas pasargā potēšanās tūlīt pēc dzīvnieka koduma.\n Kā palīdzēt cietušajam?",
+                  "Meža dzīvnieki un mājdzīvnieki var pārnēsāt trakumsērgu, tāpēc pēc to kodiena dodieties uz slimnīcu uzņemšanas nodaļu vai arī traumpunktu. "
+                  "Ņemiet vērā, ka no trakumsērgas pasargā potēšanās tūlīt pēc dzīvnieka koduma.\n Kā palīdzēt cietušajam?",
                   style: TextStyle(fontSize: 16),
                   textAlign: TextAlign.justify,
                 ),
@@ -134,8 +134,8 @@ class _AnimalPageState extends State<AnimalPage> {
               Padding(
                   padding: EdgeInsets.only(left: 32),
                   child: Text(
-                    "•Ja brūce stipri neasiņo, to mazgā ar ziepēm un ūdeni\n"
-                    "•Pārsien brūci\n"
+                    "•Ja brūce stipri neasiņo, to mazgājiet ar ziepēm un ūdeni\n"
+                    "•Pārsieniet brūci\n"
                     "•Ja cietušajam nav stipra asiņošana, cietušajam pašam vai ar tuvinieku palīdzību jādodas uz slimnīcas "
                     "uzņemšanas nodaļu. Stipras asiņošanas gadījumā jāizsauc neatliekamā medicīniskā palīdzība, zvanot 113.",
                     style: TextStyle(fontSize: 16),
@@ -168,9 +168,9 @@ class _AnimalPageState extends State<AnimalPage> {
                 child: Padding(
                   padding: const EdgeInsets.only(left: 16.0, right: 8.0),
                   child: Text(
-                    "Ja iekodusi čūska, koduma vietā būs sāpes un var redzēt pietūkumu. Smagākos gadījumos pēc odzes "
+                    "Ja iekodusi čūska, koduma vietā būs sāpes un varēs redzēt pietūkumu. Smagākos gadījumos pēc odzes "
                     "kodiena cietušajam var būt nopietni sirdsdarbības traucējumi, elpas trūkums, slikta dūša, vemšana, "
-                    "caureja. Pietūkums sakostā ķermeņa vieta var izteikti palielināties, āda var kļūt zilgani violeta.",
+                    "caureja. Pietūkums sakostajā ķermeņa vietā var izteikti palielināties, āda var kļūt zilgani violeta.",
                     style: TextStyle(
                       fontSize: 16,
                     ),
@@ -192,12 +192,12 @@ class _AnimalPageState extends State<AnimalPage> {
               Padding(
                   padding: EdgeInsets.only(left: 32, right: 8, bottom: h),
                   child: Text(
-                    "•Jāizsauc neatliekamā medicīniskā palīdzība, zvanot 113, jo cietušajam palīdzība jāsaņem pēc iespējas drīzāk.\n"
+                    "•Jāizsauc neatliekamā medicīniskā palīdzība, zvanot pa tālruni 113, jo cietušajam palīdzība jāsaņem pēc iespējas ātrāk.\n"
                     "•Cietušais jānogulda, jāpalīdz viņam nomierināties.\n"
                     "•Jācenšas nekustināt un neberzēt sakosto ķermeņa daļu, lai inde tik strauji neizplatītos. Tas ir būtiski, "
                     "jo kustības paātrina asinsriti, līdz ar to arī indes izplatīšanos.\n"
                     "•Neļaut atdzist cietušajam/ pasargā to no apkārtējās vides.\n"
-                    "•Ja iespējams, jādod pastiprināti dzert, lai nodrošinātu organismam šķidrumu.\n"
+                    "•Ja iespējams, jādod pastiprināti dzert ūdeni, lai nodrošinātu organismam šķidrumu.\n"
                     "•Uz koduma vietas var uzlikt kaut ko aukstu, lai mazinātu niezi un sašaurinātos asinsvadi."
                     " Nekādā gadījumā nedrīkst likt žņaugu vai pārsējus, sūkt indi ar muti, griezt vai piededzināt koduma vietu.\n"
                     "•Nedrīkst dot nekādus medikamentus, jo nav zināms, kā zāles reaģēs ar čūskas indi.",
