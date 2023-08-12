@@ -49,7 +49,7 @@ class _FireForestPageState extends State<FireForestPage> {
         ),
         iconTheme: IconThemeData(color: Colors.white),
         title: const Text(
-          'Ugunsgrēks mēžā',
+          'Ugunsgrēks mežā',
           style: TextStyle(fontSize: 24, color: Colors.white),
         ),
         actions: <Widget>[],
@@ -64,7 +64,7 @@ class _FireForestPageState extends State<FireForestPage> {
         child: Column(children: <Widget>[
           const ExpansionTile(
             title: Text(
-              'Īsi',
+              'Īsumā',
               style: TextStyle(fontSize: 20),
             ),
             controlAffinity: ListTileControlAffinity.leading,
@@ -73,7 +73,7 @@ class _FireForestPageState extends State<FireForestPage> {
                 padding: EdgeInsets.only(left: 25.0),
                 child: ListTile(
                   title: Text(
-                      '•Ja ugunsgrēks ir pitiekami mazs, uzreiz meģiniet to nodzēst.'),
+                      '•Ja ugunsgrēks ir pietiekami mazs, uzreiz meģiniet to nodzēst.'),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
               ),
@@ -125,7 +125,7 @@ class _FireForestPageState extends State<FireForestPage> {
           ),
           ExpansionTile(
             title: Text(
-              'Izvērsti',
+              'Plašāk',
               style: TextStyle(fontSize: 20),
             ),
             controlAffinity: ListTileControlAffinity.leading,
@@ -157,9 +157,9 @@ class _FireForestPageState extends State<FireForestPage> {
               Padding(
                 padding: EdgeInsets.only(left: 16.0, right: 8.0),
                 child: Text(
-                  "Kūdras ugunsgrēki pārvietojas lēni, vairākus metrus diennaktī. "
-                  "Tās ir īpaši bīstamas ar negaidītiem uguns izrāvieniem no pazemes pavarda un to, "
-                  "ka tās mala ne vienmēr ir pamanāma un var ielūzt izdegušajā kūdrā. Tāpēc ugunsgrēkā "
+                  "Kūdras ugunsgrēki pārvietojas lēni, pāris metrus diennaktī. "
+                  "Tie ir īpaši bīstami ar negaidītiem uguns izrāvieniem no pazemes pavarda un to, "
+                  "ka tā mala ne vienmēr ir pamanāma un var ielūzt izdegušajā kūdrā. Tāpēc ugunsgrēkā "
                   "jāizvairās no kūdras purviem, bet, ja nepieciešams, pa kūdras lauku jāpārvietojas tikai grupā, "
                   "turklāt pirmajam grupā jāpārbauda augsni ar sesti, kā ejot pa plāno ledu. Pazemes ugunsgrēka pazīme"
                   " — zeme ir karsta, no augsnes nāk dūmi.",
@@ -181,7 +181,7 @@ class _FireForestPageState extends State<FireForestPage> {
               Padding(
                 padding: EdgeInsets.only(left: 15.0, right: 8, top: 8),
                 child: Text(
-                  'Skrejuguna ugunsgrēkā (tie ir 90% no visiem gadījumiem) deg koku apakšējās daļas, zāle,'
+                  'Skrējuguna ugunsgrēkā (tie ir 90% no visiem gadījumiem) deg koku apakšējās daļas, zāle,'
                   ' kritalas, saknes. Izplatības ātrums — no 1 līdz 3 metriem minūtē, liesmu augstums — '
                   'no pusmetra līdz pusotram metram. Ar ātrumu 3-4 metri minūtē ugunsgrēks izplešas lielā 10-14 '
                   'stundu laikā.',
@@ -203,7 +203,7 @@ class _FireForestPageState extends State<FireForestPage> {
               Padding(
                 padding: EdgeInsets.only(left: 15.0, right: 8, top: 8),
                 child: Text(
-                  'Vainaguguna ugunsgrēks iespējams stiprā vētrā: uguns pa koku vainagiem virzās ar '
+                  'Vainaguguņa ugunsgrēks iespējams stiprā vētrā: uguns pa koku vainagiem virzās ar '
                   'ātrumu no 5 līdz 100 un vairāk metriem minūtē. Vējš izdemolē degošus zarus un dzirksteles, kas '
                   'aizdedzina mežu desmitiem metru priekšā un rada jaunus ugunsgrēka perēkļus.',
                   style: TextStyle(fontSize: 16),
@@ -216,7 +216,7 @@ class _FireForestPageState extends State<FireForestPage> {
                   padding:
                       const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                   child: Text(
-                    "Otrkārt, ko darīt ja mežā ir ugunsgrēks?",
+                    "Otrkārt, ko darīt, ja mežā ir ugunsgrēks?",
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                     textAlign: TextAlign.justify,
                   ),
@@ -238,7 +238,7 @@ class _FireForestPageState extends State<FireForestPage> {
                     EdgeInsets.only(left: 25.0, right: 8, top: 8, bottom: h),
                 child: Text(
                   '•Ja ugunsgrēks ir diezgan mazs, tad uzreiz jāmeģina to nodzēst, sitot liesmas ar zariem vai segu. Sitieni jāveic slīpi izdegušā laukuma virzienā.\n'
-                  '•Ja ugunsgrēks ir parāk liels dzēšanai, nekavējoties jābrīdina citi un steidzīgi jāatstāj ugunsgrēka vieta. Perpendikulāri uguns izplatīšanās virzienam jādodas uz ceļu, meža stigu, lauku vai ūdenskrātuves krastu.\n'
+                  '•Ja ugunsgrēks ir pārāk liels dzēšanai, nekavējoties jābrīdina citi un steidzīgi jāatstāj ugunsgrēka vieta. Perpendikulāri uguns izplatīšanās virzienam jādodas uz ceļu, meža stigu, lauku vai ūdenskrātuves krastu.\n'
                   '•Ja aiziet no uguns nav iespējams un tuvumā ir ūdens, tad jāiegremdējas tajā vai jāapsedzas ar samitrinātām drēbēm. Ja atrodaties meža laukumiņā, jānoliecas pēc iespējas tuvāk zemei, kur gaiss ir mazāk sadūmots.\n'
                   '•Nokļūstot drošā vietā, jāpaziņo par meža ugunsgrēku, zvanot pa tālruni 112',
                   style: TextStyle(fontSize: 16),
