@@ -64,7 +64,7 @@ class _FloodPageState extends State<FloodPage> {
         child: Column(children: <Widget>[
           const ExpansionTile(
             title: Text(
-              'Īsi',
+              'Īsumā',
               style: TextStyle(fontSize: 20),
             ),
             controlAffinity: ListTileControlAffinity.leading,
@@ -72,7 +72,7 @@ class _FloodPageState extends State<FloodPage> {
               Padding(
                 padding: EdgeInsets.only(left: 25.0),
                 child: ListTile(
-                  title: Text('•Ja pastav plūdu draudi:'),
+                  title: Text('•Ja pastāv plūdu draudi:'),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
               ),
@@ -88,7 +88,7 @@ class _FloodPageState extends State<FloodPage> {
                 padding: EdgeInsets.only(left: 50.0),
                 child: ListTile(
                   title: Text(
-                      '•Ja esi, tad sagatavojies evakuācijai: pārnes visu no pagrabstāva un 1. stāva augstāk, aprupējies par veciem cilvēkiem, nostiprini prikšmetus pagalmā.'),
+                      '•Ja esi, tad sagatavojies evakuācijai: pārnes visu no pagrabstāva un 1. stāva augstāk, aprupējies par veciem cilvēkiem, nostiprini priekšmetus pagalmā.'),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
               ),
@@ -96,7 +96,7 @@ class _FloodPageState extends State<FloodPage> {
                 padding: EdgeInsets.only(left: 50.0),
                 child: ListTile(
                   title: Text(
-                      '•Evakuācijas gadījuma atslēdz apkuri, elektroenergījas un gāzes padevi, aizver visu ko vari.'),
+                      '•Evakuācijas gadījuma atslēdz apkuri, elektroenergījas un gāzes padevi, aizver visu, ko vari.'),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
               ),
@@ -134,7 +134,7 @@ class _FloodPageState extends State<FloodPage> {
                 title: Padding(
                   padding: EdgeInsets.only(left: 50.0),
                   child: Text(
-                      '•Ja plūdi sakusies naktī izmanto gaismas signālu, lai glabējiem signalizētu par savu atrašanās vietu.'),
+                      '•Ja plūdi sakušies naktī izmanto gaismas signālu, lai glabējiem signalizētu par savu atrašanās vietu.'),
                 ),
                 visualDensity: VisualDensity(vertical: -4),
               ),
@@ -146,7 +146,7 @@ class _FloodPageState extends State<FloodPage> {
           ),
           ExpansionTile(
             title: Text(
-              'Izvērsti',
+              'Plašāk',
               style: TextStyle(fontSize: 20),
             ),
             controlAffinity: ListTileControlAffinity.leading,
@@ -210,7 +210,7 @@ class _FloodPageState extends State<FloodPage> {
                 padding:
                     EdgeInsets.only(left: 8.0, right: 8, top: 8, bottom: h),
                 child: Text(
-                  'Atceries, ka saņemot aicinājumu evakuēties un no tās atsakoties, atteikums personai jāapstiprina rakstiski, tādējādi uzņemoties atbildību par iespējamām sekām. Ārkārtējās situācijas izsludināšanas gadījumā var tikt piemērota piespiedu evakuācija.',
+                  'Atceries, ka saņemot aicinājumu evakuēties un no tā atsakoties, atteikums personai jāapstiprina rakstiski, tādējādi uzņemoties atbildību par iespējamām sekām. Ārkārtējās situācijas izsludināšanas gadījumā var tikt piemērota piespiedu evakuācija.',
                   style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                   textAlign: TextAlign.justify,
                 ),
