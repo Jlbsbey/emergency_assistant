@@ -150,7 +150,7 @@ class GeneralPage extends StatelessWidget {
                         child: Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Text(
-                            "Evakuācija un arkārtas gadījumu soma",
+                            "Evakuācija un ārkārtas gadījumu soma",
                             textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 22),
                           ),
