@@ -154,12 +154,12 @@ class _ArtilleryENPageState extends State<ArtilleryENPage> {
                   padding: const EdgeInsets.only(left: 16.0, right: 8.0),
                   child: Text(
                     "Drop down where you are standing and wait out the shelling there. Change location only as a last resort. Listen and at the same time "
-                    "look for a place to take cover. You need to catch the rhythm: the sound of the volley, the flight time of the shell and the fall. "
+                    "look for a place to take cover. You need to try to understand the bombing pattern: the sound of the volley, the flight time of the shell and the fall. "
                     "Count the seconds from the volley to the fall and start running immediately after the hit. You need to fall a couple of seconds "
-                    "before the estimated time of the next hit. If two or more units are running, count from the last one.\n"
-                    "Open your mouth and cover your ears with your hands. This will help you avoid concussion and keep your ears open for particularly close "
-                    "bursts. If you happen to stop hearing after а shell explosion, don't be frightened. Usually, if there is no physical damage, hearing will "
-                    "recover within 3-7 days. Close your eyes to keep them free of dust and stone chips.",
+                    "before the estimated time of the next hit. If two or more projectiles are launched, count from the last one.\n"
+                    "Open your mouth and cover your ears with your hands. This will help you avoid concussion and Keep your ears safe from particularity loud explosions"
+                    ". If you happen to stop hearing after а shell explosion, don't be frightened. Usually, if there is no physical damage, hearing will "
+                    "recover within 3-7 days. Close your eyes to keep them free of dust and stone shatters.",
                     style: TextStyle(fontSize: 16),
                     textAlign: TextAlign.justify,
                   ),
