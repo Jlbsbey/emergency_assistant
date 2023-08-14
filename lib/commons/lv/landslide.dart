@@ -64,7 +64,7 @@ class _LandslidePageState extends State<LandslidePage> {
         child: Column(children: <Widget>[
           const ExpansionTile(
             title: Text(
-              'Īsi',
+              'Īsumā',
               style: TextStyle(fontSize: 20),
             ),
             controlAffinity: ListTileControlAffinity.leading,
@@ -88,14 +88,14 @@ class _LandslidePageState extends State<LandslidePage> {
                 padding: EdgeInsets.only(left: 50.0),
                 child: ListTile(
                   title: Text(
-                      '•Aizvāciet no mājas indīgas un viegli uzliesmojošas vielas.'),
+                      '•Izvāciet no mājas indīgas un viegli uzliesmojošas vielas.'),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
               ),
               Padding(
                 padding: EdgeInsets.only(left: 50.0),
                 child: ListTile(
-                  title: Text('•Aizveriet elektrību, gāzi un ūdeni.'),
+                  title: Text('•Izslēdziet elektrību, gāzi un ūdeni.'),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
               ),
@@ -144,7 +144,7 @@ class _LandslidePageState extends State<LandslidePage> {
           ),
           ExpansionTile(
             title: Text(
-              'Izvērsti',
+              'Plašāk',
               style: TextStyle(fontSize: 20),
             ),
             controlAffinity: ListTileControlAffinity.leading,
@@ -165,18 +165,18 @@ class _LandslidePageState extends State<LandslidePage> {
                 padding: EdgeInsets.only(left: 25.0, right: 8.0),
                 child: Text(
                   "•Ienesiet mājā visas mantas no pagalma vai balkona. Ja ir iespēja, "
-                  "iesaiņo lietas, kas var ciest no mitruma, polietilēnā.\n"
+                  "iesaiņojiet lietas, kas var ciest no mitruma, polietilēnā.\n"
                   '•Aizvāciet no mājas indīgas un viegli uzliesmojošas vielas. '
-                  'Tos var aprakt dārzā vai ievietot pagrabā. Arī ieeja pagrabā rūpīgi jāaizver.\n'
+                  'Tās var aprakt dārzā vai ievietot pagrabā. Arī pagraba ieeja rūpīgi jāaizver.\n'
                   '•Aizveriet elektrību, gāzi un ūdeni. Izraujiet elektroierīces no rozetēm. '
-                  'Atvienojiet gāzes balonu, ja lietojat to.\n'
+                  'Atvienojiet gāzes balonu, ja jums tāds ir.\n'
                   '•Cieši aizveriet durvis, logus, ventilācijas atveres. Tas nepieciešams, '
                   'lai netīrumi un ūdens straumes nenonāktu mājā.\n'
                   'Pēc tam dodieties uz organizētās evakuācijas vietu vai dodieties prom no '
                   'apdzīvotās vietas ar savu auto. Ja aizbraucat patstāvīgi, iepriekš uzziniet drošu '
                   'maršrutu, kā arī noskaidrojiet, kur atrast palīdzības punktu evakuētajiem. \n \n '
-                  'Ja jūs ir pārņēmis zemes nogruvums un jūsu māja pārvietojas kopā ar augsni, uz kuras '
-                  'stāv, ir jāiziet no telpas. Centieties turēties tuvāk centram un pēc iespējas augstāk. '
+                  'Ja jūs ir pārņēmis zemes nogruvums un jūsu māja pārvietojas kopā ar augsni, uz kuras māja'
+                  'stāv, ir jāiziet no telpas. Centieties turēties tuvāk gruvošā plača centram un pēc iespējas augstāk. '
                   'Netuvojieties malām.',
                   style: TextStyle(fontSize: 16),
                   textAlign: TextAlign.justify,
