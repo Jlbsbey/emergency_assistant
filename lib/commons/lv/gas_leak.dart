@@ -64,7 +64,7 @@ class _GasLeakPageState extends State<GasLeakPage> {
         child: Column(children: <Widget>[
           const ExpansionTile(
             title: Text(
-              'Īsi',
+              'Īsumā',
               style: TextStyle(fontSize: 20),
             ),
             controlAffinity: ListTileControlAffinity.leading,
@@ -87,7 +87,7 @@ class _GasLeakPageState extends State<GasLeakPage> {
               Padding(
                 padding: EdgeInsets.only(left: 25.0),
                 child: ListTile(
-                  title: Text('•Vedini telpas'),
+                  title: Text('•Vēdini telpas'),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
               ),
@@ -101,7 +101,7 @@ class _GasLeakPageState extends State<GasLeakPage> {
               Padding(
                 padding: EdgeInsets.only(left: 25.0),
                 child: ListTile(
-                  title: Text('•Izsauc medicinisko palīdzību'),
+                  title: Text('•Izsauc medicīnisko palīdzību'),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
               ),
@@ -127,7 +127,7 @@ class _GasLeakPageState extends State<GasLeakPage> {
           ),
           ExpansionTile(
             title: Text(
-              'Izvērsti',
+              'Plašāk',
               style: TextStyle(fontSize: 20),
             ),
             controlAffinity: ListTileControlAffinity.leading,

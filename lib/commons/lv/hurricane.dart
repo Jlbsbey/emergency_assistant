@@ -45,8 +45,8 @@ class _HurricanePageState extends State<HurricanePage> {
             Padding(
               padding: const EdgeInsets.only(left: 16.0, right: 8.0),
               child: Text(
-                "Vispirms evakuējieties, ja tiekat norīkots tā darīt vai jūtat, ka palikt savās mājās var būt nedroši. "
-                "Ja paliekat savās mājās, sekojiet šiem padomiem, lai vētras laikā palīdzētu jums un jūsu ģimenei "
+                "Vispirms evakuējieties, ja tiekat norīkots tā darīt vai jūtat, ka palikt savās mājās var būt bīštami. "
+                "Ja paliekat savās mājās, sekojiet šiem padomiem, lai vētras laikā palīdzētu sev un savai ģimenei "
                 "palikt drošībā:",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
@@ -55,7 +55,7 @@ class _HurricanePageState extends State<HurricanePage> {
             Padding(
               padding: const EdgeInsets.only(left: 32.0, right: 8.0, bottom: 8),
               child: Text(
-                "•Izmantojiet portatīvo radio, lai klausītos svarīgus vētras atjauninājumus, informāciju un norādījumus.\n"
+                "•Izmantojiet portatīvo radio, lai klausītos svarīgus vētras kustības atjauninājumus, informāciju un norādījumus.\n"
                 "•Palieciet iekšā un turieties tālāk no visiem logiem un stikla durvīm. Dodieties uz drošu zonu, piemēram, iekšējo "
                 "telpu(telpu bez logiem), skapi vai lejasstāva vannas istabu.\n"
                 "•Nekad nedodieties ārpus savas mājas vai patversmes aizsardzības, pirms nav saņemts apstiprinājums, "

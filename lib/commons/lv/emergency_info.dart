@@ -19,7 +19,7 @@ class _EmergencyInfoPageState extends State<EmergencyInfoPage> {
           ),
           iconTheme: IconThemeData(color: Colors.white),
           title: const Text(
-            'Iedzīvotāju bridināšana \nun informēšana',
+            'Iedzīvotāju brīdināšana \nun informēšana',
             style: TextStyle(fontSize: 24, color: Colors.white),
           ),
           actions: <Widget>[],
@@ -52,7 +52,7 @@ class _EmergencyInfoPageState extends State<EmergencyInfoPage> {
                   TextSpan(
                     text:
                         "Latvijas radio 1, 2, 3, 4, 5, radio SWH, radio Skonto, Kristīgais radio, "
-                        "Saldus Radio, MG Latgolas Bolss",
+                        "Saldus Radio, MG Latgolas Bolss u.c.",
                     style: TextStyle(
                         fontSize: 16,
                         color: Colors.black,
@@ -65,20 +65,20 @@ class _EmergencyInfoPageState extends State<EmergencyInfoPage> {
                   TextSpan(
                       text: "LTV1, LTV7, LNT, TV3, TV5, Pirmais Baltijas "
                           "kanāls, Vidusdaugavas televīzija, Latgales reģionālā televīzija, Talsu televīzija, DAUTKOM "
-                          "TV",
+                          "TV u.c.",
                       style: TextStyle(
                           fontSize: 16,
                           color: Colors.black,
                           fontStyle: FontStyle.italic)),
                   TextSpan(
                     text:
-                        "), lai sanemtu informāciju par notikušo un turpmāko rīcību.\n"
+                        "), lai saņemtu informāciju par notikušo, kā arī turpmāko rīcību.\n"
                         "•Papildus vari sekot informācijai sociālajā tīklā Twitter: Valsts ugunsdzēsības un "
-                        "glābšanas dienests @ugunsdzeseji, Valsts policija @Valsts_policija, Neatliekamā "
-                        "medicīniskā palīdzība @NMPDienests.\n"
+                        "glābšanas dienestam @ugunsdzeseji, Valsts policijai @Valsts_policija, Neatliekamajai "
+                        "medicīniskajai palīdzībai @NMPDienests.\n"
                         "•Ievēro un izpildi operatīvo dienestu norādījumus.\n"
                         "•Neizslēdz radio vai TV un seko turpmākajiem paziņojumiem un norādījumiem.\n"
-                        '•Nezvani bez vajadzības operatīvajiem dienestiem, lai sanemtu vēl kādu "īpašu" '
+                        '•Nezvani bez vajadzības operatīvajiem dienestiem, lai saņemtu vēl kādu "īpašu" '
                         "informāciju par notikušo.",
                     style: TextStyle(fontSize: 16, color: Colors.black),
                   )
