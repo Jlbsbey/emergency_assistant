@@ -45,7 +45,7 @@ class _HowToServicesPageState extends State<HowToServicesPage> {
             Padding(
               padding: const EdgeInsets.only(left: 16.0, right: 8.0),
               child: Text(
-                "Ja ir noticis negadījums un ir nepieciešams zvanīt uz tālruņa numuru 112, vispirms centies nomierināties. Gaidi savienojumu ar 112 kontaktu centru. "
+                "Ja ir noticis negadījums un ir nepieciešams zvanīt uz tālruņa numuru 112, vispirms centieties nomierināties. Gaidiet savienojumu ar 112 kontaktu centru. "
                 "Esiet gatavi smiegt sekojošu informāciju:",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
@@ -58,7 +58,7 @@ class _HowToServicesPageState extends State<HowToServicesPage> {
                 "•Īsi pastāstīt, kas ir noticis.\n"
                 "•Centies par negadījumu atcerēties visu pēc iespējas precīzāk.\n"
                 "•Pēc dispečera lūguma nosaukt savu vārdu, uzvārdu un tālruņa numuru.\n"
-                "•Atceries! Nepārtrauc sarunu pirmais!",
+                "•Atcerieties! Nepārtrauciet sarunu pirmais!",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),
@@ -66,7 +66,7 @@ class _HowToServicesPageState extends State<HowToServicesPage> {
             Padding(
               padding: const EdgeInsets.only(left: 16.0, right: 8.0),
               child: Text(
-                "Saglabā mieru un atbildi uz dispečera jautājumiem.",
+                "Saglabājiet mieru un atbildiet uz dispečera jautājumiem.",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),
@@ -76,7 +76,7 @@ class _HowToServicesPageState extends State<HowToServicesPage> {
               child: Padding(
                 padding: const EdgeInsets.only(left: 16.0, right: 8.0),
                 child: Text(
-                  "Atceries:",
+                  "Atcerieties:",
                   style: TextStyle(fontSize: 16),
                   textAlign: TextAlign.justify,
                 ),
@@ -85,7 +85,7 @@ class _HowToServicesPageState extends State<HowToServicesPage> {
             Padding(
               padding: const EdgeInsets.only(left: 32.0, right: 8.0, bottom: 8),
               child: Text(
-                "•Esi sazvanāms, gadījumam, ja dispečeram var rasties nepieciešamība ar Tevi sazināties atkārtoti.\n"
+                "•Esiet sazvanāms, gadījumā, ja dispečeram rodas nepieciešamība ar Tevi sazināties atkārtoti.\n"
                 "•Konkrētas atbildes var paātrināt palīdzības saņemšanu.\n"
                 "•Neviens dispečera jautājums nav lieks.\n",
                 style: TextStyle(fontSize: 16),
