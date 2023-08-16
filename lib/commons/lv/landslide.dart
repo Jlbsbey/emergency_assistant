@@ -118,14 +118,14 @@ class _LandslidePageState extends State<LandslidePage> {
                 title: Padding(
                   padding: EdgeInsets.only(left: 50.0),
                   child: Text(
-                      '•Ciematā vai pilsētā pārvietojieties nevis uz pretējo pusi, bet uz sāniem.'),
+                      '•Nepārvietojieties uz pretējo nogruvuma pusi, bet uz sāniem no tā.'),
                 ),
                 visualDensity: VisualDensity(vertical: -4),
               ),
               ListTile(
                 title: Padding(
                   padding: EdgeInsets.only(left: 50.0),
-                  child: Text('•Ziņojiet kaimiņiem par tuvojošos nelaimi.'),
+                  child: Text('•Ziņojiet kaimiņiem par iespējamo nogruvumu.'),
                 ),
                 visualDensity: VisualDensity(vertical: -4),
               ),
@@ -206,16 +206,16 @@ class _LandslidePageState extends State<LandslidePage> {
               Padding(
                 padding: EdgeInsets.only(left: 25.0, right: 8, top: 8),
                 child: Text(
-                  '•Ciematā vai pilsētā pārvietojieties nevis uz pretējo pusi no plūsmas, '
+                  '•Ciematā vai pilsētā pārvietojieties nevis uz pretējo pusi no gruvuma plūsmas, '
                   'bet uz sāniem. Drošas vietas būs kalnu nogāzes vai citas augstienes, kur nav '
                   'nogruvuma draudu. Pacentieties pēc iespējas ātrāk nokļūt tur.\n'
                   '•Ziņojiet kaimiņiem par tuvojošos nelaimi. Ja saceltās stihijas troksnis jūs '
-                  'pārsteidzis ciema vai pilsētas ielā, kliedziet par to visiem, ko sastapsiet ceļā. '
+                  'pārsteidzis ciema vai pilsētas ielā, informējiet par to visiem, kurus sastapsiet ceļā. '
                   'Iespējams, kāds par nogruvumu uzzinās no jums.\n'
                   '•Kalnos steidzami aizejiet no zemes nogruvuma līnijas. '
                   'Izmantojiet to pašu taktiku — virzieties uz sāniem un uz augšu. Ja esat zemienē, '
-                  'nekavējoties kāpiet vairāk nekā 50-100 metru augstumā. Atcerieties, ka nogruvuma laikā no '
-                  'var izlidot smagi akmeņi. Liels ātrums padara tos dzīvībai bīstamus, tāpēc '
+                  'nekavējoties kāpiet vairāk nekā 50-100 metru augstumā. Atcerieties, ka nogruvuma laikā '
+                  'var lidot smagi akmeņi. Liels ātrums padara tos dzīvībai bīstamus, tāpēc '
                   'centieties darīt visu ātri. \n Nedrīkst slēpties ielejās un aizās.',
                   style: TextStyle(fontSize: 16),
                   textAlign: TextAlign.justify,
@@ -226,7 +226,7 @@ class _LandslidePageState extends State<LandslidePage> {
                 child: Padding(
                   padding: EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                   child: Text(
-                    "Ko darīt, kad zemes nogruvums, ciems vai nogruvums būs beidzies:",
+                    "Ko darīt, kad zemes nogruvums būs beidzies:",
                     style: TextStyle(color: Colors.red, fontSize: 25),
                     textAlign: TextAlign.left,
                   ),
@@ -238,14 +238,13 @@ class _LandslidePageState extends State<LandslidePage> {
                 child: Text(
                   'Ja esat steidzami glābies no stihijas un nokļuvis tuvākajā drošajā vietā, '
                   'pārliecinieties, ka draudu vairs nav. Pēc tam dodieties atpakaļ uz savu apdzīvoto vietu.\n'
-                  'Kad jūs sakari stradās, informējiet tuviniekus, ka ar jums viss ir kārtībā.\n'
+                  'Kad jūsu sakari stradās, informējiet tuviniekus, ka ar jums viss ir kārtībā.\n'
                   'Pēc tam, ja jūtaties labi, palīdziet glābējiem. Varat pievienoties cietušo '
                   'meklēšanai un krāvumu izjaukšanai. Ja pats esat cietis, lūdziet palīdzību.\n'
                   'Neejiet mājas iekšā, kamēr to nav apskatījuši speciālisti. Tiem jāpārliecinās, vai '
-                  'nesošās konstrukcijas ir kārtībā. Svarīgi pārbaudīt, lai mājoklī nebūtu gāzes noplūdes.'
-                  ' Neieslēdziet elektrību, kamēr nesaņemsiet apstiprinājumu, ka tīkls ir darbderīgs.\n'
-                  'Turpiniet sekot līdzi informācijai no ārkārtiem dienestiem. Šajā gadījumā jauns '
-                  'kataklizms jūs nepārsteigs.',
+                  'nesošās konstrukcijas ir drošā stāvoklī. Svarīgi pārbaudīt, lai mājoklī nebūtu gāzes noplūdes.'
+                  ' Neieslēdziet elektrību, kamēr nesaņemsiet apstiprinājumu, ka tīkls ir darbojošā stāvoklī.\n'
+                  'Turpiniet sekot līdzi informācijai no ārkārtas dienestiem.',
                   style: TextStyle(fontSize: 16),
                   textAlign: TextAlign.justify,
                 ),
