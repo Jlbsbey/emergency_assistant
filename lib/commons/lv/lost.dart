@@ -75,7 +75,7 @@ class _LostPageState extends State<LostPage> {
             ),
             ExpansionTile(
               title: Text(
-                'Izvērsti',
+                'Plašāk',
                 style: TextStyle(fontSize: 20),
               ),
               controlAffinity: ListTileControlAffinity.leading,
