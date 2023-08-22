@@ -49,7 +49,7 @@ class _LostDocPageState extends State<LostDocPage> {
         ),
         iconTheme: IconThemeData(color: Colors.white),
         title: const Text(
-          'Pazaudejis dokumentus \nārzemēs',
+          'Pazaudēti dokumenti \nārzemēs',
           style: TextStyle(fontSize: 24, color: Colors.white),
         ),
         actions: <Widget>[],
@@ -72,7 +72,7 @@ class _LostDocPageState extends State<LostDocPage> {
           Padding(
             padding: EdgeInsets.only(left: 16.0, right: 8.0, bottom: h),
             child: Text(
-              "Ja esat pazaudējis vai Jums ir nozagta personas apliecība un tajā ir iekļauti sertifikāti, kas pēc Jūsu vēlēšanās ir tikuši aktivizēti, Jums nekavējoties jāsazinās ar uzticama sertifikācijas pakalpojumu sniedzēja VAS „Latvijas Valsts radio un televīzijas centrs” (LVRTC) palīdzības dienestu pa tālruni 67108787 un jālūdz sertifikātu darbības apturēšana. Palīdzības dienesta operators, lai pārliecinātos par Jūsu identitāti, uzdos slepeno jautājumu, kuru būsiet norādījis(-usi) noformējot iesniegumu personas apliecības izsniegšanai.\n"
+              "Ja esat pazaudējis vai Jums ir nozagta personas apliecība un tajā ir iekļauti sertifikāti, kas pēc Jūsu vēlmes tika aktivizēti, Jums nekavējoties jāsazinās ar uzticama sertifikācijas pakalpojumu sniedzēja VAS „Latvijas Valsts radio un televīzijas centrs” (LVRTC) palīdzības dienestu pa tālruni 67108787 un jālūdz sertifikātu darbības apturēšana. Palīdzības dienesta operators, lai pārliecinātos par Jūsu identitāti, uzdos slepeno jautājumu, kuru būsiet norādījis(-usi) noformējot iesniegumu personas apliecības izsniegšanai.\n"
               "Līdzīgi ir jārīkojas, ja Jums ir pamatotas aizdomas, ka Jūsu personas apliecība ir nonākusi citas personas rīcībā un elektroniskā paraksta radīšanas dati ir izmantoti bez Jūsu ziņas.\n"
               "Apturētu sertifikātu darbības atjaunošanu Jūs varat pieprasīt tikai klātienē PMLP nodaļā vai Latvijas diplomātiskajā pārstāvniecībā ārvalstīs.\n"
               "Ja pase vai personas apliecība ir pazudusi, nolaupīta vai sabojāta un personas rīcībā nav derīga dokumenta, lai atgrieztos atpakaļ Latvijā, pārstāvniecībā ārvalstīs tiek izsniegta atgriešanās apliecība.",

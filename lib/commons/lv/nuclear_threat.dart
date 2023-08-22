@@ -31,7 +31,7 @@ class NuclearPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                 child: Text(
-                  "Ricība kodolapdraudējuma gadījumā:",
+                  "Rīcība kodolapdraudējuma gadījumā:",
                   style: TextStyle(color: Colors.red, fontSize: 25),
                 ),
               ),
@@ -44,9 +44,9 @@ class NuclearPage extends StatelessWidget {
                 "•Dodieties iekšā tuvākajā ēkā. Ja iespējams, izvēlieties dzelzsbetona vai ķieģeļu ēku\n"
                 "•Aizveriet ēkas logus(ja tādi palikuši), nevēdiniet telpas, neizmantojiet kondicionieri.\n"
                 "•Ēkā dodieties uz mājas pagrabu, ja tā nav - izvairieties no augšējiem stāviem un ārsienām.\n"
-                "•Atbrīvojieties no apģērba, nomazgā ķermeni ar ziepēm un ūdeni.\n"
+                "•Atbrīvojieties no apģērba, nomazgājiet ķermeni ar ziepēm un ūdeni.\n"
                 "•Palieciet iekšteklpās vismaz 24 stundas. Sakari var būt traucēti, tāpēc sekojiet līdzi paziņojumiem radio.\n"
-                "•Lietojiet tikai iepakoto pārtiku, nesmēķējiet, nelietojiet ūdeno no atklātām ūdenstilpnēm.",
+                "•Lietojiet tikai iepakoto pārtiku, nesmēķējiet, nelietojiet ūdeni no atklātām ūdenstilpnēm.",
                 style: TextStyle(fontSize: 18),
                 textAlign: TextAlign.justify,
               ),

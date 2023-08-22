@@ -33,7 +33,7 @@ class _LostPageState extends State<LostPage> {
           child: Column(children: <Widget>[
             const ExpansionTile(
               title: Text(
-                'Īsi',
+                'Īsumā',
                 style: TextStyle(fontSize: 20),
               ),
               controlAffinity: ListTileControlAffinity.leading,
@@ -56,7 +56,7 @@ class _LostPageState extends State<LostPage> {
                   title: Padding(
                     padding: EdgeInsets.only(left: 25.0),
                     child: Text(
-                        '•Atceries kur Saule bija kad esi sacijis gājienu.'),
+                        '•Atceries, kur bija Saule, kad sāki gājienu.'),
                   ),
                   visualDensity: VisualDensity(vertical: -4),
                 ),
@@ -75,7 +75,7 @@ class _LostPageState extends State<LostPage> {
             ),
             ExpansionTile(
               title: Text(
-                'Izvērsti',
+                'Plašāk',
                 style: TextStyle(fontSize: 20),
               ),
               controlAffinity: ListTileControlAffinity.leading,
@@ -162,7 +162,7 @@ class _LostPageState extends State<LostPage> {
                       const EdgeInsets.only(left: 16.0, right: 8.0, bottom: 8),
                   child: Text(
                     "Pamatojoties uz savām domām un novērojumiem, izdomājiet dažus iespējamos plānus, "
-                    "pārdomājiet tos un pēc tam rīkojieties saskaņā ar kādu no tiem.Ja neesi ļoti, ļoti pārliecināts par maršrutu, tad vienmēr labāk palikt vietā.Ja iestājas tumsa, esat ievainots vai esat noguris, palieciet savā vietā.",
+                    "pārdomājiet tos un pēc tam rīkojieties saskaņā ar kādu no tiem. Ja neesat pārliecināts par maršrutu, tad vienmēr labāk palikt vietā. Ja iestājas tumsa, esat ievainots vai esat noguris, palieciet savā vietā.",
                     style: TextStyle(fontSize: 16),
                     textAlign: TextAlign.justify,
                   ),
