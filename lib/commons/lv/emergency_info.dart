@@ -91,7 +91,7 @@ class _EmergencyInfoPageState extends State<EmergencyInfoPage> {
                 padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                 child: Text(
                   "Ko darīt, ja savā atrašanās vietā es nedzirdu "
-                  "trauksmes sirēnas?",
+                  "trauksmes sirēnas? ",
                   style: TextStyle(color: Colors.red, fontSize: 25),
                   textAlign: TextAlign.justify,
                 ),
