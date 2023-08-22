@@ -48,7 +48,7 @@ class _TsunamiENPageState extends State<TsunamiENPage> {
                 "•Should a tsunami occur and you cannot get to higher ground, stay inside where you are protected from the water. It's best to be on the "
                 "landward side of the house, away from windows.\n"
                 "•Often tsunamis occur in multiple waves that can occur minutes apart, but also as much as one hour apart.\n"
-                "•Monitor the tsunami's progress and listen for warnings or instructions from local officials. If you are safe when the first tsunami hits, +"
+                "•Monitor the tsunami's progress and listen for warnings or instructions from local officials. If you are safe when the first tsunami hits, "
                 "stay put until authorities declare all is safe.\n"
                 "•After a tsunami hits, you may encounter flood waters. Flood waters can be dangerous to walk or drive through. Before driving anywhere, it "
                 "is best to listen carefully to rescue officials who will be coordinating evacuation plans.\n"

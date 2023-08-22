@@ -33,13 +33,9 @@ class _HurricaneENPageState extends State<HurricaneENPage> {
           child: Column(children: <Widget>[
             Padding(
               padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
-              child: Row(
-                children: [
-                  Text(
-                    "What to Do During a Hurricane?",
-                    style: TextStyle(color: Colors.red, fontSize: 25),
-                  ),
-                ],
+              child: Text(
+                "What to do during a Hurricane?",
+                style: TextStyle(color: Colors.red, fontSize: 25),
               ),
             ),
             Padding(

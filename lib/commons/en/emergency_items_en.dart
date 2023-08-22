@@ -114,7 +114,7 @@ class _EmergencyItemsENPageState extends State<EmergencyItemsENPage> {
             child: Text(
               "An emergency suitcase contains items that a person or family will need in the case of a prolonged and foreseeable evacuation, as "
               "well as in the case of a utility (gas, electricity, water) outage. Use this list and prepare your bag in advance. In your "
-              "kit bag, put:",
+              "kit add:",
               style: TextStyle(fontSize: 16),
               textAlign: TextAlign.justify,
             ),

@@ -185,7 +185,7 @@ class _LandslideENPageState extends State<LandslideENPage> {
               Padding(
                 padding: EdgeInsets.only(left: 15.0, right: 8, top: 8),
                 child: Text(
-                  'You may hear or hear rumbling rocks when you are outside your settlement. You may find yourself in the mountains, alone or with a group. '
+                  'You may hear rumbling rocks when you are outside your settlement. You may find yourself in the mountains, alone or with a group. '
                   'In these cases, you should immediately move away from the approaching landslide.',
                   style: TextStyle(fontSize: 16),
                   textAlign: TextAlign.justify,
@@ -197,7 +197,7 @@ class _LandslideENPageState extends State<LandslideENPage> {
                   '•In a town or city, do not move to the opposite side of a landslide, but to the side. Safe places are mountain slopes or other high ground '
                   'where there is no danger of mudslides or landslides. Try to get to such areas as quickly as possible.\n'
                   '•Inform your neighbors of the impending disaster. If the noise of a raging disaster catches you on the streets of a town or city, tell '
-                  'everyone you meet along the way about the danger. Perhaps someone will hear about the landslide or avalanche from you.\n'
+                  'everyone you meet along the way about the danger. Perhaps someone will hear about the landslide from you.\n'
                   "•In the mountains, get out of the landslide's line of movement right away. Use the same tactic - move sideways and upward. If you are in "
                   "the lowlands, immediately climb to a height of more than 50-100 meters. Remember that during a landslide, heavy rocks can fly out of "
                   "it. The high speed makes them life-threatening, so try not to hesitate.\nDo not hide in valleys and gorges.",

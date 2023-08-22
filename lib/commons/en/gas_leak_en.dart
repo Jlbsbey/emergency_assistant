@@ -167,7 +167,7 @@ class _GasLeakENPageState extends State<GasLeakENPage> {
                     "•Dead houseplants. Gas leaks are bad for all living things. Plants both produce and consume oxygen, so if there is not enough oxygen "
                     "in the room, they will begin to slowly die. If the plants in the house suddenly die at the same time (assuming they are watered "
                     "as needed), it could be a sign of a gas leak.\n"
-                    "•Natural gas consumption has skyrocketed. Pay attention to the cause, as g as from gas pipes and appliances may be leaking into or onto the house.",
+                    "•Natural gas consumption has skyrocketed. Pay attention to the cause, as gas from gas pipes and appliances may be leaking into or onto the house.",
                     style: TextStyle(fontSize: 16),
                   )),
               Align(

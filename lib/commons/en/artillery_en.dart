@@ -157,7 +157,7 @@ class _ArtilleryENPageState extends State<ArtilleryENPage> {
                     "look for a place to take cover. You need to try to understand the bombing pattern: the sound of the volley, the flight time of the shell and the fall. "
                     "Count the seconds from the volley to the fall and start running immediately after the hit. You need to fall a couple of seconds "
                     "before the estimated time of the next hit. If two or more projectiles are launched, count from the last one.\n"
-                    "Open your mouth and cover your ears with your hands. This will help you avoid concussion and Keep your ears safe from particularity loud explosions"
+                    "Open your mouth and cover your ears with your hands. This will help you avoid concussion and keep your ears safe from particularity loud explosions"
                     ". If you happen to stop hearing after а shell explosion, don't be frightened. Usually, if there is no physical damage, hearing will "
                     "recover within 3-7 days. Close your eyes to keep them free of dust and stone shatters.",
                     style: TextStyle(fontSize: 16),

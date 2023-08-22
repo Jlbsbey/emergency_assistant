@@ -144,8 +144,8 @@ class _EarthquakeENPageState extends State<EarthquakeENPage> {
                 padding: const EdgeInsets.only(left: 16.0, right: 8.0),
                 child: Text(
                   "As soon as you feel the first tremor, try to leave the building. From the time you feel the first tremors until they become dangerous to the building, you will have about 15-20 seconds.\n"
-                  "Take your bag and a emergency kit. Do not use the elevator, but take the stairs, as the elevator may get stuck with you during an earthquake.\n"
-                  "When leaving a room, stay as far away as possible from buildings, pillars, balconies, and other dangerous objects that could fall on you "
+                  "Take your bag and a emergency kit. Use the stairs instead of the elevator, as the elevator could become stuck during an earthquake.\n"
+                  "After leaving a building, stay as far away as possible from other buildings, pillars, balconies, and other dangerous objects that could fall on you "
                   "during an earthquake.\n"
                   "Avoid torn wires. Try to stay outdoors at all times, stay calm, and wait for the earthquake to end.",
                   style: TextStyle(fontSize: 16),

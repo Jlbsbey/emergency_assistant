@@ -74,16 +74,16 @@ class _FirstHelpENPageState extends State<FirstHelpENPage> {
               "•Without releasing the head, check and assess breathing with vision, hearing, and sensation for 10 seconds. Ask someone to "
               "call an ambulance(112). \n"
               "•If the victim is breathing normally (you hear at least 2 breaths/exhalations in 10 seconds) - place the victim in a stable "
-              "side position (see 2 fig.). \n"
+              "side position (see Fig. 2). \n"
               "•If the victim is not breathing or is breathing slowly, noisily, or with barely detectable breathing, remove all clothing from "
-              "the victim's chest, place your hands on the center of the chest and begin cardiac massage (see 3 fig.) by doing 30 heart "
+              "the victim's chest, place your hands on the center of the chest and begin cardiac massage (see Fig. 3) by doing 30 heart "
               "massages (rate 100-120 times per minute; depth 5-6 cm). \n"
-              "•Clear the airway by tilting the head and lifting the chin, and take 2 mouth-to-mouth breaths (see Figure 4). The respiratory "
-              "volume is the volume with a relaxed exhalation. Observe the casualty's passive exhalations. \n"
-              "•A respiratory mask with a one-way valve is recommended. If you do not have such a mask and cannot ventilate, you can only do "
+              "•Clear the airway by tilting the head and lifting the chin, and take 2 mouth-to-mouth breaths (see Fig. 4). The breath volume is "
+              "the volume achieved during a relaxed exhalation. Observe the casualty's passive exhalations. \n"
+              "•A respiratory mask with a one-way valve is recommended. If you do not have such a mask, you can only do "
               "cardiac massage. This may be less effective, but it is better than doing nothing. \n"
-              "•Continue with a 30:2 ratio of massage and breathing (30 cardiac massages: 2 breaths) until an ambulance arrives and takes over "
-              "resuscitation, until the victim moves, opens his eyes and breathes normally, or until your strength is exhausted.\n",
+              "•Continue with a ratio of 30 chest compressions to 2 breaths until an ambulance arrives to take over resuscitation, until the victim "
+              "shows signs of movement, opens their eyes and breathes normally, or until you are physically exhausted.\n",
               style: TextStyle(fontSize: 16),
               textAlign: TextAlign.justify,
             ),
@@ -110,7 +110,7 @@ class _FirstHelpENPageState extends State<FirstHelpENPage> {
             child: Text(
               "•Wear disposable rubber gloves or other waterproof material (such as a plastic bag).\n"
               "•Remove clothing from the bleeding area.\n"
-              "•Cover the wound with your finger, hand, or fist, using a gauze compress or a clean piece of clothing if possible (see 5 fig.).\n"
+              "•Cover the wound with your finger, hand, or fist, using a gauze compress or a clean piece of clothing if possible (see Fig. 5).\n"
               "•Place the victim in a supine position so that the bleeding area is on top. Make sure the bleeding has stopped.\n"
               "•If bleeding continues, apply more pressure to the wound, placing another gauze compress or a piece of cloth over the existing material if possible.\n"
               "•Call an ambulance(112) and keep the wound closed until they arrive.\n"

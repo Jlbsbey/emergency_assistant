@@ -212,7 +212,7 @@ class _FireForestENPageState extends State<FireForestENPage> {
                   padding:
                       const EdgeInsets.only(left: 8.0, right: 8.0, top: 16),
                   child: Text(
-                    "Second, what if there was a fire in the forest?",
+                    "Second, what if there is a fire in the forest?",
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                     textAlign: TextAlign.justify,
                   ),
