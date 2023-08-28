@@ -1,0 +1,38 @@
+{
+  "en": {
+    "name": "Hurricane",
+    "full_guide": {
+      "content": [
+        {
+          "header" : "What to do during a Hurricane?",
+          "text": "irst, evacuate if you are directed to do so or if you feel it might be unsafe to remain in your home. If you remain in your home, follow these tips to help you and your family stay safe during the storm:",
+          "points": "1.Use a portable radio to listen to important storm updates, information and instructions.\n2.Stay inside and keep away from all windows, skylights and glass doors. Go to a safe area, such as an interior room, closet or downstairs bathroom.\n3.Never go outside the protection of your home or shelter before there is confirmation that the storm has passed the area. The eye of the storm could create a temporary and deceptive lull, with high winds still approaching.\n4.If power is lost, keep the refrigerator closed to keep cold air trapped and delay spoilage of perishable food.\n5.If you use a portable generator, follow all the manufacturer’s instructions. Generators should be properly grounded to prevent electrical shock and should never be operated indoors, in garages, basements or outdoors near any windows, doors or vents. Because generators produce carbon monoxide (CO), make sure you have a working CO detector in your home."
+        }
+      ]
+    }
+  },
+  "lv": {
+    "name": "Viesuļvētra",
+    "full_guide": {
+      "content": [
+        {
+          "header" : "Ko darīt viesuļvētras laikā?",
+          "text": "Vispirms evakuējieties, ja tiekat norīkots tā darīt vai jūtat, ka palikt savās mājās var būt bīštami. Ja paliekat savās mājās, sekojiet šiem padomiem, lai vētras laikā palīdzētu sev un savai ģimenei palikt drošībā:",
+          "points": "1.Izmantojiet portatīvo radio, lai klausītos svarīgus vētras kustības atjauninājumus, informāciju un norādījumus.\n2.Palieciet iekšā un turieties tālāk no visiem logiem un stikla durvīm. Dodieties uz drošu zonu, piemēram, iekšējo telpu(telpu bez logiem), skapi vai lejasstāva vannas istabu.\n3.Nekad nedodieties ārpus savas mājas vai patversmes aizsardzības, pirms nav saņemts apstiprinājums, ka vētra ir pagājusi garām teritorijai. Viesuļvētras acs varēja radīt īslaicīgu un mānīgu pārtraukumu, joprojām vējam tuvojoties.\n4.Ja enerģija ir zudusi, turiet ledusskapi aizvērtu, lai aukstais gaiss būtu iesprostots un aizkavētu ātrbojīga ēdiena bojāšanos.\n5.Ja izmantojat pārnēsājamu ģeneratoru, izpildiet visas ražotāja instrukcijas. Ģeneratori ir pareizi jāiezemē, lai novērstu elektriskās strāvas triecienu, un tos nekādā gadījumā nedrīkst darbināt telpās, garāžās, pagrabos vai ārpus telpām netālu no logiem, durvīm vai ventilācijas atverēm. Tā kā ģeneratori ražo oglekļa monoksīdu (CO), pārliecinieties, vai mājās ir strādājošs CO detektors."
+        }
+      ]
+    }
+  },
+  "ru": {
+    "name": "Ураган",
+    "full_guide": {
+      "content": [
+        {
+          "header" : "Что делать во время урагана?",
+          "text": "В первую очередь эвакуируйтесь , если вам приказали это сделать или если вы чувствуете, что оставаться в доме может быть небезопасно. Если вы остаетесь дома, следуйте этим советам, чтобы помочь себе и своей семье оставаться в безопасности во время урагана:",
+          "points": "1.Используйте портативное радио для прослушивания важных обновлений, информации и указаний об урагане.\n2.Не выходите из дома и держитесь подальше от всех окон и стеклянных дверей. Перейдите в безопасное место, например, во внутреннюю комнату (комнату без окон), кладовку или ванную комнату на нижнем этаже.\n3.Никогда не выходите за пределы своего дома или убежища, пока не получите подтверждение, что ураган миновал этот район. Глаз бури может создать временное затишье, когда остальная часть урагана все еще приближается.\n4.Если пропало электричество, держите холодильник закрытым, чтобы задержать холодный воздух и предотвратить порчу скоропортящихся продуктов.\n5.При использовании портативного генератора следуйте всем инструкциям производителя. Генераторы должны быть правильно заземлены во избежание поражения электрическим током, и их никогда не следует эксплуатировать в закрытых помещениях, гаражах, подвалах или на открытом воздухе вблизи окон, дверей или вентиляционных отверстий. Поскольку генераторы выделяют угарный газ (CO), убедитесь, что у вас дома есть работающий детектор CO."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "en": {
+    "title": "General reccomendations",
+    "plate1": "First help",
+    "plate2": "Calling the emergency services",
+    "plate3": "Evacuation and an emergency kit",
+    "plate4": "Informing and alerting residents"
+  },
+  "lv": {
+    "title": "Vispārīgie padomi",
+    "plate1": "Pirmā palīdzība",
+    "plate2": "Dienestu izsaukšana",
+    "plate3": "Evakuācija un ārkārtas gadījumu soma",
+    "plate4": "Iedzīvotāju brīdināšana un informēšana"
+  },
+  "ru": {
+    "title": "Общие советы",
+    "plate1": "Первая помощь",
+    "plate2": "Вызов экстренных служб",
+    "plate3": "Эвакуация и тревожный чемоданчик",
+    "plate4": "Информирование и предупреждение жителей"
+  }
+}

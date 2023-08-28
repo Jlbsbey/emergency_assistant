@@ -1,0 +1,107 @@
+{
+  "en": {
+    "name": "Landslide",
+    "overview" : {
+      "title" : "Overview",
+      "content" : [
+        {
+          "point1": "•If you are at home:",
+          "point2": "1.Bring all things from the yard or balcony into the house.",
+          "point3": "2.Remove all poisonous and flammable substances from your home.",
+          "point4": "3.Shut off the electricity, gas and water.",
+          "point5": "4.Close doors, windows and vents tightly.",
+          "point6": "•If you are not at home:",
+          "point7": "1.Do not move to the opposite side of the landslide, but to the side.",
+          "point8": "2.Let your neighbors know that disaster is coming.",
+          "point9": "3.Get out of the line of landslide immediately."
+        }
+      ]
+    },
+    "full_guide": {
+      "title": "Full guide",
+      "content": [
+        {
+          "header1" : "If you are at home:",
+          "points1": "1.Bring all belongings into the house from the yard or balcony. If possible, wrap things that can be damaged by moisture in plastic wrap.\n2.Remove poisonous and flammable substances from the house. They can be buried in the garden or placed in the cellar. The entrance to the cellar should also be carefully covered.\n3.Cut off electricity, gas, and water. Unplug electrical appliances from outlets. Disconnect the gas cylinder if you use it.\n4.Close doors, windows, and vents tightly. This is necessary to keep dirt and water streams from entering the house.\nThen go to the organized evacuation point or leave the settlement by your car. If you leave on your own, find out a safe route and where to find an evacuation point.",
+          "text1": "If you are overtaken by a landslide and your home is moving with the soil on which it is standing, you need to leave the premises. Try to stay close to the center and as high as possible. Stay away from the edges of the moving area.",
+          "header2": "If you are away from home:",
+          "text2": "You may hear rumbling rocks when you are outside your settlement. You may find yourself in the mountains, alone or with a group. In these cases, you should immediately move away from the approaching landslide.",
+          "points2": "1.In a town or city, do not move to the opposite side of a landslide, but to the side. Safe places are mountain slopes or other high ground where there is no danger of mudslides or landslides. Try to get to such areas as quickly as possible.\n2.Inform your neighbors of the impending disaster. If the noise of a raging disaster catches you on the streets of a town or city, tell everyone you meet along the way about the danger. Perhaps someone will hear about the landslide from you.\n3.In the mountains, get out of the landslide's line of movement right away. Use the same tactic - move sideways and upward. If you are in the lowlands, immediately climb to a height of more than 50-100 meters. Remember that during a landslide, heavy rocks can fly out of it. The high speed makes them life-threatening, so try not to hesitate.\nDo not hide in valleys and gorges.",
+          "header3": "What to do when the landslide is over:",
+          "text3": "If you had an emergency escape from the elements and made it to the nearest safe place, make sure there is no longer a threat. After that, return to your settlement. With a working communication, let your relatives know that you are all right.\nThen, if you are feeling well, help the rescuers. You can join in the search for victims and debris removal. If you are hurt yourself, ask for help.\nDo not enter the house until it has been examined by specialists. They need to make sure the supporting structures are okay. It is important to check that there are no gas leaks in the home. Do not turn on the electricity until you have received confirmation that the grid is working properly.\nContinue to watch for information from emergency services. This way, you will not be caught unawares by a new cataclysm."
+        }
+      ]
+    },
+    "buttontext" : "On top"
+  },
+  "lv": {
+    "name": "Nogruvums",
+    "overview" : {
+      "title" : "Īsumā",
+      "content" : [
+        {
+          "point1": "•Ja esat majās:",
+          "point2": "1.Ienesiet mājā visas mantas no pagalma vai balkona.",
+          "point3": "2.Izvāciet no mājas indīgas un viegli uzliesmojošas vielas.",
+          "point4": "3.Izslēdziet elektrību, gāzi un ūdeni.",
+          "point5": "4.Cieši aizveriet durvis, logus, ventilācijas atveres.",
+          "point6": "•Ja esat ārpus mājas:",
+          "point7": "1.Nepārvietojieties uz pretējo nogruvuma pusi, bet uz sāniem no tā.",
+          "point8": "2.Ziņojiet kaimiņiem par iespējamo nogruvumu.",
+          "point9": "3.Steidzami aizejiet no nogruvuma līnijas."
+        }
+      ]
+    },
+    "full_guide": {
+      "title": "Plašāk",
+      "content": [
+        {
+          "header1" : "Ja esat majās:",
+          "points1": "1.Ienesiet mājā visas mantas no pagalma vai balkona. Ja ir iespēja, iesaiņojiet lietas, kas var ciest no mitruma, polietilēnā.\n2.Aizvāciet no mājas indīgas un viegli uzliesmojošas vielas. Tās var aprakt dārzā vai ievietot pagrabā. Arī pagraba ieeja rūpīgi jāaizver.\n3.Aizveriet elektrību, gāzi un ūdeni. Izraujiet elektroierīces no rozetēm. Atvienojiet gāzes balonu, ja jums tāds ir.\n4.Cieši aizveriet durvis, logus, ventilācijas atveres. Tas nepieciešams, lai netīrumi un ūdens straumes nenonāktu mājā.\nPēc tam dodieties uz organizētās evakuācijas vietu vai dodieties prom no apdzīvotās vietas ar savu auto. Ja aizbraucat patstāvīgi, iepriekš uzziniet drošu maršrutu, kā arī noskaidrojiet, kur atrast palīdzības punktu evakuētajiem.",
+          "text1": "Ja jūs ir pārņēmis zemes nogruvums un jūsu māja pārvietojas kopā ar augsni, uz kuras māja stāv, ir jāiziet no telpas. Centieties turēties tuvāk gruvošā plača centram un pēc iespējas augstāk. Netuvojieties malām.",
+          "header2": "Ja neesat majās:",
+          "text2": "Jūs varat dzirdēt lauku straumju troksni vai akmeņu dārdus, kad būsiet uz savas apdzīvotās vietas ielas. Iespējams, nonāksiet kalnos — viens vai kopā ar grupu. Šādos gadījumos nekavējoties jāatkāpjas no tuvojošās plūsmas gultnes.",
+          "points2": "1.Ciematā vai pilsētā pārvietojieties nevis uz pretējo pusi no gruvuma plūsmas, bet uz sāniem. Drošas vietas būs kalnu nogāzes vai citas augstienes, kur nav nogruvuma draudu. Pacentieties pēc iespējas ātrāk nokļūt tur.\n2.Ziņojiet kaimiņiem par tuvojošos nelaimi. Ja saceltās stihijas troksnis jūs pārsteidzis ciema vai pilsētas ielā, informējiet par to visiem, kurus sastapsiet ceļā. Iespējams, kāds par nogruvumu uzzinās no jums.\n3.Kalnos steidzami aizejiet no zemes nogruvuma līnijas. Izmantojiet to pašu taktiku — virzieties uz sāniem un uz augšu. Ja esat zemienē, nekavējoties kāpiet vairāk nekā 50-100 metru augstumā. Atcerieties, ka nogruvuma laikā var lidot smagi akmeņi. Liels ātrums padara tos dzīvībai bīstamus, tāpēc centieties darīt visu ātri. \n Nedrīkst slēpties ielejās un aizās.",
+          "header3": "Ko darīt, kad zemes nogruvums būs beidzies:",
+          "text3": "Ja esat steidzami glābies no stihijas un nokļuvis tuvākajā drošajā vietā, pārliecinieties, ka draudu vairs nav. Pēc tam dodieties atpakaļ uz savu apdzīvoto vietu.\nKad jūsu sakari stradās, informējiet tuviniekus, ka ar jums viss ir kārtībā.\nPēc tam, ja jūtaties labi, palīdziet glābējiem. Varat pievienoties cietušo meklēšanai un krāvumu izjaukšanai. Ja pats esat cietis, lūdziet palīdzību.\nNeejiet mājas iekšā, kamēr to nav apskatījuši speciālisti. Tiem jāpārliecinās, vai nesošās konstrukcijas ir drošā stāvoklī. Svarīgi pārbaudīt, lai mājoklī nebūtu gāzes noplūdes. Neieslēdziet elektrību, kamēr nesaņemsiet apstiprinājumu, ka tīkls ir darbojošā stāvoklī.\nTurpiniet sekot līdzi informācijai no ārkārtas dienestiem."
+        }
+      ]
+    },
+    "buttontext" : "Uz augšu"
+  },
+  "ru": {
+    "name": "Оползень",
+    "overview" : {
+      "title" : "Кратко и конкретно",
+      "content" : [
+        {
+          "point1": "•Если находитесь дома:",
+          "point2": "1.Занесите в дом все вещи со двора или балкона.",
+          "point3": "2.Уберите из дома все ядовитые и легко воспламеняющиемя вещества.",
+          "point4": "3.Перекройте электричество, газ и воду.",
+          "point5": "4.Плотно закройте двери, окна и вентиляционные отверстия.",
+          "point6": "•Если находитесь не дома:",
+          "point7": "1.Перемещайтесь не в противоположну. сторону от оползня, а вбок.",
+          "point8": "2.Сообщите соседям о приближающейся беде.",
+          "point9": "3.Срочно уйдите с линии опозня."
+        }
+      ]
+    },
+    "full_guide": {
+      "title": "Развёрнуто",
+      "content": [
+        {
+          "header1" : "Если вы дома:",
+          "points1": "1.Внесите в дом все вещи со двора или с балкона. Если есть возможность, упакуйте вещи, которые могут пострадать от влаги, в полиэтиленовую плёнку.\n2.Уберите из дома ядовитые и легковоспламеняющиеся вещества. Их можно закопать в саду или поместить в погреб. Вход в погреб тоже нужно тщательно закрыть.\n3.Перекройте электричество, газ и воду. Выдерните электроприборы из розеток. Отсоедините газовый баллон, если пользуетесь им.\n4.Плотно закройте двери, окна, вентиляционные отверстия. Это необходимо, чтобы потоки грязи и воды не попали в дом.\nЗатем отправляйтесь к пункту организованной эвакуации или покидайте населённый пункт на своём автомобиле. Если уезжаете самостоятельно, заранее узнайте безопасный маршрут, а также выясните, где найти пункт помощи эвакуированным.",
+          "text1": "Если вас захватил оползень и ваш дом движется вместе с почвой, на которой стоит, нужно выйти из помещения. Постарайтесь держаться ближе к центру и как можно выше. Не подходите к краям движущегося участка.",
+          "header2": "Если вы вне дома:",
+          "text2": "Вы можете услышать или грохот камней, когда будете на улице своего населённого пункта. Возможно, вы окажетесь в горах — один или вместе с группой. В этих случаях нужно немедленно уйти от приближающегося оползня.",
+          "points2": "1.В посёлке или городе двигайтесь не в противоположную сторону от оползня, а вбок. Безопасными местами будут склоны гор или другие возвышенности, где нет опасности селя или оползня. Постарайтесь как можно быстрее добраться до таких участков.\n2.Сообщите о приближающемся бедствии соседям. Если шум разбушевавшейся стихии застал вас на улице селения или города, говорите об опасности всем, кого встретите по пути. Возможно, кто-то узнает об обвале или лавине от вас.\n3.В горах срочно уходите с линии движения оползня. Применяйте ту же тактику — двигайтесь в сторону и вверх. Если вы в низине, немедленно поднимайтесь на высоту более 50–100 метров. Помните, что во время оползня из него могут вылетать тяжёлые камни. Большая скорость делает их опасными для жизни, поэтому постарайтесь не медлить. \nНельзя укрываться в долинах и ущельях.",
+          "header3": "Что делать, когда оползень закончится:",
+          "text3": "Если вы экстренно спасались от стихии и добрались до ближайшего безопасного места, убедитесь, что угрозы больше нет. После этого возвращайтесь в свой населённый пункт.\nПри работающей связи сообщите близким, что с вами всё в порядке.\nЗатем, если вы хорошо себя чувствуете, помогите спасателям. Вы можете присоединиться к поиску пострадавших и разбору завалов. Если вы сами пострадали, обратитесь за помощью.\nНе входите в дом, пока его не осмотрят специалисты. Они должны убедиться, что несущие конструкции в порядке. Важно проверить, чтобы в жилье не было утечки газа. Не включайте электричество, пока не получите подтверждение, что сеть исправна.\nПродолжайте следить за информацией от экстренных служб. В этом случае новый катаклизм не застанет вас врасплох."
+        }
+      ]
+    },
+    "buttontext" : "Наверх"
+  }
+}

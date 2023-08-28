@@ -1,0 +1,31 @@
+"": {
+    "name": "",
+    "overview" : {
+      "title" : "",
+      "content" : [
+        {
+          "point1": "",
+          "point2": "",
+          "point3": "",
+          "point4": "",
+          "point5": "",
+          "point6": "",
+          "point7": ""
+        }
+      ]
+    },
+    "full_guide": {
+      "title": "",
+      "content": [
+        {
+          "header1" : "",
+          "text1": "",
+          "points1": "",
+          "header2": "",
+          "text2": "",
+          "point2": ""
+        }
+      ]
+    },
+    "buttontext" : ""
+  }

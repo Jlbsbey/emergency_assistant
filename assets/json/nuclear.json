@@ -1,0 +1,35 @@
+{
+  "en": {
+    "name": "Nuclear attack",
+    "full_guide": {
+      "content": [
+        {
+          "header" : "Actions in the case of a nuclear threat:",
+          "points": "1.If you are outside at the time of the explosion, hide from the blast as soon as possible behind anything that can provide protection(e.g., buildings, low-lying areas)\n2.Go into the nearest building. If possible, choose a reinforced concrete or brick building.\n3.Close building windows (if any are left), do not ventilate rooms, and do not use air conditioning.\n4.Inside the building, go into the basement of the house; if there is no basement, avoid the upper floors and exterior walls.\n5.Get rid of clothing, wash your body with soap and water.\n6.Stay indoors for at least 24 hours. Communications may be down, so watch for announcements on the radio.\n7.Consume only packaged foods, don't smoke, and don't take water from open sources."
+        }
+      ]
+    }
+  },
+  "lv": {
+    "name": "Kodoldraudi",
+    "full_guide": {
+      "content": [
+        {
+          "header" : "Rīcība kodolapdraudējuma gadījumā:",
+          "points": "1.Ja atrodieties ārpus telpām, kad notiek detonācija, pēc iespējas īsākā laikā paslēpies no sprādziena aiz visa, kas varētu nodrošināt aizsardzību(piemēram, ēkas, zemienes)\n2.Dodieties iekšā tuvākajā ēkā. Ja iespējams, izvēlieties dzelzsbetona vai ķieģeļu ēku\n3.Aizveriet ēkas logus(ja tādi palikuši), nevēdiniet telpas, neizmantojiet kondicionieri.\n4.Ēkā dodieties uz mājas pagrabu, ja tā nav - izvairieties no augšējiem stāviem un ārsienām.\n5.Atbrīvojieties no apģērba, nomazgājiet ķermeni ar ziepēm un ūdeni.\n6.Palieciet iekšteklpās vismaz 24 stundas. Sakari var būt traucēti, tāpēc sekojiet līdzi paziņojumiem radio.\n7.Lietojiet tikai iepakoto pārtiku, nesmēķējiet, nelietojiet ūdeni no atklātām ūdenstilpnēm."
+        }
+      ]
+    }
+  },
+  "ru": {
+  "name": "Ядерная угроза",
+  "full_guide": {
+    "content": [
+      {
+        "header" : "Действия в случае ядерной угрозы:",
+        "points": "1.Если вы находитесь на улице в момент взрыва, как можно скорее спрячьтесь от взрыва за всем, что может обеспечить защиту (например, за зданиями, низменными участками)\n2.Зайдите в ближайшее здание. Если возможно, выберите железобетонное или кирпичное здание.\n3.Закройте окна здания (если таковые остались), не проветривайте помещения, не используйте кондиционеры.\n4.Внутри здания зайдите в подвал дома, если подвала нет, избегайте верхних этажей и внешних стен.\n5.Избавьтесь от одежды, вымойте тело водой с мылом.\n6.Оставайтесь в помещении не менее 24 часов. Связь может быть нарушена, поэтому следите за объявлениями по радио.\n7.Употребляйте только упакованные продукты, не курите, не берите воду из открытых водоемов."
+      }
+    ]
+  }
+}
+}

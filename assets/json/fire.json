@@ -1,0 +1,268 @@
+[
+  {
+    "building": {
+      "en": {
+        "name": "Fire in a building",
+        "overview": {
+          "title": "Overview",
+          "content": [
+            {
+              "can": [
+                {
+                  "title": "•If you can get out of a room:",
+                  "point1": "1.Run outside without thinking about anything",
+                  "point2": "2.Always use the stairs only. Never use the elevator.",
+                  "point3": "3.Hold on to the handrail of the stairs.",
+                  "point4": "4.Once you are safe, call the fire and rescue service."
+                }
+              ],
+              "cant": [
+                {
+                  "title": "•If you can't get out of the room:",
+                  "point1": "1.If you feel the door is hot, do not open it.",
+                  "point2": "2.If the door is hot, plug the cracks.",
+                  "point3": "3.If there is a phone and there is no smoke in the room you are in, call the Fire and Rescue Service at 112.",
+                  "point4": "4.Crawl up to the window and open it slightly (never open it all the way!).",
+                  "point5": "5.Keep low at the window.",
+                  "point6": "6.If possible, cover your nose and mouth with some wet cloth.",
+                  "point7": "7.If you are on the first floor and can get out through a window safely, do it."
+                }
+              ]
+            }
+          ]
+        },
+        "full_guide": {
+          "title": "Full guide",
+          "content": [
+            {
+              "text1": "Don't panic, because an objective evaluation of the situation and the right course of action will increase your chances of being rescued. If you wake up and find that a fire has started, roll onto the side of the bed and crawl toward the door. By staying close to the floor, you may be able to escape. Crawl to the door to the room. Try to feel for the door with your hand. Do not try to grab clothes or valuable items.",
+              "header1": "If you can get out of the room:",
+              "text2": "If the door doesn't feel hot when you touch it, open it slightly and check for smoke and fire outside. Close the door when you leave the room, this will reduce the spread of fire and protect your property. Remember to take your keys. If all escape routes are closed and you cannot leave the building, you will need a key to return to your apartment, which will be your safest shelter.",
+              "points1": "1.Do not try to find the place that burns. The precious time you lose could be crucial to your salvation.\n2.Don't linger in stairwells and hallways, wondering what to do. Leave the house as soon as possible. You should know which hallways in the house lead to dead ends; try to avoid them.\n3.Always use the ladder only. Do not use the elevator under any circumstances.\n4.Expect panic around you. Hold on to the stair railings, this will help you hold on if there is a commotion in the stairwell.\n5.Don't try to meet everyone inside before you leave the building, as every minute is valuable.\n6.Once you are safe, call the Fire and Rescue Service(112). Don't take it for granted that one of your neighbors has already done this. Do not hang up until the dispatchers have all the information they need.\n7.Do not return to the house until the fire department has given permission.",
+              "header2": "If you can't get out of the room:",
+              "points2": "1.If you feel the door is hot when you feel it, do not open it. It may mean that there is a fire behind the door. If you open the door, flames will immediately enter the room. A closed door can shield you from the fire and protect you until emergency services arrive.\n2.If the door is hot, plug the gaps. Damp towels, blankets are best for this. Sheets and clothing are also helpful.\n3.If you have a phone and there is no smoke in the room you are in, call 112.\n4.Crawl over to the window and open it slightly. If you open the window all the way, you will create a draft that will encourage smoke to enter the room.\n5.Stay lower by the window, this will allow you to breathe fresh air outside and avoid slowly filling the room with smoke.\n6.If possible, cover your nose and mouth with some wet material, this will filter the smoke and make breathing easier.\n7.Only in case of emergency, open the window completely or break the glass. In this case, smoke can enter the room and the outside of the house. In addition, the glass will be broken and you will no longer be able to close the window.\n8.If you are on the first floor and can get out safely, do so.\n9.If you are above the first floor, it is best to avoid jumping. Many people who could have survived the fire by waiting for help in their room have died by jumping from dangerous heights.",
+              "header3": "How to attract attention if you can't leave the room:",
+              "points3": "1.Make a noise to let others know where you are. The best way to do this is to knock with an object rather than shout.\n2.Waving a towel or sheet through the window will draw attention to your location."
+            }
+          ]
+        },
+        "buttontext": "On top"
+      },
+      "lv": {
+        "name": "Ugunsgrēks ēkā",
+        "overview": {
+          "title": "Īsumā",
+          "content": [
+            {
+              "can": [
+                {
+                  "title": "•Ja varat izkļūt no telpas:",
+                  "point1": "1.Bēdziet ārā nedomājot ne par ko",
+                  "point2": "2.Vienmēr izmantojiet tikai kāpnes. Nekādā gadījumā neizmantojiet liftu.",
+                  "point3": "3.Turieties pie kāpņu margām",
+                  "point4": "4.Kad esat nokļuvuši drošībā, zvaniet Valsts ugunsdzēsības un glābšanas dienestam."
+                }
+              ],
+              "cant": [
+                {
+                  "title": "•Ja nevarat izkļūt no telpas:",
+                  "point1": "1.Ja, jūtat, ka durvis ir karstas, neveriet tās vaļā.",
+                  "point2": "2.Ja durvis ir karstas, aizbāziet spraugas.",
+                  "point3": "3.Ja ir pieejams telefons un telpā, kurā atrodaties nav dūmu, zvaniet uz tālruni 112.",
+                  "point4": "4.Rāpojiet pie loga un mazliet paveriet to(nekādā gadījumā nevēriet to pilnībā!).",
+                  "point5": "5.Turieties zemu pie loga.",
+                  "point6": "6.Ja iespējams, aizsedziet degunu un muti ar kādu samitrinātu materiālu.",
+                  "point7": "7.Ja atrodaties pirmajā stāvā un varat pa logu izkļūt drošībā – dariet to."
+                }
+              ]
+            }
+          ]
+        },
+        "full_guide": {
+          "title": "Plašāk",
+          "content": [
+            {
+              "text1": "Nekrītiet panikā, jo objektīvs situācijas novērtējums un pareizas rīcības izvēle palielina Jūsu iespējas izglābties. Ja pamostaties un konstatējat, ka izcēlies ugunsgrēks, pārvelieties pāri gultas malai un rāpojiet uz durvju pusi. Turoties tuvāk grīdai Jums iespējams paglābties no bojāejas. Rāpojiet uz istabas durvju pusi. Mēģiniet uztaustīt durvis ar roku. Necentieties paņemt kādas drēbes vai vērtslietas.",
+              "header1": "Ja varat izkļūt no telpas:",
+              "text2": "Ja, uztaustījuši durvis, jūtat, ka tās nav karstas, mazliet paveriet tās un pārliecinieties, vai ārpusē nav dūmi un uguns. Kad atstājat istabu, aizveriet durvis, tas mazinās uguns izplatību un aizsargās Jūsu īpašumu. Neaizmirstiet paņemt atslēgas. Ja visi evakuācijas ceļi būs slēgti un pamest ēku nevarēsiet, Jums vajadzēs atslēgu, lai atgrieztos dzīvoklī, kas kļūs par drošāko patvēruma vietu.",
+              "points1": "1.Nemēģiniet meklēt, kura vieta deg. Vērtīgais laiks, ko tādējādi zaudēsiet, var būt izšķirošs, lai paspētu glābties.\n2.Nekavējieties kāpņu telpās un gaiteņos, domājot, ko darīt. Pametiet māju pēc iespējas ātrāk. Jums jāzina, kuri mājas gaiteņi ved strupceļā, centieties izvairīties no tiem.\n3.Vienmēr izmantojiet tikai kāpnes. Nekādā gadījumā neizmantojiet liftu.\n4.Rēķinieties ar to, ka visapkārt būs panika. Tāpēc turieties pie kāpņu margām, tas palīdzēs Jums noturēties, ja kāpņu telpā būs drūzma.\n5.Pirms atstājat ēku, nemēģiniet iekštelpās satikt visus tuviniekus, jo katra minūte ir dārga.\n6.Kad esat nokļuvuši drošībā, zvaniet Valsts ugunsdzēsības un glābšanas dienestam. Neuzskatiet par pašsaprotamu, ka to jau būs izdarījis kāds no kaimiņiem. Nenolieciet klausuli, kamēr dispečeri nav saņēmuši visu viņiem nepieciešamo informāciju.\n7.Neejiet atpakaļ mājā, kamēr ugunsdzēsēji to nav atļāvuši.",
+              "header2": "Ja Jūs nevarat izkļūt no telpas:",
+              "points2": "1.Ja, uztaustījuši durvis, jūtat, ka tās ir karstas, neveriet tās vaļā. Tas var nozīmēt, ka aiz durvīm plosās uguns. Atverot durvis, liesmas uzreiz iekļūs istabā. Aizvērtās durvis var būt par aizsegu no uguns un pasargāt Jūs, kamēr ierodas glābēji.\n2.Ja durvis ir karstas, aizbāziet spraugas. Šim nolūkam vislabāk kalpos mitri dvieļi, segas. Noderēs arī palagi, drēbes.\n3.Ja ir pieejams telefons un telpā, kurā atrodaties nav dūmu, zvaniet uz tālruni 112.\n4.Rāpojiet pie loga un mazliet paveriet to. Atverot logu pilnīgi, Jūs radīsiet caurvēju, kas veicinās dūmu pieplūdumu istabā.\n5.Turieties zemu pie loga, tas ļaus Jums elpot svaigu gaisu no ārpuses un izvairīties no dūmiem, kas lēnām piepildīs istabu.\n6.Ja iespējams, aizsedziet degunu un muti ar kādu samitrinātu materiālu, tas filtrēs dūmus un elpot būs vieglāk.\n7.Tikai galējas nepieciešamības gadījumā atveriet logu pilnīgi vai izsitiet stiklu. Tādā gadījumā dūmi var iekļūt istabā arī no mājas ārpuses. Turklāt, stikls būs izsists un Jums vairs nebūs iespēju logu aiztaisīt.\n8.Ja atrodaties pirmajā stāvā un varat pa logu izkļūt drošībā – dariet to.\n9.Ja atrodieties augstāk par pirmo stāvu, labāk atturieties no lēmuma lēkt. Daudzi cilvēki, kuri būtu varējuši ugunsgrēkā izdzīvot, gaidot pēc palīdzības savā istabā, ir gājuši bojā, lecot no bīstamiem augstumiem.",
+              "header3": "Kā pievērst uzmanību, ja nevarat izkļūt no istabas:",
+              "points3": "1.Radiet troksni, lai pārējie zinātu, kur Jūs atrodaties. To vislabāk darīt, klauvējot ar kādu priekšmetu, nevis kliedzot.\n2.Vicinot pa logu dvieli vai palagu, Jūs pievērsīsiet uzmanību savai atrašanās vietai."
+            }
+          ]
+        },
+        "buttontext": "Uz augšu"
+      },
+      "ru": {
+        "name": "Пожар в здании",
+        "overview": {
+          "title": "Кратко",
+          "content": [
+            {
+              "can": [
+                {
+                  "title": "•Если вы можете выбраться из комнаты:",
+                  "point1": "1.Бегите наружу ни о чем не думая",
+                  "point2": "2.Всегда пользуйтесь только лестницей. Никогда не пользуйтесь лифтом.",
+                  "point3": "3.Держитесь за перила лестницы.",
+                  "point4": "4.Когда вы окажетесь в безопасности, позвоните в пожарно-спасательную службу."
+                }
+              ],
+              "cant": [
+                {
+                  "title": "•Если вы не можете выбраться из помещения:",
+                  "point1": "1.Если вы чувствуете, что дверь горячая, не открывайте ее.",
+                  "point2": "2.Если дверь горячая, заткните щели.",
+                  "point3": "3.Если есть телефон и в помещении, в котором вы находитесь, нет дыма, позвоните в пожарно-спасательную службу по номеру 112.",
+                  "point4": "4.Подползите к окну и немного приоткройте его (ни в коем случае не открывайте до конца!).",
+                  "point5": "5.Держитесь низко у окна.",
+                  "point6": "6.Если возможно, прикройте нос и рот какой-нибудь мокрой тканью.",
+                  "point7": "7.Если вы находитесь на первом этаже и можете безопасно выбраться через окно, сделайте это."
+                }
+              ]
+            }
+          ]
+        },
+        "full_guide": {
+          "title": "Развёрнуто",
+          "content": [
+            {
+              "text1": "Не паникуйте, так как объективная оценка ситуации и правильный выбор действий повысят ваши шансы на спасение. Если вы проснулись и обнаружили, что начался пожар, перекатитесь на бок кровати и ползите к двери. Держась ближе к полу, вам, возможно, удастся спастись. Ползите к двери в комнату. Постарайтесь нащупать дверь рукой. Не пытайтесь захватить одежду или ценные вещи.",
+              "header1": "Если вы можете выбраться из комнаты:",
+              "text2": "Если при ощупывании двери вам кажется, что она не горячая, немного приоткройте ее и проверьте, нет ли дыма и огня снаружи. Выходя из помещения, закройте дверь, это уменьшит распространение огня и защитит ваше имущество. Не забудьте взять ключи. Если все пути эвакуации закрыты и вы не можете покинуть здание, вам понадобится ключ, чтобы вернуться в свою квартиру, которая станет вашим самым надежным убежищем.",
+              "points1": "1.Не пытайтесь найти место, где он горит. Потерянное вами драгоценное время может оказаться решающим для вашего спасения.\n2.Не задерживайтесь на лестничных клетках и в коридорах, размышляя, что делать. Покиньте дом как можно скорее. Вы должны знать, какие коридоры в доме ведут в тупики, старайтесь избегать их.\n3.Всегда пользуйтесь только лестницей. Никогда не пользуйтесь лифтом.\n4.Ожидайте паники вокруг. Держитесь за перила лестницы, это поможет вам удержаться, если на лестничной клетке возникнет суматоха.\n5.Не пытайтесь встретить всех внутри, прежде чем покинуть здание, поскольку каждая минута драгоценна.\n6.Когда вы окажетесь в безопасности, позвоните в пожарно-спасательную службу(112). Не считайте само собой разумеющимся, что какой то из соседей уже сделал это. Не кладите трубку, пока диспетчеры не получат всю необходимую информацию.\n7.Не возвращайтесь в дом, пока пожарные не дадут разрешение.",
+              "header2": "Если вы не можете выбраться из комнаты:",
+              "points2": "1.Если при ощупывании двери вы чувствуете, что она горячая, не открывайте ее. Это может означать, что за дверью находится огонь. Если вы откроете дверь, пламя немедленно проникнет в помещение. Закрытая дверь может служить экраном от огня и защитить вас до прибытия спасателей.\n2.Если дверь горячая, заткните щели. Для этого лучше всего подойдут влажные полотенца, одеяла. Также пригодятся простыни, одежда.\n3.Если у вас есть телефон и в комнате, где вы находитесь, нет дыма, позвоните по номеру 112.\n4.Подползите к окну и немного приоткройте его. Если вы откроете окно до конца, вы создадите сквозняк, который будет способствовать проникновению дыма в комнату.\n5.Держитесь ниже у окна, это позволит вам дышать свежим воздухом снаружи и избежать медленного заполнения комнаты дымом.\n6.Если возможно, прикройте нос и рот каким-нибудь мокрым материалом, это отфильтрует дым и облегчит дыхание.\n7.Только в случае крайней необходимости открывайте окно полностью или разбивайте стекло. В этом случае дым может проникнуть в помещение и снаружи дома. Кроме того, стекло будет разбито, и вы уже не сможете закрыть окно.\n8.Если вы находитесь на первом этаже и можете безопасно выбраться наружу, сделайте это.\n9.Если вы находитесь выше первого этажа, лучше воздержаться от прыжка. Многие люди, которые могли бы пережить пожар, дождавшись помощи в своей комнате, погибли, прыгнув с опасной высоты.",
+              "header3": "Как привлечь внимание, если вы не можете выйти из комнаты:",
+              "points3": "1.Шумите, чтобы дать другим понять, где вы находитесь. Для этого лучше всего постучать каким-либо предметом, а не кричать.\n2.Размахивание полотенцем или простыней через окно привлечет внимание к вашему местонахождению."
+            }
+          ]
+        },
+        "buttontext": "Наверх"
+      }
+    },
+    "fire": {
+      "en": {
+        "name": "Fire",
+        "plate1": "In building",
+        "plate2": "In forest"
+      },
+      "lv": {
+        "name": "Ugunsgrēks",
+        "plate1": "Ēkā",
+        "plate2": "Mežā"
+      },
+      "ru": {
+        "name": "Пожар",
+        "plate1": "В здании",
+        "plate2": "В лесу"
+      }
+    },
+    "forest": {
+      "en": {
+        "name": "Fire in forest",
+        "overview": {
+          "title": "Overview",
+          "content": [
+            {
+              "point1": "1.If the fire is small enough, try to extinguish it immediately.",
+              "point2": "2.If the fire cannot be extinguished, run away from the fire.",
+              "point3": "3.Move perpendicular to the direction the fire is spreading.",
+              "point4": "4.If you can't run away from the fire, soak in water or cover yourself with wet clothes.",
+              "point5": "5.If you are in a wooded meadow, get close to the ground.",
+              "point6": "6.When leaving the scene, call 112."
+            }
+          ]
+        },
+        "full_guide": {
+          "title": "Full guide",
+          "content": [
+            {
+              "text1": "First, there are three types of wildfires:",
+              "header1": "Ground fire:",
+              "text2": "Ground fires move slowly, a few meters a day. They are especially dangerous because of the sudden bursts of fire from the underground hearth and the fact that its edge is not always visible and you can fall into the burning peat. Therefore you should avoid peat fields in the case of fire, and if necessary, only move around in a group, and the first person in the group should check the ground with a pole, as if he were walking on thin ice. A sign of an underground fire is that the ground is hot and smoke is coming out of the ground.",
+              "header2": "Surface fire:",
+              "text3": "Surface fires (90% of all fires) burn the lower parts of trees, grass, deadwood, and roots. The speed of fire spreading is from 1 to 3 meters per minute and the height of the flames is from half a meter to one and a half meters. At a spreading speed of 3 to 4 meters per minute, the fire becomes large in 10 to 14 hours.",
+              "header3": "Crown fire:",
+              "text4": "A crown fire is possible when the wind is strong: the fire moves through the tree crowns at a speed of 5 to 100 meters per minute or more. The wind picks up burning branches and sparks that ignite the forest dozens of meters ahead and create new hotspots.",
+              "text5": "Second, what if there is a fire in the forest?",
+              "header4": "Order of action:",
+              "points": "1.If the fire is small, you should try to extinguish it immediately by hitting the flames with branches or a blanket. Strikes should be struck obliquely toward the burned area.\n2.If the fire is too big to extinguish, immediately warn others around you and hurry to leave the scene of the fire. Move perpendicular to the direction the fire is spreading toward a road, forest belt, field, or lake shore.\n3.If there is no way to leave the scene of the fire and there is water nearby, immerse yourself in it or cover yourself with wet clothing. If you are in a forest clearing, get as close to the ground as possible where the air is less smoky.\n4.Once you are in a safe place, call 112 to report a wildfire."
+            }
+          ]
+        },
+        "buttontext": "On top"
+      },
+      "lv": {
+        "name": "Ugunsgrēks mežā",
+        "overview": {
+          "title": "Īsumā",
+          "content": [
+            {
+              "point1": "1.Ja ugunsgrēks ir pietiekami mazs, uzreiz meģiniet to nodzēst.",
+              "point2": "2.Ja uguni nodzēst nav iespējams, ejiet prom no ugunsgrēka.",
+              "point3": "3.Virzieties perpendikulāri uguns izplatīšanās virzienam.",
+              "point4": "4.Ja aiziet no uguns nav iespējams, iegremdējieties ūdenī vai apsedzieties ar samitrinātām drēbēm.",
+              "point5": "5.Ja Jūs esat meža laukumiņā, noliecieties tuvāk zemei.",
+              "point6": "6.Izejot laukā no ugunsgrēka vietas zvaniet uz tālruni 112."
+            }
+          ]
+        },
+        "full_guide": {
+          "title": "Plašāk",
+          "content": [
+            {
+              "text1": "Pirmkārt, ir 3 meža ugunsgrēku veidi:",
+              "header1": "Kūdras ugunsgrēks/zemdega:",
+              "text2": "Kūdras ugunsgrēki pārvietojas lēni, pāris metrus diennaktī. Tie ir īpaši bīstami ar negaidītiem uguns izrāvieniem no pazemes pavarda un to, ka tā mala ne vienmēr ir pamanāma un var ielūzt izdegušajā kūdrā. Tāpēc ugunsgrēkā jāizvairās no kūdras purviem, bet, ja nepieciešams, pa kūdras lauku jāpārvietojas tikai grupā, turklāt pirmajam grupā jāpārbauda augsni ar sesti, kā ejot pa plāno ledu. Pazemes ugunsgrēka pazīme — zeme ir karsta, no augsnes nāk dūmi.",
+              "header2": "Skrējuguns:",
+              "text3": "Skrējuguna ugunsgrēkā (tie ir 90% no visiem gadījumiem) deg koku apakšējās daļas, zāle, kritalas, saknes. Izplatības ātrums — no 1 līdz 3 metriem minūtē, liesmu augstums — no pusmetra līdz pusotram metram. Ar ātrumu 3-4 metri minūtē ugunsgrēks izplešas lielā 10-14 stundu laikā.",
+              "header3": "Vainaguguns:",
+              "text4": "Vainaguguņa ugunsgrēks iespējams stiprā vētrā: uguns pa koku vainagiem virzās ar ātrumu no 5 līdz 100 un vairāk metriem minūtē. Vējš izdemolē degošus zarus un dzirksteles, kas aizdedzina mežu desmitiem metru priekšā un rada jaunus ugunsgrēka perēkļus.",
+              "text5": "Otrkārt, ko darīt, ja mežā ir ugunsgrēks?",
+              "header4": "Darbību kartība:",
+              "points": "1.Ja ugunsgrēks ir diezgan mazs, tad uzreiz jāmeģina to nodzēst, sitot liesmas ar zariem vai segu. Sitieni jāveic slīpi izdegušā laukuma virzienā.\n2.Ja ugunsgrēks ir pārāk liels dzēšanai, nekavējoties jābrīdina citi un steidzīgi jāatstāj ugunsgrēka vieta. Perpendikulāri uguns izplatīšanās virzienam jādodas uz ceļu, meža stigu, lauku vai ūdenskrātuves krastu.\n3.Ja aiziet no uguns nav iespējams un tuvumā ir ūdens, tad jāiegremdējas tajā vai jāapsedzas ar samitrinātām drēbēm. Ja atrodaties meža laukumiņā, jānoliecas pēc iespējas tuvāk zemei, kur gaiss ir mazāk sadūmots.\n4.Nokļūstot drošā vietā, jāpaziņo par meža ugunsgrēku, zvanot pa tālruni 112"
+            }
+          ]
+        },
+        "buttontext": "Uz augšu"
+      },
+      "ru": {
+        "name": "Пожар в лесу",
+        "overview": {
+          "title": "Кратко",
+          "content": [
+            {
+              "point1": "1.Если пожар достаточно мал, постарайтесь немедленно его потушить.",
+              "point2": "2.Если пожар не удается потушить, убегайте от огня.",
+              "point3": "3.Двигайтесь перпендикулярно направлению распространения огня.",
+              "point4": "4.Если отбежать от огня невозможно, погрузитесь в воду или накройте себя мокрой одеждой.",
+              "point5": "5.Если вы находитесь на лесной лужайке, прижмитесь ближе к земле.",
+              "point6": "6.Покидая место происшествия, позвоните по телефону 112."
+            }
+          ]
+        },
+        "full_guide": {
+          "title": "Развёрнуто",
+          "content": [
+            {
+              "text1": "Во-первых, существует 3 типа лесных пожаров:",
+              "header1": "Торфяной пожар:",
+              "text2": "Торфяные пожары продвигаются медленно, несколько метров в день. Они особенно опасны из-за неожиданных всплесков огня из подземного очага и того, что его кромка не всегда видна и можно провалиться в горящий торф. Поэтому во время пожара торфяники следует обходить стороной, а при необходимости передвигаться по торфяному полю только группой, причем первый человек в группе должен проверять землю шестом, как будто идет по тонкому льду. Признаком подземного пожара является то, что земля горячая и из почвы идет дым.",
+              "header2": "Низовой пожар:",
+              "text3": "При низовом пожаре (90% всех случаев) сгорают нижние части деревьев, трава, валежник и корни. Скорость распространения огня составляет от 1 до 3 метров в минуту, высота пламени - от полуметра до полутора метров. При скорости распространения 3-4 метра в минуту пожар становится большим за 10-14 часов.",
+              "header3": "Верховой пожар:",
+              "text4": "Верховой пожар возможен при сильном ветре: огонь движется через полог деревьев со скоростью от 5 до 100 метров в минуту и более. Ветер поднимает горящие ветки и искры, которые воспламеняют лес на десятки метров вперед и создают новые очаги возгорания.",
+              "text5": "Во-вторых, что если в лесу случился пожар?",
+              "header4": "Порядок действий:",
+              "points": "1.Если пожар маленький, то вы должны попытаться немедленно потушить его, ударяя по пламени ветками или покрывалом. Удары следует наносить наискосок в сторону сгоревшего участка.\n2.Если пожар слишком большой для тушения, немедленно предупредите окружающих и поспешите покинуть место пожара. Двигайтесь перпендикулярно направлению распространения огня к дороге, лесополосе, полю или берегу водоема.\n3.Если нет возможности покинуть место пожара и поблизости есть вода, погрузитесь в нее или накройте себя мокрой одеждой. Если вы находитесь в лесной опушке, прижмитесь как можно ближе к земле, где воздух менее задымлен.\n4.Когда вы окажетесь в безопасном месте, позвоните по номеру 112, чтобы сообщить о лесном пожаре."
+            }
+          ]
+        },
+        "buttontext": "Наверх"
+      }
+    }
+  }
+]

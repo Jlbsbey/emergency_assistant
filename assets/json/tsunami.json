@@ -1,0 +1,35 @@
+{
+  "en": {
+    "name": "Tsunami",
+    "full_guide": {
+      "content": [
+        {
+          "header" : "During a tsunami:",
+          "points": "1.Do not go near the shore to watch a tsunami hit. If you can see it, you are too close to escape.\n2.Should a tsunami occur and you cannot get to higher ground, stay inside where you are protected from the water. It's best to be on the landward side of the house, away from windows.\n3.Often tsunamis occur in multiple waves that can occur minutes apart, but also as much as one hour apart.\n4.Monitor the tsunami's progress and listen for warnings or instructions from local officials. If you are safe when the first tsunami hits, stay put until authorities declare all is safe.\n5.After a tsunami hits, you may encounter flood waters. Flood waters can be dangerous to walk or drive through. Before driving anywhere, it is best to listen carefully to rescue officials who will be coordinating evacuation plans.\n6.Be aware of risks such as hypothermia from cold water or drowning from running water."
+        }
+      ]
+    }
+  },
+  "lv": {
+    "name": "Cunami",
+    "full_guide": {
+      "content": [
+        {
+          "header" : "Cunami laikā:",
+          "points": "1.Nedodieties tuvu krastam, lai novērotu cunami. Ja to var redzēt, tad jūs esat pārāk tuvu, lai izbēgtu to.\n2.Ja ir cunami un jūs nevarat nokļūt augstāk, palieciet tur, kur esat pasargāti no ūdens. Vislabāk atrasties tajā mājas galā, kas vērsta pret iekšzemi.\n3.Bieži cunami notiek vairākos viļņos, kuras var rasties ar dažu minūšu intervālu, bet var arī būt ar vienas stundas intervālu.\n4.Novērojiet cunami un klausiet vietējo amatpersonu brīdinājumus vai norādījumus. Ja esat drošībā, kad atnāk pirmais cunami vilnis, palieciet vietā, līdz varas iestādes paziņo, ka viss ir kārtībā.\n5.Pēc cunami trāpījumiem var nākties saskarties ar plūdiem. Plūdi var būt bīstami staigāšanai vai braukšanai. Pirms kaut kur braukt vai iet, vislabāk uzmanīgi uzklausīt glābšanas dienesta darbiniekus, kuri koordinēs evakuācijas plānus.\n6.Jāapzinās tādi riski kā hipotermija no auksta ūdens vai slīkšana no tekoša ūdens."
+        }
+      ]
+    }
+  },
+  "ru": {
+    "name": "Цунами",
+    "full_guide": {
+      "content": [
+        {
+          "header" : "Во время цунами:",
+          "points": "1.Не подходите близко к берегу, чтобы наблюдать за цунами. Если вы видите его, значит, вы находитесь слишком близко, чтобы спастись от него. \n2.Если идет цунами и вы не можете выбраться на возвышенность, оставайтесь там, где вы защищены от воды. Лучше всего находиться в конце дома, обращенного вглубь материка.\n3.Цунами часто происходит несколькими волнами, которые могут возникать с интервалом в несколько минут, но могут быть и с интервалом в один час.\n4.Следите за цунами и слушайте предупреждения или указания местных властей. Если вы находитесь в безопасности, когда придет первая волна цунами, оставайтесь на месте, пока власти не скажут, что все в порядке.\n5.После цунами вы можете столкнуться с наводнением. Наводнение может быть опасным для пешеходов и водителей. Прежде чем куда-то ехать или идти, лучше всего внимательно выслушать спасателей, которые будут координировать планы эвакуации.\n6.Помните о таких опасностях, как переохлаждение от холодной воды или утопление от текущей воды."
+        }
+      ]
+    }
+  }
+}

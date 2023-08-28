@@ -1,0 +1,27 @@
+{
+  "en": {
+    "title": "Informing and alerting \nresidents",
+    "header1": "How will I know if I'm in danger?",
+    "points": "1.Turn on the radio or TV to find out what happened and what to do next.\n2.You can also follow government services on social media and get information from there.\n3.Obey and follow the instructions of the emergency services.\n4.Keep the radio or television on and follow further announcements and instructions.\n5.Do not call emergency services unnecessarily to get more \"special\" information about what happened.",
+    "header2": "What if I can't hear the sirens where I am?",
+    "text": "In the event of an emergency, emergency services can also alert the public using emergency vehicles and loudspeakers.\nRemember: sirens are also turned on when an emergency, state of emergency or mobilization is declared.\nThe public alert sirens are checked regularly by  turning them on for 3 minutes."
+  },
+  "lv": {
+    "title": "Iedzīvotāju brīdināšana \nun informēšana",
+    "header1": "Kā es uzzināšu, ka man draud briesmas?",
+    "lv_1": "1.Ieslēdz radio (",
+    "lv_2": "Latvijas radio 1, 2, 3, 4, 5, radio SWH, radio Skonto, Kristīgais radio, Saldus Radio, MG Latgolas Bolss u.c.",
+    "lv_3": ") vai TV (",
+    "lv_4": "LTV1, LTV7, LNT, TV3, TV5, Pirmais Baltijas kanāls, Vidusdaugavas televīzija, Latgales reģionālā televīzija, Talsu televīzija, DAUTKOM TV u.c.",
+    "points": "), lai saņemtu informāciju par notikušo, kā arī turpmāko rīcību.\n2.Papildus vari sekot informācijai sociālajā tīklā Twitter: Valsts ugunsdzēsības un glābšanas dienestam @ugunsdzeseji, Valsts policijai @Valsts_policija, Neatliekamajai medicīniskajai palīdzībai @NMPDienests.\n3.Ievēro un izpildi operatīvo dienestu norādījumus.\n4.Neizslēdz radio vai TV un seko turpmākajiem paziņojumiem un norādījumiem.\n5.Nezvani bez vajadzības operatīvajiem dienestiem, lai saņemtu vēl kādu \"īpašu\" informāciju par notikušo.",
+    "header2": "Ko darīt, ja savā atrašanās vietā es nedzirdu trauksmes sirēnas?",
+    "text": "Apdraudējuma gadījumā apziņošanu var veikt arī atbildīgo dienestu darbinieki, izmantojot operatīvo dienestu transportlīdzekļus un skaļruņus.\\nAtceries: Trauksmes sirēnas iedarbina arī, ja tiek izsludināta ārkārtējā situācija, izņēmuma stāvoklis vai mobilizācija.\\nKatru gadu maijā un novembrī Valsts ugunsdzēsības un glābšanas dienests veic trauksmes sirēnu pārbaudi, tās ieslēdzot uz 3 minūtēm."
+  },
+  "ru": {
+    "title": "Информирование и \nпредупреждение жителей",
+    "header1": "Как я узнаю, что нахожусь в опасности?",
+    "points": "1.Включите радио или телевизор, чтобы узнать, что произошло и что делать дальше.\n2.Кроме того, в социальных сетях можно следить за государственными службами и получать оттуда информацию.\n3.Соблюдайте и следуйте указаниям экстренных служб.\n4.Не выключайте радио или телевизор и следуйте дальнейшим объявлениям и инструкциям.\n5.Не звоните в экстренные службы без необходимости, чтобы получить более ''особую'' информацию о случившемся.",
+    "header2": "Что делать, если там, где я нахожусь, я не слышу сирен?",
+    "text": "В случае чрезвычайной ситуации аварийные службы также могут производить оповещение населения, используя аварийные автомобили и громкоговорители.\nПомните: сирены включаются также при объявлении чрезвычайного, исключительного положения или мобилизации.\nРегулярно проверяются сирены оповещения населения, включая их на 3 минуты."
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "en": {
+    "name": "Animal bite",
+    "overview" : {
+      "title" : "Overview",
+      "content" : [
+        {
+          "point1": "1.It is better to call 112.",
+          "point2": "2.If the wound is not bleeding much, bandage it and go to the hospital emergency room.",
+          "point3": "3.If you are bitten by a snake, call 112 in any case.",
+          "point4": "4.Calm the victim and give him some water."
+        }
+      ]
+    },
+    "full_guide": {
+      "title": "Full guide",
+      "content": [
+        {
+          "header1" : "Wounds from animal bites:",
+          "text1": "Various wild and domestic animals can transmit rabies, go to a hospital emergency room or emergency room. Note that vaccination immediately after an animal bite protects against rabies. \nHow to help an injured person?",
+          "points1": "1.If the wound is not bleeding much, wash it with soap and water.\n2.Bandage the wound.\n3.If the bleeding is not severe, the victim should go to the emergency room of a hospital on his/her own or with the help of a relative. If he or she is bleeding heavily, call 112 for emergency medical assistance.",
+          "header2": "Snakebite:",
+          "text2": "What to do if a snake bites?",
+          "text3": "If you are bitten by a snake, the bite will hurt and swelling may occur. In more severe cases, a snake bite can cause serious heart problems, shortness of breath, nausea, vomiting and diarrhea. The swollen area of the bitten body may swell noticeably and the skin may turn bluish purple.",
+          "text4": "If a snake bites, you have to take the worst possible scenario, that the snake is poisonous. In that case:",
+          "points2": "1.Call an ambulance at 112, as the victim needs to be treated as soon as possible.\n2.Lay the victim down, help him/her to calm down.\n3.Try not to move or rub the bitten part of the body so the poison doesn't spread as quickly.\n4.Do not let the victim cool/protect him/her from the environment.\n5.If possible, give more water to keep the body hydrated.\n6.You can put something cold to the bite site to relieve the itching and constrict the blood vessels.\n7.Never apply a tourniquet or bandage, do not suck venom with your mouth, and do not cut or burn the bite area.\n8.Do not give any medication, as it is not known how the medicine will react with the snake venom."
+        }
+      ]
+    },
+    "buttontext" : "On top"
+  },
+  "lv": {
+    "name": "Dzīvnieku kodums",
+    "overview" : {
+      "title" : "Īsumā",
+      "content" : [
+        {
+          "point1": "1.Labāk zvaniet neatliekamās medicīniskās palīdzības tālrunim 113",
+          "point2": "2.Ja brūce neasiņo stipri, pārsejiet to un dodieties uz slimnīcas uzņemšanas nodaļu",
+          "point3": "3.Ja iekodusi čūska obligāti zvaniet neatliekamās medicīniskās palīdzības tālrunim 113",
+          "point4": "4.Nomieriniet cietušo un dodiet viņam padzerties sķidrumu"
+        }
+      ]
+    },
+    "full_guide": {
+      "title": "Plašāk",
+      "content": [
+        {
+          "header1" : "Dzīvnieku kodumu brūces:",
+          "text1": "Meža dzīvnieki un mājdzīvnieki var pārnēsāt trakumsērgu, tāpēc pēc to kodiena dodieties uz slimnīcu uzņemšanas nodaļu vai arī traumpunktu. Ņemiet vērā, ka no trakumsērgas pasargā potēšanās tūlīt pēc dzīvnieka koduma.\n Kā palīdzēt cietušajam?",
+          "points1": "1.Ja brūce stipri neasiņo, to mazgājiet ar ziepēm un ūdeni\n2.Pārsieniet brūci\n3.Ja cietušajam nav stipra asiņošana, cietušajam pašam vai ar tuvinieku palīdzību jādodas uz slimnīcas uzņemšanas nodaļu. Stipras asiņošanas gadījumā jāizsauc neatliekamā medicīniskā palīdzība, zvanot 113.",
+          "header2": "Čūskas kodums:",
+          "text2": "Ko darīt, ja iekodusi čūska?",
+          "text3": "Ja iekodusi čūska, koduma vietā būs sāpes un varēs redzēt pietūkumu. Smagākos gadījumos pēc odzes kodiena cietušajam var būt nopietni sirdsdarbības traucējumi, elpas trūkums, slikta dūša, vemšana, caureja. Pietūkums sakostajā ķermeņa vietā var izteikti palielināties, āda var kļūt zilgani violeta.",
+          "text4": "Ja iekodusi čūska, jāpieņem sliktākais variants, ka ir iekodusi odze. Tādā gadījumā:",
+          "points2": "1.Jāizsauc neatliekamā medicīniskā palīdzība, zvanot pa tālruni 113, jo cietušajam palīdzība jāsaņem pēc iespējas ātrāk.\n2.Cietušais jānogulda, jāpalīdz viņam nomierināties.\n3.Jācenšas nekustināt un neberzēt sakosto ķermeņa daļu, lai inde tik strauji neizplatītos. Tas ir būtiski, jo kustības paātrina asinsriti, līdz ar to arī indes izplatīšanos.\n4.Neļaut atdzist cietušajam/ pasargā to no apkārtējās vides.\n5.Ja iespējams, jādod pastiprināti dzert ūdeni, lai nodrošinātu organismam šķidrumu.\n6.Uz koduma vietas var uzlikt kaut ko aukstu, lai mazinātu niezi un sašaurinātos asinsvadi.7.Nekādā gadījumā nedrīkst likt žņaugu vai pārsējus, sūkt indi ar muti, griezt vai piededzināt koduma vietu.\n8.Nedrīkst dot nekādus medikamentus, jo nav zināms, kā zāles reaģēs ar čūskas indi."
+        }
+      ]
+    },
+    "buttontext" : "Uz augšu"
+  },
+  "ru": {
+    "name": "Укус животного",
+    "overview" : {
+      "title" : "Кратко",
+      "content" : [
+        {
+          "point1": "1.Лучше позвонить по номеру 112.",
+          "point2": "2.Если рана не сильно кровоточит, перевяжите ее и обратитесь в приемную больницы.",
+          "point3": "3.Если вас укусила змея, в любом случае звоните по номеру 112",
+          "point4": "4.Успокойте пострадавшего и дайте ему немного жидкости(воды)."
+        }
+      ]
+    },
+    "full_guide": {
+      "title": "Развёрнуто",
+      "content": [
+        {
+          "header1" : "Раны от укусов животных:",
+          "text1": "Различные дикие и домашние животные могут передавать бешенство, обратитесь в приемный покой больницы или отделение неотложной помощи. Обратите внимание, что вакцинация сразу после укуса животного защищает от бешенства.\nКак помочь пострадавшему?",
+          "points1": "1.Если рана не сильно кровоточит, промойте ее водой с мылом\n2.Перевяжите рану\n3.Если кровотечение не сильное, пострадавшему следует самостоятельно или с помощью родственника обратиться в приемное отделение больницы. В случае сильного кровотечения вызовите неотложную медицинскую помощь по телефону 112.",
+          "header2": "Укус змеи:",
+          "text2": "Что делать, если укусила змея?",
+          "text3": "Если вас укусила змея, место укуса будет болеть и может появиться отек. В более тяжелых случаях укус змеи может вызвать серьезные проблемы с сердцем, одышку, тошноту, рвоту и диарею. Опухший участок укушенного тела может заметно увеличиться, кожа может стать синевато-фиолетовой.",
+          "text4": "Если укусила змея, то нужно брать худший возможный вариант, что змея ядовитая. В этом случае:",
+          "points2": "1.Вызовите скорую помощь по номеру 112, так как пострадавшему необходимо оказать помощь как можно скорее.\n2.Уложите пострадавшего, помогите ему успокоиться.\n3.Постарайтесь не двигать и не тереть укушенную часть тела, чтобы яд не распространялся так быстро.\n4.Не позволяйте пострадавшему охлаждаться/защищайте его от воздействия окружающей среды.\n5.Если возможно, давайте больше воды, чтобы обеспечить организм влагой.\n6.К месту укуса можно приложить что-нибудь холодное, чтобы снять зуд и сузить кровеносные сосуды.\n7.Ни в коем случае не накладывайте жгут или повязку, не всасывайте яд в рот, не режьте и не жгите место укуса.\n8.Нельзя давать никаких лекарств, так как неизвестно, как лекарство будет реагировать со змеиным ядом."
+        }
+      ]
+    },
+    "buttontext" : "Наверх"
+  }
+}

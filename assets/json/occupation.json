@@ -1,0 +1,110 @@
+{
+  "en": {
+    "name": "Military occupation",
+    "overview" : {
+      "title" : "Overview",
+      "content" : [
+        {
+          "point1": "1.Evacuate to a part of the country controlled by your country's armed forces.",
+          "point2": "2.Continue to follow the laws of your country",
+          "point3": "3.Do not cooperate with the occupying power:",
+          "point4": "1.Disassociate yourself from their decisions and actions",
+          "point5": "2.Do not participate in public events organized by them, do not give them interviews and do not allow yourself to be filmed",
+          "point6": "3.Do not participate in illegal elections, referendums and voting"
+        }
+      ]
+    },
+    "full_guide": {
+      "title": "Full guide",
+      "content": [
+        {
+          "header1" : "Resistance:",
+          "text1": "Even if, as a result of military action, control over part of the territory is temporarily lost, the armed forces will continue to defend the country, resisting until independence is restored.",
+          "text2": "If you are in occupied territory:",
+          "points1": "1.Evacuate to a part of the country controlled by your country's armed forces.\n2.Continue to follow the laws of your country.\n3.Do not cooperate with the occupying power:",
+          "points2": "1.Disassociate yourself from their decisions and actions.\n2.Do not participate in public events organized by them, do not give them interviews and do not allow yourself to be filmed.\n3.Do not participate in illegal elections, referendums and voting.",
+          "text3": "If you choose to resist, you have the right to:",
+          "points3": "1.To resist (including sabotage, subversion) the enemy with the armed forces of your own country.\n2.Engage in civil disobedience - for example, disobeying laws issued by the occupation authorities, refusing to serve and work for them, organizing mass strikes.\n3.Support resistance.",
+          "header2": "Evacuation:",
+          "text4": "If the authorities have issued an evacuation order:",
+          "points4": "1.Listen carefully to evacuation announcements, memorize and write down the evacuation direction, destination or pick-up point. Carry identification with you wherever you go.\n2.If possible, turn off gas, electricity, and water in your home, close windows, and lock doors before evacuating.\n3.Use the routes recommended by public services and don't take unfamiliar routes.\n4.If you cannot use your own vehicle, go to the nearest designated evacuation collection point.\n5.In the event of an evacuation, notify relatives.\n6.Bring an emergency kit with you.",
+          "text5": "Please note:",
+          "points5": "1.Do not attempt to return home before obtaining permission from the authorities.\n2.Do not wear paramilitary clothing, camouflage uniforms or paramilitary bags when off duty.\n3.Do not approach unidentified armed people unnecessarily, do not provoke them or film them, and do not pick up abandoned weapons or suspicious objects.\n4.Do not attempt to move unexploded ammunition, mines, or disarm improvised explosive devices yourself.\n5.Do not spread information (photos, videos, texts) about the movements, locations, and positions of your country's armed forces."
+        }
+      ]
+    },
+    "buttontext" : "On top"
+  },
+  "lv": {
+    "name": "Okupācija",
+    "overview" : {
+      "title" : "Īsumā",
+      "content" : [
+        {
+          "point1": "1.Evakuējieties uz to valsts daļu, ko kontrolē NBS vai NATO apvienotie spēki",
+          "point2": "2.Turpiniet ievērot Latvijas Republikas likumus",
+          "point3": "3.Nesadarbojieties ar okupācijas varu:",
+          "point4": "1.Nošķirieties no viņu lēmumiem un darbībām",
+          "point5": "2.Nepiedalieties to organizētajos publiskajos pasākumos, nesniedzoiet tiem intervijas un neļaujiet sevi filmēt",
+          "point6": "3.Nepiedalieties nelikumīgās vēlēšanās, referendumos vai tautas nobalsošanās"
+        }
+      ]
+    },
+    "full_guide": {
+      "title": "Plašāk",
+      "content": [
+        {
+          "header1" : "Pretošanās:",
+          "text1": "Pat ja karadarbības rezultātā īslaicīgi tiktu zaudēta kontrole pār daļu no teritorijas, bruņotie spēki turpinās valsts aizsardzību, izrādot pretestību tik ilgi, kamēr tiks atjaunota valsts neatkarība.",
+          "text2": "Ja atrodies okupētajā teritorijā:",
+          "points1": "1.Evakuējieties uz to valsts daļu, ko kontrolē NBS\n2.Turpiniet ievērot Latvijas Republikas likumus\n3.Nesadarbojieties ar okupācijas varu:",
+          "points2": "1.Noškirieties no viņu lēmumiem un darbībām\n2.Nepiedalieties to organizētājos publiskajos pasākumos, nesniedzot tiem intervijas un neļaujot sevi filmēt\n3.Nepiedalieties nelikumīgās vēlēšanās, referendumos vai tautas nobalsošanās",
+          "text3": "Ja izvēlieties pretoties, jums ir tiesības:",
+          "points3": "1.Īstenot bruņotu pretestību (t.sk. sabotāžu, kaitnieciskas darbības) pret ienaidnieka spēkiem NBS sastāvā\n2.Īstenot pilsonisku nepakļaušanos - piemēram, okupācijas varas izdotu likumu neievērošanu, atteikšanos dienēt un strādāt to labā, masveida streiku rīkošanu\n3.Sniegt atbalstu pretošanās kustībai",
+          "header2": "Evakuācija:",
+          "text4": "Ja atbildīgie dienesti izziņojuši evakuāciju:",
+          "points4": "1.Uzmanīgi ieklausieties paziņojumā par evakuācijas norisi, iegaumējiet un piefiksējiet evakuācijas virzienu, galamērķi vai pulcēšanās vietu.\n2.Visur līdzi ņemiet savu ID vai pasi.\n3.Ja variet, pirms evakuācijas atslēdziet savām mājoklim gāzes, elektrības un ūdens padevi, aiztaisiet logus, aizslēdziet durvis.\n4.Izmantojiet maršrutus, kurus rekomendē dienesti un nepārvietojieties pa nepazīstamiem celiem.\n5.Ja nav iespējams izmantot savu transportlīdzekli, dodieties uz tuvāko norādīto evakuācijas pulcēšanās vietu.\n6.Evakuācijas gadījumā paziņojiet par to tuviniekiem.\n7.Ņemiet līdzi ārkārtas gadījumu somu.",
+          "text5": "Ņemiet vērā:",
+          "points5": "1.Necentieties atgriezties mājās, kamēr atbildīgie dienesti nav to atļāvuši\n2.Nevelciet paramilitāru apģērbu, kamuflāžas formu vai militarizētas somas, ja neesat dienestā.\n3.Bez vajadzības netuvojieties, neprovocējiet un nefilmējiet neidentificētus bruņotus cilvēkus, nepaceliet no zemes pamestus ieročus vai aizdomīgus priekšmetus.\n4.Nemēģiniet paša spēkiem pārvietot nesprāgušos lādiņus, mīnas vai atspējot improvizētos spridzekļus.\n5.Neizplatiet informāciju (fotogrāfijas, video, tekstus) par Nacionālajiem bruņotajiem spēkiem un sabiedroto spēku pārvietošanos, atrašanās vietām un pozīcijām."
+        }
+      ]
+    },
+    "buttontext" : "Uz augšu"
+  },
+  "ru": {
+    "name": "Оккупация",
+    "overview" : {
+      "title" : "Кратко и конкретно",
+      "content" : [
+        {
+          "point1": "1.Эвакуируйтесь в часть страны, контролируемую вооруженными силами вашей страны.",
+          "point2": "2.Продолжайте соблюдать законы своей страны",
+          "point3": "3.Не сотрудничайте с оккупационной властью:",
+          "point4": "1.Отстранитесь от их решений и действий",
+          "point5": "2.Не участвуйте в организованных ими публичных мероприятиях, не давайте им интервью и не позволяйте снимать себя на камеру",
+          "point6": "3.Не участвуйте в незаконных выборах, референдумах и голосованиях"
+        }
+      ]
+    },
+    "full_guide": {
+      "title": "Развёрнуто",
+      "content": [
+        {
+          "header1" : "Сопротивление:",
+          "text1": "Даже если в результате военных действий контроль над частью территории будет временно утрачен, вооруженные силы будут продолжать защищать страну, оказывая сопротивление до восстановления независимости.",
+          "text2": "Если вы находитесь на оккупированной территории:",
+          "points1": "1.Эвакуируйтесь в часть страны, контролируемую вооруженными силами своей страны.\n2.Продолжать соблюдать законы своей страны.\n3.Не сотрудничайте с оккупационной властью:",
+          "points2": "1.Отстранитесь от их решений и действий.\n2.Не участвуйте в организованных ими публичных мероприятиях, не давайте им интервью и не позволяйте снимать себя на камеру.\n3.Не участвуйте в незаконных выборах, референдумах и голосованиях.",
+          "text3": "Если вы решите сопротивляться, у вас есть право на это:",
+          "points3": "1.Оказывать вооруженное сопротивление (включая саботаж, подрывные действия) против противника в составе вооруженных сил своей страны.\n2.Воплощать гражданское неповиновение - например, неподчинение законам, изданным оккупационными властями, отказ служить и работать на них, организация массовых забастовок\n3.Поддерживать сопротивление",
+          "header2": "Эвакуация:",
+          "text4": "Если власти издали распоряжение об эвакуации:",
+          "points4": "1.Внимательно слушайте объявление об эвакуации, запоминайте и записывайте направление эвакуации, пункт назначения или сбора.\n2.Носите с собой удостоверение личности, куда бы вы ни пошли.\n3.Если есть возможность, перед эвакуацией отключите газ, электричество и воду в доме, закройте окна и заприте двери.\n4.Пользуйтесь маршрутами, рекомендованными госслужбами, и не ездите по незнакомым маршрутам.\n5.Если вы не можете воспользоваться собственным автомобилем, отправляйтесь в ближайший назначенный пункт сбора эвакуирующихся.\n6.В случае эвакуации оповестите родственников.\n7.Возьмите с собой тревожный чемоданчик.",
+          "text5": "Обратите внимание:",
+          "points5": "1.Не пытайтесь вернуться домой до получения разрешения от властей.\n2.Не носите военизированную одежду, камуфляжную форму или военизированные сумки, когда находитесь вне службы.\n3.Не приближайтесь без необходимости к неопознанным вооруженным людям, не провоцируйте их и не снимайте на камеру, не подбирайте брошенное оружие или подозрительные предметы.\n4.Не пытайтесь самостоятельно перемещать неразорвавшиеся боеприпасы, мины или обезвреживать самодельные взрывные устройства.\n5.Не распространяйте информацию (фотографии, видео, тексты) о передвижениях, местах дислокации и позициях вооруженных сил своей страны."
+        }
+      ]
+    },
+    "buttontext" : "Наверх"
+  }
+}

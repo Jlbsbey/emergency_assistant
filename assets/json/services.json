@@ -1,0 +1,29 @@
+{
+  "en": {
+    "title": "Calling the emergency\nservices",
+    "header1": "What should I say?",
+    "text1": "If you have had an accident and need to call 112, try to calm down first. Wait until you are connected to the call center. Be prepared to give the following information:",
+    "points1": "1.Provide an exact address or describe the place of the incident.\n•2.riefly describe what happened.\n3.Try to remember everything about the incident as accurately as possible.\n4.Give your name and phone number when the dispatcher asks you. \n5.Remember! Don't be the first one to end the conversation!",
+    "text2": "Stay calm and answer the dispatcher's questions.",
+    "remember": "Remember:",
+    "points2": "1.Be available for contact in case the dispatcher needs to contact you again.\n2.Specific answers can speed up the process of getting help.\n3.No question of the dispatcher is superfluous."
+  },
+  "lv": {
+    "title": "Dienestu izsaukšana",
+    "header1": "Kas ir jāsaka?",
+    "text1": "Ja ir noticis negadījums un ir nepieciešams zvanīt uz tālruņa numuru 112, vispirms centieties nomierināties. Gaidiet savienojumu ar 112 kontaktu centru. Esiet gatavi smiegt sekojošu informāciju:",
+    "points1": "1.Nosaukt precīzu adresi vai aprakstīt notikuma vietu.\n2.Īsi pastāstīt, kas ir noticis.\n3.Centies par negadījumu atcerēties visu pēc iespējas precīzāk.\n4.Pēc dispečera lūguma nosaukt savu vārdu, uzvārdu un tālruņa numuru.\n5.Atcerieties! Nepārtrauciet sarunu pirmais!",
+    "text2": "Saglabājiet mieru un atbildiet uz dispečera jautājumiem.",
+    "remember": "Atcerieties:",
+    "points2": "1.Esiet sazvanāms, gadījumā, ja dispečeram rodas nepieciešamība ar Tevi sazināties atkārtoti.\n2.Konkrētas atbildes var paātrināt palīdzības saņemšanu.\n3.Neviens dispečera jautājums nav lieks."
+  },
+  "ru": {
+    "title": "Вызов служб",
+    "header1": "Что надо говорить?",
+    "text1": "Если вы произошел несчастный случай и вам необходимо позвонить на номер 112, постарайтесь сначала успокоиться. Подождите, пока вас соединят с контактным центром. Будьте готовы предоставить следующую информацию:",
+    "points1": "1.Укажите точный адрес или опишите место события.\n2.Кратко расскажите, что произошло.\n3.Постарайтесь вспомнить все о происшествии как можно точнее. \n4.Назовите свое имя и номер телефона, когда вас спросит диспетчер. \n5.Помните! Не прекращайте разговор первым!",
+    "text2": "Сохраняйте спокойствие и отвечайте на вопросы диспетчера.",
+    "remember": "Помни:",
+    "points2": "1.Будьте доступны для связи на случай, если диспетчеру понадобится связаться с вами снова.\n2.Конкретные ответы могут ускорить процесс получения помощи.\n3.Ни один вопрос диспетчера не является лишним."
+  }
+}

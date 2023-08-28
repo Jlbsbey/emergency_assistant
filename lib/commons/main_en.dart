@@ -1,87 +1,33 @@
-import 'dart:ui';
-
-import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:provider/provider.dart';
-import 'package:school/commons/main_ru.dart';
+import 'package:school/main.dart';
 
-import 'commons/animal_bite.dart';
-import 'commons/artillery.dart';
-import 'commons/chemical_threat.dart';
-import 'commons/earthquake.dart';
-import 'commons/fire.dart';
-import 'commons/flood.dart';
-import 'commons/gas_leak.dart';
-import 'commons/general_guidelines.dart';
-import 'commons/hurricane.dart';
-import 'commons/landslide.dart';
-import 'commons/language.dart';
-import 'commons/lost.dart';
-import 'commons/lost_doc.dart';
-import 'commons/main_en.dart';
-import 'commons/nuclear_threat.dart';
-import 'commons/occupation.dart';
-import 'commons/sources.dart';
-import 'commons/tsunami.dart';
+import 'animal_bite.dart';
+import 'artillery.dart';
+import 'chemical_threat.dart';
+import 'earthquake.dart';
+import 'fire.dart';
+import 'flood.dart';
+import 'gas_leak.dart';
+import 'general_guidelines.dart';
+import 'hurricane.dart';
+import 'landslide.dart';
+import 'language.dart';
+import 'lost.dart';
+import 'lost_doc.dart';
+import 'main_ru.dart';
+import 'nuclear_threat.dart';
+import 'occupation.dart';
+import 'sources.dart';
+import 'tsunami.dart';
 
-void main() {
-  WidgetsFlutterBinding.ensureInitialized();
-  SystemChrome.setPreferredOrientations([
-    DeviceOrientation.portraitUp,
-    DeviceOrientation.portraitDown,
-  ]);
-  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.light.copyWith(
-    statusBarColor: Colors.transparent, // Make the status bar transparent
-    statusBarIconBrightness:
-        Brightness.light, // Use light icons on the status bar
-  ));
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    Locale deviceLocale = window.locale;
-    return ChangeNotifierProvider(
-      create: (context) => MyAppState(),
-      child: MaterialApp(
-        title: 'Assistant',
-        theme: ThemeData(
-          useMaterial3: true,
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepOrange),
-          scaffoldBackgroundColor: Color.fromARGB(255, 255, 255, 255),
-        ),
-        home: getHomePage(deviceLocale),
-        debugShowCheckedModeBanner: false,
-      ),
-    );
-  }
-
-  Widget getHomePage(Locale deviceLocale) {
-    if (deviceLocale.languageCode == "ru") {
-      return MyHomeRUPage();
-    } else if (deviceLocale.languageCode == "lv") {
-      return MyHomePage();
-    } else {
-      return MyHomeENPage();
-    }
-  }
-}
-
-class MyAppState extends ChangeNotifier {
-  var current = WordPair.random();
-}
-
-class MyHomePage extends StatelessWidget {
+class MyHomeENPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     //var appState = context.watch<MyAppState>();
     //var pair = appState.current;
     double height = MediaQuery.of(context).size.width * 0.50;
-    language = "lv";
+    language = "en";
     return Scaffold(
       appBar: AppBar(
         toolbarHeight: kToolbarHeight * 1.5,
@@ -92,7 +38,7 @@ class MyHomePage extends StatelessWidget {
         ),
         iconTheme: IconThemeData(color: Colors.white),
         title: const Text(
-          'Ārkārtu situāciju asistents',
+          'Emergency Helper',
           style: TextStyle(fontSize: 24, color: Colors.white),
         ),
         actions: <Widget>[],
@@ -128,7 +74,7 @@ class MyHomePage extends StatelessWidget {
                   ),
                   ListTile(
                     leading: Icon(Icons.luggage),
-                    title: Text('Pazaudēti dokumentus ārzemēs'),
+                    title: Text('Lost documents abroad'),
                     onTap: () {
                       Navigator.push(
                           context,
@@ -138,7 +84,7 @@ class MyHomePage extends StatelessWidget {
                   ),
                   ListTile(
                     leading: Icon(Icons.source),
-                    title: Text('Informācija par aplikāciju'),
+                    title: Text('Information about application'),
                     onTap: () {
                       Navigator.push(
                           context,
@@ -184,14 +130,14 @@ class MyHomePage extends StatelessWidget {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                  builder: (context) => MyHomeENPage()));
+                                  builder: (context) => MyHomePage()));
                         },
                         icon: SizedBox(
                           height: 40,
-                          child: Image.asset('lib/icons/united-kingdom.png'),
+                          child: Image.asset('lib/icons/latvia.png'),
                         ),
                         label: Text(
-                          "English",
+                          "Latviešu",
                           style: TextStyle(fontSize: 16),
                         ),
                         //child: child
@@ -214,7 +160,7 @@ class MyHomePage extends StatelessWidget {
                     width: MediaQuery.of(context).size.width * 0.50,
                     height: height,
                     child: MaterialButton(
-                      padding: EdgeInsets.only(top: 8.0, left: 8.0, right: 4.0),
+                      padding: EdgeInsets.only(left: 8.0, right: 4, top: 8),
                       textColor: Colors.white,
                       splashColor: Color.fromARGB(255, 255, 255, 255),
                       elevation: 8.0,
@@ -231,9 +177,9 @@ class MyHomePage extends StatelessWidget {
                           ),
                         ),
                         child: Padding(
-                          padding: const EdgeInsets.all(8.0),
+                          padding: const EdgeInsets.all(0.0),
                           child: Text(
-                            "Vispārīgie padomi",
+                            "General recomendations",
                             textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 22),
                           ),
@@ -255,7 +201,7 @@ class MyHomePage extends StatelessWidget {
                     width: MediaQuery.of(context).size.width * 0.50,
                     height: height,
                     child: MaterialButton(
-                      padding: EdgeInsets.only(top: 8.0, left: 4.0, right: 8.0),
+                      padding: EdgeInsets.only(left: 4.0, right: 8, top: 8),
                       textColor: Colors.white,
                       splashColor: Color.fromARGB(255, 255, 255, 255),
                       elevation: 8.0,
@@ -274,7 +220,7 @@ class MyHomePage extends StatelessWidget {
                         child: Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Text(
-                            "Gāzes noplūde",
+                            "Gas leak",
                             textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 22),
                           ),
@@ -300,7 +246,7 @@ class MyHomePage extends StatelessWidget {
                     width: MediaQuery.of(context).size.width * 0.50,
                     height: height,
                     child: MaterialButton(
-                      padding: EdgeInsets.only(top: 8.0, left: 8.0, right: 4.0),
+                      padding: EdgeInsets.only(left: 8.0, right: 4, top: 8),
                       textColor: Colors.white,
                       splashColor: Color.fromARGB(255, 255, 255, 255),
                       elevation: 8.0,
@@ -319,7 +265,7 @@ class MyHomePage extends StatelessWidget {
                         child: Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Text(
-                            "Ugunsgrēks",
+                            "Fire",
                             textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 22),
                           ),
@@ -341,7 +287,7 @@ class MyHomePage extends StatelessWidget {
                     width: MediaQuery.of(context).size.width * 0.50,
                     height: height,
                     child: MaterialButton(
-                      padding: EdgeInsets.only(top: 8.0, left: 4.0, right: 8.0),
+                      padding: EdgeInsets.only(left: 4.0, right: 8, top: 8),
                       textColor: Colors.white,
                       splashColor: Color.fromARGB(255, 255, 255, 255),
                       elevation: 8.0,
@@ -360,7 +306,7 @@ class MyHomePage extends StatelessWidget {
                         child: Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Text(
-                            "Apmaldijies",
+                            "Lost in forest",
                             textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 22),
                           ),
@@ -386,7 +332,7 @@ class MyHomePage extends StatelessWidget {
                     width: MediaQuery.of(context).size.width * 0.50,
                     height: height,
                     child: MaterialButton(
-                      padding: EdgeInsets.only(top: 8.0, left: 8.0, right: 4.0),
+                      padding: EdgeInsets.only(left: 8.0, right: 4, top: 8),
                       textColor: Colors.white,
                       splashColor: Color.fromARGB(255, 255, 255, 255),
                       elevation: 8.0,
@@ -405,7 +351,7 @@ class MyHomePage extends StatelessWidget {
                         child: Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Text(
-                            "Dzīvnieku kodums",
+                            "Animal bite",
                             textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 22),
                           ),
@@ -427,7 +373,7 @@ class MyHomePage extends StatelessWidget {
                     width: MediaQuery.of(context).size.width * 0.50,
                     height: height,
                     child: MaterialButton(
-                      padding: EdgeInsets.only(top: 8.0, left: 4.0, right: 8.0),
+                      padding: EdgeInsets.only(left: 4.0, right: 8, top: 8),
                       textColor: Colors.white,
                       splashColor: Color.fromARGB(255, 255, 255, 255),
                       elevation: 8.0,
@@ -446,7 +392,7 @@ class MyHomePage extends StatelessWidget {
                         child: Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Text(
-                            "Plūdi",
+                            "Flood",
                             textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 22),
                           ),
@@ -472,7 +418,7 @@ class MyHomePage extends StatelessWidget {
                     width: MediaQuery.of(context).size.width * 0.50,
                     height: height,
                     child: MaterialButton(
-                      padding: EdgeInsets.only(top: 8.0, left: 8.0, right: 4.0),
+                      padding: EdgeInsets.only(left: 8.0, right: 4, top: 8),
                       textColor: Colors.white,
                       splashColor: Color.fromARGB(255, 255, 255, 255),
                       elevation: 8.0,
@@ -491,7 +437,7 @@ class MyHomePage extends StatelessWidget {
                         child: Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Text(
-                            "Nogruvums",
+                            "Landslide",
                             textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 22),
                           ),
@@ -506,95 +452,10 @@ class MyHomePage extends StatelessWidget {
                     ),
                   ),
                 ),
-                //_________________________________________________________________________________8
-                Container(
-                  alignment: Alignment.centerRight,
-                  child: SizedBox(
-                    width: MediaQuery.of(context).size.width * 0.50,
-                    height: height,
-                    child: MaterialButton(
-                      padding: EdgeInsets.only(top: 8.0, left: 4.0, right: 8.0),
-                      textColor: Colors.white,
-                      splashColor: Color.fromARGB(255, 255, 255, 255),
-                      elevation: 8.0,
-                      child: Container(
-                        alignment: Alignment.center,
-                        decoration: BoxDecoration(
-                          color: Colors.black,
-                          image: DecorationImage(
-                            image: AssetImage('assets/artillery.jpg'),
-                            fit: BoxFit.cover,
-                            colorFilter: ColorFilter.mode(
-                                Colors.black.withOpacity(0.5),
-                                BlendMode.dstATop),
-                          ),
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            "Artilērijas apšaude",
-                            textAlign: TextAlign.center,
-                            style: TextStyle(fontSize: 22),
-                          ),
-                        ),
-                      ),
-                      onPressed: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => ArtilleryPage()));
-                      },
-                    ),
-                  ),
-                ),
-              ],
-            ),
-            //_________________________________________________________________________________9
-            Row(
-              children: [
+
+                //_____________________________________________________________________________8
                 Container(
                   alignment: Alignment.centerLeft,
-                  child: SizedBox(
-                    width: MediaQuery.of(context).size.width * 0.50,
-                    height: height,
-                    child: MaterialButton(
-                      padding: EdgeInsets.only(top: 8.0, left: 4.0, right: 4.0),
-                      textColor: Colors.white,
-                      splashColor: Color.fromARGB(255, 255, 255, 255),
-                      elevation: 8.0,
-                      child: Container(
-                        alignment: Alignment.center,
-                        decoration: BoxDecoration(
-                          color: Colors.black,
-                          image: DecorationImage(
-                            image: AssetImage('assets/occupation.jpg'),
-                            fit: BoxFit.cover,
-                            colorFilter: ColorFilter.mode(
-                                Colors.black.withOpacity(0.4),
-                                BlendMode.dstATop),
-                          ),
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            "Okupācija",
-                            textAlign: TextAlign.center,
-                            style: TextStyle(fontSize: 22),
-                          ),
-                        ),
-                      ),
-                      onPressed: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => OccupationPage()));
-                      },
-                    ),
-                  ),
-                ),
-                //_________________________________________________________________________________10
-                Container(
-                  alignment: Alignment.centerRight,
                   child: SizedBox(
                     width: MediaQuery.of(context).size.width * 0.50,
                     height: height,
@@ -608,17 +469,17 @@ class MyHomePage extends StatelessWidget {
                         decoration: BoxDecoration(
                           color: Colors.black,
                           image: DecorationImage(
-                            image: AssetImage('assets/chem_bio.jpg'),
+                            image: AssetImage('assets/cunami.jpg'),
                             fit: BoxFit.cover,
                             colorFilter: ColorFilter.mode(
-                                Colors.black.withOpacity(0.5),
+                                Colors.black.withOpacity(0.4),
                                 BlendMode.dstATop),
                           ),
                         ),
                         child: Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Text(
-                            "Ķīmiskie \n draudi",
+                            "Tsunami",
                             textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 22),
                           ),
@@ -628,15 +489,14 @@ class MyHomePage extends StatelessWidget {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => ChemicalPage()));
+                                builder: (context) => TsunamiPage()));
                       },
                     ),
                   ),
                 ),
               ],
             ),
-            //_________________________________________________________________________________11
-
+            //_________________________________________________________________________________9
             Row(
               children: [
                 Container(
@@ -654,7 +514,7 @@ class MyHomePage extends StatelessWidget {
                         decoration: BoxDecoration(
                           color: Colors.black,
                           image: DecorationImage(
-                            image: AssetImage('assets/nuclear_explosion.jpeg'),
+                            image: AssetImage('assets/hurricane.jpg'),
                             fit: BoxFit.cover,
                             colorFilter: ColorFilter.mode(
                                 Colors.black.withOpacity(0.4),
@@ -664,7 +524,7 @@ class MyHomePage extends StatelessWidget {
                         child: Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Text(
-                            "Kodoldraudi",
+                            "Hurricane",
                             textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 22),
                           ),
@@ -674,13 +534,12 @@ class MyHomePage extends StatelessWidget {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => NuclearPage()));
+                                builder: (context) => HurricanePage()));
                       },
                     ),
                   ),
                 ),
-
-                //_________________________________________________________________________________12
+                //_________________________________________________________________________________10
                 Container(
                   alignment: Alignment.centerRight,
                   child: SizedBox(
@@ -706,7 +565,7 @@ class MyHomePage extends StatelessWidget {
                         child: Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Text(
-                            "Zemestrīce",
+                            "Earthquake",
                             textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 22),
                           ),
@@ -723,11 +582,97 @@ class MyHomePage extends StatelessWidget {
                 ),
               ],
             ),
+            //_________________________________________________________________________________11
+            Row(
+              children: [
+                Container(
+                  alignment: Alignment.centerRight,
+                  child: SizedBox(
+                    width: MediaQuery.of(context).size.width * 0.50,
+                    height: height,
+                    child: MaterialButton(
+                      padding: EdgeInsets.only(left: 8.0, right: 4, top: 8),
+                      textColor: Colors.white,
+                      splashColor: Color.fromARGB(255, 255, 255, 255),
+                      elevation: 8.0,
+                      child: Container(
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                          color: Colors.black,
+                          image: DecorationImage(
+                            image: AssetImage('assets/artillery.jpg'),
+                            fit: BoxFit.cover,
+                            colorFilter: ColorFilter.mode(
+                                Colors.black.withOpacity(0.5),
+                                BlendMode.dstATop),
+                          ),
+                        ),
+                        child: Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text(
+                            "Shelling",
+                            textAlign: TextAlign.center,
+                            style: TextStyle(fontSize: 22),
+                          ),
+                        ),
+                      ),
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => ArtilleryPage()));
+                      },
+                    ),
+                  ),
+                ),
+                //_________________________________________________________________________________12
+                Container(
+                  alignment: Alignment.centerLeft,
+                  child: SizedBox(
+                    width: MediaQuery.of(context).size.width * 0.50,
+                    height: height,
+                    child: MaterialButton(
+                      padding: EdgeInsets.only(left: 4.0, right: 8, top: 8),
+                      textColor: Colors.white,
+                      splashColor: Color.fromARGB(255, 255, 255, 255),
+                      elevation: 8.0,
+                      child: Container(
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                          color: Colors.black,
+                          image: DecorationImage(
+                            image: AssetImage('assets/occupation.jpg'),
+                            fit: BoxFit.cover,
+                            colorFilter: ColorFilter.mode(
+                                Colors.black.withOpacity(0.4),
+                                BlendMode.dstATop),
+                          ),
+                        ),
+                        child: Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text(
+                            "Military occupation",
+                            textAlign: TextAlign.center,
+                            style: TextStyle(fontSize: 22),
+                          ),
+                        ),
+                      ),
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => OccupationPage()));
+                      },
+                    ),
+                  ),
+                ),
+              ],
+            ),
             //__________________________________________________________________13
             Row(
               children: [
                 Container(
-                  alignment: Alignment.centerLeft,
+                  alignment: Alignment.centerRight,
                   child: SizedBox(
                     width: MediaQuery.of(context).size.width * 0.50,
                     height: height,
@@ -742,17 +687,17 @@ class MyHomePage extends StatelessWidget {
                         decoration: BoxDecoration(
                           color: Colors.black,
                           image: DecorationImage(
-                            image: AssetImage('assets/hurricane.jpg'),
+                            image: AssetImage('assets/chem_bio.jpg'),
                             fit: BoxFit.cover,
                             colorFilter: ColorFilter.mode(
-                                Colors.black.withOpacity(0.4),
+                                Colors.black.withOpacity(0.5),
                                 BlendMode.dstATop),
                           ),
                         ),
                         child: Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Text(
-                            "Viesuļvētra",
+                            "Chemical attack",
                             textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 22),
                           ),
@@ -762,12 +707,12 @@ class MyHomePage extends StatelessWidget {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => HurricanePage()));
+                                builder: (context) => ChemicalPage()));
                       },
                     ),
                   ),
                 ),
-                //_____________________________________________________________________________
+                //_________________________________________________________________________________14
                 Container(
                   alignment: Alignment.centerLeft,
                   child: SizedBox(
@@ -784,7 +729,7 @@ class MyHomePage extends StatelessWidget {
                         decoration: BoxDecoration(
                           color: Colors.black,
                           image: DecorationImage(
-                            image: AssetImage('assets/cunami.jpg'),
+                            image: AssetImage('assets/nuclear_explosion.jpeg'),
                             fit: BoxFit.cover,
                             colorFilter: ColorFilter.mode(
                                 Colors.black.withOpacity(0.4),
@@ -794,7 +739,7 @@ class MyHomePage extends StatelessWidget {
                         child: Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Text(
-                            "Cunami",
+                            "Nuclear attack",
                             textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 22),
                           ),
@@ -804,7 +749,7 @@ class MyHomePage extends StatelessWidget {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => TsunamiPage()));
+                                builder: (context) => NuclearPage()));
                       },
                     ),
                   ),

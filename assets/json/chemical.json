@@ -1,0 +1,38 @@
+{
+  "en": {
+    "name": "Chemical attack",
+    "full_guide": {
+      "content": [
+        {
+          "header" : "What to do in case of a chemical attack:",
+          "text": "A chemical attack may be indicated by the presence of suspicious smoke, gas or droplets, an odor, or an irritating sensation in the respiratory tract of you or others in the vicinity. If you encounter such a situation, the procedure should be following:",
+          "points": "1.If you are indoors, close the windows and air conditioning system.\n2.If possible, choose rooms without windows.\n3.Outdoors, immediately cover your mouth and nose with a wet cloth.\n4.Leave the contaminated area as quickly as possible, moving perpendicular to the wind flow (so that the wind blows from the sides).\n5.Help the injured, but do not return to the contaminated area.\n6.Get rid of clothing and wash your body with soap and water.\n7.Wait for help and follow the instructions of the authorities. Do not go to the hospital or home on your own."
+        }
+      ]
+    }
+  },
+  "lv": {
+    "name": "Ķimiskie draudi",
+    "full_guide": {
+      "content": [
+        {
+          "header" : "Rīcība ķīmiskā uzbrukuma gadījumā:",
+          "text": "Par ķīmisko uzbrukumu var liecināt aizdomīga dūmu, gāzes vai pilienu klātbūtne, kairinoša vai smakšanas sajūta elpceļos Jums vai apkārtējiem cilvēkiem esošajā teritorijā. Ja saskaries ar šādu situāciju, tad rīcību kārtība ir sekojoša:",
+          "points": "1.Ja esi iekštelpās - aizver logus, dabīgās ventilācijas un kondicionēšanas sistēmas. 2.Ja iespējams, izvēlies telpas, kurās nav logi.\n3.Ārpus telpām nekavējoties aizsedz muti un degunu ar mitru audumu.\n4.Cik iespējams ātri pametiet piesārņoto teritoriju, virzoties perpendikulāri vēja plūsmai(lai vējš pūš no sāniem).\n5.Palīdziet apkartējiem, bet nedodieties atpakaļ piesārņotajā teritorijā.\n6.Atbrīvojieties no apģerba, nomazgājiet ķermeni ar ziepēm un ūdeni.\n7.Sagaidiet palidzību un sekojiet atbildīgo dienestu rīkojumiem. Patvaļīgi nedodieties uz slimnīcu vai mājām."
+        }
+      ]
+    }
+  },
+  "ru": {
+    "name": "Химическая атака",
+    "full_guide": {
+      "content": [
+        {
+          "header" : "Что делать в случае химической атаки:",
+          "text": "На химическую атаку может указывать наличие подозрительного дыма, газа или капель, запах или раздражающее ощущение в дыхательных путях вас или других людей, находящихся поблизости. Если вы столкнулись с такой ситуацией, порядок действий должен быть следующим:",
+          "points": "1.Если вы находитесь в помещении, закройте окна и систему кондиционирования.\n2.Если возможно, выбирайте помещения без окон.\n3.На улице немедленно прикройте рот и нос влажной тканью.\n4.Как можно быстрее покиньте загрязнённое место, двигаясь перпендикулярно потоку ветра (так, чтобы ветер дул с боков).\n5.Окажите помощь пострадавшим, но не возвращайтесь в загрязнённую територию.\n6.Избавьтесь от одежды, вымойте тело водой с мылом.\n7.Дождитесь помощи и следуйте указаниям властей. Не отправляйтесь в больницу или домой самовольно."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "en": {
+    "name": "Information about\\napplication",
+    "drop_down": "Sources",
+    "full_guide": {
+      "content": [
+        {
+          "header" : "Authors",
+          "Nikita": "Programmer: Nikita Smorigo",
+          "Diana": "Designer: Diana Ivanova"
+        }
+      ]
+    }
+  },
+  "lv": {
+    "name": "Informācija par aplikāciju",
+    "drop_down": "Avoti",
+    "full_guide": {
+      "content": [
+        {
+          "header" : "Autori:",
+          "Nikita": "Programetājs: Nikita Smorigo",
+          "Diana": "Dizaineris: Diana Ivanova"
+        }
+      ]
+    }
+  },
+  "ru": {
+    "name": "Информация \\nо приложении",
+    "drop_down": "Источники",
+    "full_guide": {
+      "content": [
+        {
+          "header" : "Авторы:",
+          "Nikita": "Программист: Никита Смориго",
+          "Diana": "Дизайнер: Диана Иванова"
+        }
+      ]
+    }
+  }
+}

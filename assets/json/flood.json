@@ -1,0 +1,98 @@
+{
+  "en": {
+    "name": "Flood",
+    "overview" : {
+      "title" : "Overview",
+      "content" : [
+        {
+          "point1": "•If there is a risk of flooding:",
+          "point2": "1.Contact your local authorities to find out if you are at risk.",
+          "point3": "2.If so, prepare to evacuate: move everything from the basement and first floor upstairs, take care of the seniors, secure property in the yard.",
+          "point4": "3.In case of an evacuation, turn off the heating, electricity and gas, close everything you can.",
+          "point5": "4.Inform your family about the evacuation.",
+          "point6": "•If the flood happened unexpectedly and there is no possibility to evacuate:",
+          "point7": "1.If your health or life is in danger, call 112.",
+          "point8": "2.Move to the roof or higher floors.",
+          "point9": "3.If a flood occurs at night, use flashlight light to signal rescuers of your location."
+        }
+      ]
+    },
+    "full_guide": {
+      "title": "Full guide",
+      "content": [
+        {
+          "header1" : "If there is a risk of flooding and you can evacuate:",
+          "points1": "1.Contact your local authorities to find out if you are in a flood-prone area.\n2.Listen to weather warnings, monitor the situation near your home, and inform your neighbors.\n3.Know and keep in your cell phone and notebook the phone numbers you should call to report flooding and get help - local government and emergency numbers.\n4.If you are in an area at risk of flooding, take care of the elderly, children, disabled and sick by finding a safer place to stay with family or friends. Seek help from local authorities if necessary.\n5.Know where to evacuate livestock and pets and how to feed them if necessary. If this is not possible, seek help from local authorities in a timely manner.\n6.To reduce flood damage, move things from basements and first floors to upper floors or attics, and secure things in the yard and around the house. Prepare the things you will take with you when evacuating, as the house could flood in no time.\n7.Prepare vehicles (cars, tractors, etc.) and watercraft (boats, rafts, etc.) to be used for evacuation.\\n8.When leaving your home and outbuildings, turn off the power and gas supply, domestic heaters and equipment, and close windows, doors, hatches and shutters.\n9.In the case of an evacuation, notify your relatives.",
+          "header2": "If a flood occurs unexpectedly and there is no possibility to evacuate:",
+          "points2": "1.If your health or life is in danger, call emergency services at 112\n2.Move to the top floors or roof of the building. If a flood has started at night, use a light signal to let rescuers know your location.",
+          "text": "Remember, if you are asked to evacuate and you refuse to do so, you must acknowledge your refusal in writing, thereby accepting responsibility for any consequences. If an emergency is declared, a forced evacuation may be imposed."
+        }
+      ]
+    },
+    "buttontext" : "On top"
+  },
+  "lv": {
+    "name": "Plūdi",
+    "overview" : {
+      "title" : "Īsumā",
+      "content" : [
+        {
+          "point1": "•Ja pastāv plūdu draudi:",
+          "point2": "1.Vērsies pašvaldībā un noskaidro, vai tu esi riska zonā",
+          "point3": "2.Ja esi, tad sagatavojies evakuācijai: pārnes visu no pagrabstāva un 1. stāva augstāk, aprupējies par veciem cilvēkiem, nostiprini priekšmetus pagalmā.",
+          "point4": "3.Evakuācijas gadījuma atslēdz apkuri, elektroenergījas un gāzes padevi, aizver visu, ko vari.",
+          "point5": "4.Paziņo tuviniekiem par evakuāciju.",
+          "point6": "•Ja plūdi ir negaidīti un nav iespējas evakuēties:",
+          "point7": "1.Ja ir apdraudēta tava veselība vai dzivība zvani 112.",
+          "point8": "2.Pārvietojies uz jumtu vai augtākiem stāviem.",
+          "point9": "3.Ja plūdi sakušies naktī izmanto gaismas signālu, lai glabējiem signalizētu par savu atrašanās vietu."
+        }
+      ]
+    },
+    "full_guide": {
+      "title": "Plašāk",
+      "content": [
+        {
+          "header1" : "Ja pastāv plūdu draudi un var evakuēties:",
+          "points1": "1.Vērsies savā pašvaldībā un noskaidro, vai tu atrodies plūdu apdraudētajā teritorijā.\n2.Klausies meteorologu brīdinājumus un seko situācijas attīstībai sava mājokļa tuvumā, informē kaimiņus.\n3.Noskaidro un saglabā savā mobilajā telefonā un piezīmju grāmatiņā tālruņu numurus, uz kuriem jāzvana, lai ziņotu par plūdu sākšanos un saņemtu palīdzību - pašvaldības un operatīvo dienestu tālruņa numurus.\n4.Ja atrodies plūdu apdraudētā teritorijā, savlaicīgi parūpējies par veciem cilvēkiem, bērniem, invalīdiem un slimniekiem, atrodot viņiem šajā laikā drošāku mājvietu pie radiem vai draugiem. Nepieciešamības gadījumā lūdz palīdzību savā pašvaldībā.\n5.Apzini vietu, kur nepieciešamības gadījumā evakuēt mājlopus, mājdzīvniekus un kā tos nodrošināt ar barību. Ja tādas iespējas nav, jau savlaicīgi vērsies pēc palīdzības savā pašvaldībā.\n6.Lai samazinātu plūdu nodarītos materiālos zaudējumus, pārvieto mantas no pagrabtelpām un pirmajiem stāviem uz augšējiem stāviem vai bēniņiem, nostiprini pagalmā un mājas tuvumā esošus priekšmetus. Sagatavo mantas, ko ņemsi līdzi evakuējoties, jo māja var applūst īsā laika brīdī.\n7.Sagatavo evakuācijai izmantojamos transporta līdzekļus (automašīnas, traktorus u.c.) un peldošos līdzekļus (laivas, plostus u.c.).\n8.Atstājot māju un saimniecības ēkas, atslēdz elektroenerģijas un gāzes padevi, vietējās apkures ierīces un iekārtas, aizver logus, durvis, lūkas un slēģus.\n9.Evakuācijas gadījumā paziņo par to tuviniekiem.",
+          "header2": "Ja plūdi sākušies negaidīti un nav iespējas evakuēties:",
+          "points2": "1.Ja apdraudēta tava veselība vai dzivība, zvani Valsts ugunsdzesības un glābšanas dienestam pa tālruni 112.\n2.Pārvietojies uz ēkas augšējiem stāviem vai jumtu. Ja plūdi sākušies naktī, izmanto gaismas signālu, lai glabējiem signalizētu par savu atrašanas vietu.",
+          "text": "Atceries, ka saņemot aicinājumu evakuēties un no tā atsakoties, atteikums personai jāapstiprina rakstiski, tādējādi uzņemoties atbildību par iespējamām sekām. Ārkārtējās situācijas izsludināšanas gadījumā var tikt piemērota piespiedu evakuācija."
+        }
+      ]
+    },
+    "buttontext" : "Uz augšu"
+  },
+  "ru": {
+    "name": "Наводнение",
+    "overview" : {
+      "title" : "Кратко и конкретно",
+      "content" : [
+        {
+          "point1": "•Если существует риск наводнения:",
+          "point2": "1.Обратитесь в самоуправление, чтобы узнать, находитесь ли вы в группе риска.",
+          "point3": "2.Если это так, приготовьтесь к эвакуации: перенесите все из подвала и первого этажа наверх, позаботьтесь о пожилых людях, зафиксируйте имущество во дворе.",
+          "point4": "3.В случае эвакуации отключите отопление, электричество и газ, закройте все, что можно.",
+          "point5": "4.Сообщите своей семье об эвакуации.",
+          "point6": "•Если наводнение произошло неожиданно и нет возможности эвакуироваться:",
+          "point7": "1.Если вашему здоровью или жизни угрожает опасность, звоните 112.",
+          "point8": "2.Переместитесь на крышу или на более высокие этажи.",
+          "point9": "3.Если наводнение происходит ночью, используйте свет фонаря, чтобы сигнализировать спасателям о своем местонахождении."
+        }
+      ]
+    },
+    "full_guide": {
+      "title": "Развёрнуто",
+      "content": [
+        {
+          "header1" : "Если существует риск наводнения и вы можете эвакуироваться:",
+          "points1": "1.Обратитесь в местные органы власти, чтобы узнать, находитесь ли вы в зоне, подверженной наводнениям.\n2.Слушайте метеорологические предупреждения, следите за ситуацией вблизи вашего дома и информируйте соседей.\n3.Узнайте и сохраните в своем мобильном телефоне и записной книжке номера телефонов, по которым следует звонить, чтобы сообщить о наводнении и получить помощь - номера телефонов самоуправления и аварийных служб.\n4.Если вы находитесь в районе, подверженном риску наводнения, позаботьтесь о пожилых людях, детях, инвалидах и больных, найдя на это время более безопасное место для проживания у родственников или друзей. При необходимости обратитесь за помощью к местным властям.\n5.Знайте, куда эвакуировать домашний скот и домашних животных и как их кормить в случае необходимости. Если это невозможно, своевременно обратитесь за помощью к местным властям.\n6.Чтобы уменьшить ущерб от наводнения, переместите вещи из подвалов и первых этажей на верхние этажи или чердаки, закрепите вещи во дворе и возле дома. Подготовьте вещи, которые вы возьмете с собой при эвакуации, так как дом может затопить в кратчайшие сроки.\n7.Подготовьте транспортные средства (автомобили, тракторы и т.д.) и плавучие средства (лодки, плоты и т.д.), которые будут использоваться для эвакуации.\n8.Покидая дом и хозяйственные постройки, отключите электро и газоснабжение, местные отопительные приборы и оборудование, закройте окна, двери, люки и ставни.\n9.В случае эвакуации оповестите своих родственников.",
+          "header2": "Если неожиданно случилось наводнение и нет возможности эвакуироваться:",
+          "points2": "1.Если вашему здоровью или жизни угрожает опасность, позвоните в экстренные службы по телефону 112.\n2.Переместитесь на верхние этажи или крышу здания. Если наводнение началось ночью, используйте световой сигнал, чтобы сообщить спасателям о своем местонахождении.",
+          "text": "Помните, что если вас попросили эвакуироваться и вы отказались это сделать, вы должны подтвердить свой отказ в письменном виде, тем самым приняв на себя ответственность за любые последствия. Если объявлена чрезвычайная ситуация, может быть введена принудительная эвакуация."
+        }
+      ]
+    },
+    "buttontext" : "Наверх"
+  }
+}

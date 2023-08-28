@@ -1,0 +1,38 @@
+{
+  "en": {
+    "title": "Evacuation and \nemergency kit",
+    "header1": "What should I do if I need to evacuate?",
+    "points1": "1.Listen carefully to the evacuation announcement, remember and follow the direction of the evacuation, destination or pickup point.\n2.If possible, use your own vehicle and drive in the designated evacuation direction to your destination or to a pre-selected shelter location that matches the evacuation direction.\n3.If it is not possible to use your own vehicle, go to the nearest designated evacuation pickup point.\n4.If you evacuate, notify your family and friends.",
+    "header2": "What should I take with me when I evacuate?",
+    "text1": "If you need to evacuate quickly and temporarily, take your identification documents (passport, ID card), money, bank cards, cell phone, charger, portable radio with batteries and medicines if you need to take them regularly. In case of a prolonged evacuation, take an emergency kit with you.",
+    "header3": "What is an emergency kit and what should I put in it?",
+    "text2": "An emergency suitcase contains items that a person or family will need in the case of a prolonged and foreseeable evacuation, as well as in the case of a utility (gas, electricity, water) outage. Use this list and prepare your bag in advance. In your kit add:",
+    "points2": "1.Copies of important documents (passport or ID card, driver's license, vehicle registration certificate, etc.) in a plastic bag. Keep originals of your identification documents with you.\n2.A small amount of money. Keep all other cash and bank cards with you.\n3.Portable radio, matches or lighters, flashlight, batteries.\n4.Universal folding knife, spoon, unbreakable bowl and mug.\n5.Tape, string, thread, needle, scissors, paper and stationery.\n6.First aid kit.\n7.Clothing, spare underwear and comfortable shoes.\n8.Sleeping bag or blanket, camping mat, preferably a tent.\n9.Hygiene items, towel, toilet paper, disposable wipes.\n10.Foodstuffs that can be eaten uncooked and with a long shelf life - dry soups, canned food, cookies, sweets with high calorie count.\n11.Drinking water for several days (preferably in plastic bottles).",
+    "remember": "Remember: if possible, turn off the gas and electricity supply to the house before evacuating.",
+    "buttontext": "On top"
+  },
+  "lv": {
+    "title": "Evakuācija un ārkārtas \ngadījumu soma",
+    "header1": "Ko darīt, ja nepieciešams evakuēties?",
+    "points1": "1.Uzmanīgi ieklausies paziņojumā par evakuācijas norisi, iegaumē un ievēro evakuācijas virzienu, galamērķi vai pulcēšanās vietu.\n2.Ja iespējams, izmanto savu transportlīdzekli un brauc norādītajā evakuācijas virzienā uz galamērķi vai uz iepriekš izvēlēto vietu, kur esi plānojis patverties un kas sakrīt ar evakuācijas virzienu.\n3.Ja nav iespējams izmantot savu transportlīdzekli, dodies uz tuvāko norādīto evakuācijas pulcēšanās vietu.\n4.Evakuācijas gadījumā paziņo par to tuviniekiem.",
+    "header2": "Kas jāņem līdzi evakuējoties?",
+    "text1": "Ja nepieciešama operatīva un īslaicīga evakuācija, ņem līdzi personu apliecinošus dokumentus (pase, ID karte), naudu, bankas kartes, mobilo telefonu, tā lādētāju, portatīvo radioaparātu ar baterijām un medikamentus, ja tos nepieciešams lietot regulāri. Ilgstošas evakuācijas gadījumā ņem līdzi ārkārtas gadījumu somu.",
+    "header3": "Kas ir ārkārtas gadījumu soma un ko tajā likt iekšā?",
+    "text2": "Arkārtas gadījumu soma satur lietas, kas cilvēkam vai ģimenei būs nepieciešamas ilgstošas un paredzamas evakuācijas, kā arī komunālo pakalpojumu (gāze, elektrība, ūdens) padeves pārtraukuma gadījumā. Izmanto šo sarakstu un sagatavo somu savlaicīgi. Somā liec:",
+    "points2": "1.Svarīgu dokumentu (pase vai ID karte, autovadītāja apliecība, transportlīdzekļa tehniskā pase, u.c.) kopijas polietilēna iesaiņojumā. Personu apliecinošo dokumentu orģinālus turi pie sevis\n2.Nelielu naudas summu. Pārējo naudu un bankas kartes turi pie sevis.\n3.Portatīvo radioaparātu, sērkociņus vai škiltavas, lukturīti, baterijas.\n4.Daudzfunkcionālu saliekamo nazi, karoti, neplīstošu bļodiņu un krūzīti.\n5.Līmlenti, auklu, diegu, adatu, škēres, papīru un rakstāmpiederumus.\n6.Pirmās palīdzības aptieciņu.\n7.Apģērbu, rezerves apakšveļu un ērtus apavus.\n8.Guļammaisu vai segu, tūristu paklājiņu, vēlams telti.\n9.Higiēnas piederumus, dvieli, tualetes papīru, vienreiz lietojamās salvetes.\n10.Pārtiku, ko var lietot bez termiskas apstrādes un ar ilgu derīguma termiņu - sausās zupas, konservus, sausiņus, saldumus ar augstu kaloriju saturu.\n11.Dzeramo ūdeni vairākām dienām (ieteicams plastmasas pudelēs).",
+    "remember": "Atceries: Ja tas ir iespējams, pirms evakuācijas atslēdz savam mājoklim gāzes un elektrības padevi.",
+    "buttontext": "Uz augšu"
+  },
+  "ru": {
+    "title": "Эвакуация и тревожный \nчемоданчик",
+    "header1": "Что делать, если мне нужно эвакуироваться?",
+    "points1": "1.Внимательно слушайте объявление об эвакуации, запоминайте и следуйте направлению эвакуации, пункту назначения или месту сбора.\n2.По возможности используйте собственный автомобиль и двигайтесь в указанном направлении эвакуации к месту назначения или к заранее выбранному месту укрытия, совпадающему с направлением эвакуации.\n3.Если нет возможности воспользоваться собственным транспортным средством, отправляйтесь в ближайший назначенный пункт сбора эвакуирующихся.\n4.В случае эвакуации оповестите своих близких.",
+    "header2": "Что нужно взять с собой при эвакуации?",
+    "text1": "Если вам необходимо быстро и временно эвакуироваться, возьмите документы, удостоверяющие личность (паспорт, удостоверение личности), деньги, банковские карты, мобильный телефон, зарядное устройство, портативную рацию с батарейками и лекарства, если вам необходимо принимать их регулярно. В случае длительной эвакуации возьмите с собой тревожный чемоданчик.",
+    "header3": "Что такое тревожный чемоданчик и что нужно в него класть?",
+    "text2": "Тревожный чемоданчик содержит предметы, которые понадобятся человеку или семье в случае длительной и прогнозируемой эвакуации, а также в случае отключения коммунальных услуг (газа, электричества, воды). Используйте этот список и подготовьте свою сумку заранее. В чемоданчик положите:",
+    "points2": "1.Копии важных документов (паспорт или удостоверение личности, водительские права, свидетельство о регистрации транспортного средства и т.д.) в полиэтиленовой упаковке. Держите при себе оригиналы документов, удостоверяющих личность.\n2.Небольшая сумма денег. Все остальные наличные деньги и банковские карты держите при себе.\n3.Портативное радио, спички или зажигалки, фонарик, батарейки.\n4.Универсальный складной нож, ложка, небьющаяся миска и кружка.\n5.Лента, бечевка, нитки, иголка, ножницы, бумага и канцелярские принадлежности.\n6.Аптечка первой помощи.\n7.Одежда, запасное нижнее белье и удобная обувь.\n8.Спальный мешок или одеяло, походный коврик, желательно палатка.\n9.Предметы гигиены, полотенце, туалетная бумага, одноразовые салфетки.\n10.Продукты питания, которые можно употреблять в неприготовленном виде и с длительным сроком хранения - сухие супы, консервы, печенье, сладости с высоким содержанием калорий.\n11.Питьевая вода на несколько дней (желательно в пластиковых бутылках).",
+    "remember": "Помните: по возможности отключите подачу газа и электричества в дом перед эвакуацией.",
+    "buttontext": "Наверх"
+  }
+}

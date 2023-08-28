@@ -1,0 +1,89 @@
+{
+  "en": {
+    "name": "Lost in forest",
+    "overview": {
+      "title": "Overview",
+      "content": [
+        {
+          "point1": "1.Stay calm.",
+          "point2": "2.Go over in your mind how you got to where you are.",
+          "point3": "3.Remember where was the Sun when you began your journey.",
+          "point4": "4.Call 112."
+        }
+      ]
+    },
+    "full_guide": {
+      "title": "Full guide",
+      "content": [
+        {
+          "header1": "Stop:",
+          "point1": "As soon as you realize you may be lost: stop, stay calm, stay put. Panic is your greatest enemy.",
+          "header2": "Think:",
+          "point2": "Go over in your mind how you got to where you are. What landmarks should you be able to see? Do not move at all until you have a specific reason to take a step.",
+          "header3": "Observe:",
+          "point3": "Get out your compass and determine the directions based on where you are standing. Do not walk aimlessly. If you are on a trail, stay on it.",
+          "header4": "Plan:",
+          "point4": "Based on your thinking and observations, come up with some possible plans, think them through then act on one of them. If you are not very, very confident in the route, then it’s always better to stay put.  it’s nightfall, you are injured or you are near exhaustion, stay in place."
+        }
+      ]
+    }
+  },
+  "lv": {
+    "name": "Pazudis",
+    "overview": {
+      "title": "Īsumā",
+      "content": [
+        {
+          "point1": "1.Saglabā mieru.",
+          "point2": "2.Rekonstruē notikumu gaitu.",
+          "point3": "3.Atceries, kur bija Saule, kad sāki gājienu.",
+          "point4": "4.Zvani 112."
+        }
+      ]
+    },
+    "full_guide": {
+      "title": "Plašāk",
+      "content": [
+        {
+          "header1": "Apstājieties:",
+          "point1": "Tiklīdz saprotat, ka esat apmaldījušies: apstājieties, palieciet mierīgi. Panika ir jūsu lielākais ienaidnieks.",
+          "header2": "Padomājiet:",
+          "point2": "Pārdomājiet, kā nonācāt tur, kur atrodaties. Kādus orientierus jums vajadzētu redzēt? Nekustieties vispār, kamēr jums nav konkrēts iemesls kaut kur iet.",
+          "header3": "Ievērojiet:",
+          "point3": "Izņemiet kompasu(ja tāds jums ir) un nosakiet virzienus, pamatojoties uz jūsu atrašanās vietu. Nestaigājiet bezmērķīgi.Ja esat uz takas, palieciet uz tās.",
+          "header4": "Plānojiet:",
+          "point4": "Pamatojoties uz savām domām un novērojumiem, izdomājiet dažus iespējamos plānus, pārdomājiet tos un pēc tam rīkojieties saskaņā ar kādu no tiem. Ja neesat pārliecināts par maršrutu, tad vienmēr labāk palikt vietā. Ja iestājas tumsa, esat ievainots vai esat noguris, palieciet savā vietā."
+        }
+      ]
+    }
+  },
+  "ru": {
+    "name": "Потерялись",
+    "overview": {
+      "title": "Кратко",
+      "content": [
+        {
+          "point1": "1.Сохраняйте спокойствие.",
+          "point2": "2.Реконструируйте ход событий.",
+          "point3": "3.Вспомните, где было Солнце, когда вы начали поход.",
+          "point4": "4.Звоните в 112."
+        }
+      ]
+    },
+    "full_guide": {
+      "title": "Развёрнуто",
+      "content": [
+        {
+          "header1": "Остановитесь:",
+          "point1": "Как только вы поймете, что заблудились: остановитесь, сохраняйте спокойствие. Паника - ваш худший враг.",
+          "header2": "Подумайте:",
+          "point2": "Подумайте о том, как вы оказались там, где находитесь. Какие ориентиры вы должны были бы увидеть? Не двигайтесь вообще, пока у вас нет конкретной причины куда-то идти.",
+          "header3": "Наблюдайте:",
+          "point3": "Возьмите компас (если он у вас есть) и определите направление, исходя из вашего местоположения. Если вы находитесь на тропе, оставайтесь на ней.",
+          "header4": "Планируйте:",
+          "point4": "На основе своих мыслей и наблюдений придумайте несколько возможных планов, обдумайте их и затем действуйте по одному из них. Если вы не очень, очень уверены в маршруте, всегда лучше оставаться на месте. Если стемнело, вы травмированы или устали, оставайтесь на месте."
+        }
+      ]
+    }
+  }
+}
