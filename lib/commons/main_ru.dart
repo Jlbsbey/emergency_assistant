@@ -117,7 +117,7 @@ class MyHomeRUPage extends StatelessWidget {
                           child: Image.asset('lib/icons/latvia.png'),
                         ),
                         label: Text(
-                          "Латышский",
+                          "Latviešu",
                           style: TextStyle(fontSize: 16),
                         ),
                         //child: child
