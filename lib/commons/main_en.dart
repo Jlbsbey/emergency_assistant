@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:school/main.dart';
 
+import '../main.dart';
 import 'animal_bite.dart';
 import 'artillery.dart';
 import 'chemical_threat.dart';

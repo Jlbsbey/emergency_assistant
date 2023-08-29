@@ -4,8 +4,8 @@ import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import 'package:school/commons/main_ru.dart';
 
+import '/commons/main_ru.dart';
 import 'commons/animal_bite.dart';
 import 'commons/artillery.dart';
 import 'commons/chemical_threat.dart';
