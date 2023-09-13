@@ -1,0 +1,35 @@
+{
+  "lv":
+  {
+    "name": "Ārkārtu situāciju asistents",
+    "menu": "Menu",
+    "lostdoc": "Pazaudēti dokumentus ārzemēs",
+    "info": "Informācija par aplikāciju",
+    "lang1":"Русский",
+    "imagelang1":"lib/icons/russia.png",
+    "lang2": "English",
+    "imagelang2": "lib/icons/united-kingdom.png"
+  },
+  "ru":
+  {
+    "name": "Помощник в \nчрезвычайных ситуациях",
+    "menu": "Меню",
+    "lostdoc": "Потерялись документы за границей",
+    "info": "Информация о приложении",
+    "lang1":"Latviešu",
+    "imagelang1":"lib/icons/latvia.png",
+    "lang2": "English",
+    "imagelang2": "lib/icons/united-kingdom.png"
+  },
+  "en":
+  {
+    "name": "Emergency Helper",
+    "menu": "Menu",
+    "lostdoc": "Lost documents abroad",
+    "info": "Information about application",
+    "lang1":"Русский",
+    "imagelang1":"lib/icons/russia.png",
+    "lang2": "Latviešu",
+    "imagelang2": "lib/icons/latvia.png"
+  }
+}

@@ -1,9 +1,11 @@
+import 'dart:convert';
 import 'dart:ui';
 
 import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
+import 'package:reorderable_grid_view/reorderable_grid_view.dart';
 
 import '/commons/main_ru.dart';
 import 'commons/animal_bite.dart';
@@ -62,12 +64,13 @@ class MyApp extends StatelessWidget {
 
   Widget getHomePage(Locale deviceLocale) {
     if (deviceLocale.languageCode == "ru") {
-      return MyHomeRUPage();
+      language = "ru";
     } else if (deviceLocale.languageCode == "lv") {
-      return MyHomePage();
+      language = "lv";
     } else {
-      return MyHomeENPage();
+      language = "en";
     }
+    return MyHomePage();
   }
 }
 
@@ -75,13 +78,156 @@ class MyAppState extends ChangeNotifier {
   var current = WordPair.random();
 }
 
-class MyHomePage extends StatelessWidget {
+class TextContent {
+  Future<Map<String, dynamic>> loadContent() async {
+    final String jsonContent =
+    await rootBundle.loadString('assets/json/names.json');
+    final data = await json.decode(jsonContent)[language];
+    return data;
+  }
+}
+
+class ButtonData {
+  final String text_ru;
+  final String text_en;
+  final String text_lv;
+  final String imagePath;
+  final Widget route;
+
+  ButtonData({required this.text_ru,required this.text_en,required this.text_lv, required this.imagePath, required this.route});
+}
+
+class MyHomePage extends StatefulWidget {
+  @override
+  State<MyHomePage> createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  late TextContent _textContent;
+
+  Map<String, dynamic>? _content;
+
+  void _loadContent() async {
+    final content = await _textContent.loadContent();
+    setState(() {
+      _content = content;
+    });
+  }
+
+  @override
+  void initState() {
+    _textContent = TextContent();
+    _loadContent();
+    super.initState();
+  }
+
+  final List<ButtonData> buttonList = [
+    ButtonData(
+      text_lv: "Vispārīgie padomi",
+      text_en: "General recomendations",
+      text_ru: "Общие советы",
+      imagePath: "assets/general_guideline.jpeg",
+      route: GeneralPage(),
+    ),
+    ButtonData(
+      text_lv: "Gāzes noplūde",
+      text_en: "Gas leak",
+      text_ru: "Утечка газа",
+      imagePath: "assets/gas_leak.jpeg",
+      route: GasLeakPage(),
+    ),
+    ButtonData(
+      text_lv: "Ugunsgrēks",
+      text_en: "Fire",
+      text_ru: "Пожар",
+      imagePath: "assets/fire.jpg",
+      route: FirePage(),
+    ),
+    ButtonData(
+      text_lv: "Apmaldījies",
+      text_en: "Lost in forest",
+      text_ru: "Потерялись",
+      imagePath: "assets/lost.jpg",
+      route: GeneralPage(),
+    ),
+    ButtonData(
+        text_ru : "Укус животного",
+        text_en : "Animal bite",
+        text_lv: "Dzīvnieku kodums",
+        imagePath : "assets/bites.jpg",
+        route : AnimalPage()
+    ),
+    ButtonData(
+        text_ru : "Наводнение",
+        text_en : "Flood",
+        text_lv: "Plūdi",
+        imagePath : "assets/flood.jpg",
+        route : FloodPage()
+    ),
+    ButtonData(
+        text_ru : "Оползень",
+        text_en : "Landslide",
+        text_lv: "Nogruvums",
+        imagePath : "assets/landslide.jpg",
+        route : LandslidePage()
+    ),
+    ButtonData(
+        text_ru : "Артобстрел",
+        text_en : "Shelling",
+        text_lv: "Artilērijas apšaude",
+        imagePath : "assets/artillery.jpg",
+        route : ArtilleryPage()
+    ),
+    ButtonData(
+        text_ru : "Оккупация",
+        text_en : "Military occupation",
+        text_lv: "Okupācija",
+        imagePath : "assets/occupation.jpg",
+        route : OccupationPage()
+    ),
+    ButtonData(
+        text_ru : "Химическая атака",
+        text_en : "Chemical attack",
+        text_lv: "Ķīmiskie \n draudi",
+        imagePath : "assets/chem_bio.jpg",
+        route : ChemicalPage()
+    ),
+    ButtonData(
+        text_ru : "Ядерная угроза",
+        text_en : "Nuclear attack",
+        text_lv: "Kodoldraudi",
+        imagePath : "assets/nuclear_explosion.jpeg",
+        route : NuclearPage()
+    ),
+
+    ButtonData(
+        text_ru : "Землетрясение",
+        text_en : "Earthquake",
+        text_lv: "Zemestrīce",
+        imagePath : "assets/earthquake.jpg",
+        route : EarthquakePage()
+    ),
+    ButtonData(
+        text_ru : "Ураган",
+        text_en : "Hurricane",
+        text_lv: "Viesuļvētra",
+        imagePath : "assets/hurricane.jpg",
+        route : HurricanePage()
+    ),
+    ButtonData(
+        text_ru : "Цунами",
+        text_en : "Tsunami",
+        text_lv: "Cunami",
+        imagePath : "assets/cunami.jpg",
+        route : TsunamiPage()
+    ),
+  ];
+
   @override
   Widget build(BuildContext context) {
     //var appState = context.watch<MyAppState>();
     //var pair = appState.current;
     double height = MediaQuery.of(context).size.width * 0.50;
-    language = "lv";
     return Scaffold(
       appBar: AppBar(
         toolbarHeight: kToolbarHeight * 1.5,
@@ -91,8 +237,8 @@ class MyHomePage extends StatelessWidget {
           statusBarBrightness: Brightness.light,
         ),
         iconTheme: IconThemeData(color: Colors.white),
-        title: const Text(
-          'Ārkārtu situāciju asistents',
+        title: Text(
+          _content?["name"] ?? "",
           style: TextStyle(fontSize: 24, color: Colors.white),
         ),
         actions: <Widget>[],
@@ -118,7 +264,7 @@ class MyHomePage extends StatelessWidget {
                         color: Colors.black,
                       ),
                       child: Text(
-                        'Menu',
+                        _content?["menu"] ?? "",
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 24,
@@ -128,7 +274,7 @@ class MyHomePage extends StatelessWidget {
                   ),
                   ListTile(
                     leading: Icon(Icons.luggage),
-                    title: Text('Pazaudēti dokumentus ārzemēs'),
+                    title: Text(_content?["lostdoc"] ?? ""),
                     onTap: () {
                       Navigator.push(
                           context,
@@ -138,7 +284,7 @@ class MyHomePage extends StatelessWidget {
                   ),
                   ListTile(
                     leading: Icon(Icons.source),
-                    title: Text('Informācija par aplikāciju'),
+                    title: Text(_content?["info"] ?? ""),
                     onTap: () {
                       Navigator.push(
                           context,
@@ -161,17 +307,23 @@ class MyHomePage extends StatelessWidget {
                       width: 170,
                       child: OutlinedButton.icon(
                         onPressed: () {
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => MyHomeRUPage()));
+                          setState(() {
+                            language == "lv"
+                                ? language = "ru"
+                                : language == "ru"
+                                ? language = "lv"
+                                : language = "ru";
+                            _textContent = TextContent();
+                            _loadContent();
+                            Navigator.pop(context);
+                          });
                         },
                         icon: SizedBox(
                           height: 40,
-                          child: Image.asset('lib/icons/russia.png'),
+                          child: Image.asset(_content?["imagelang1"] ?? ""),
                         ),
                         label: Text(
-                          "Русский",
+                          _content?["lang1"] ?? "",
                           style: TextStyle(fontSize: 16),
                         ),
                         //child: child
@@ -181,17 +333,23 @@ class MyHomePage extends StatelessWidget {
                       width: 170,
                       child: OutlinedButton.icon(
                         onPressed: () {
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => MyHomeENPage()));
+                          setState(() {
+                            language == "lv"
+                                ? language = "en"
+                                : language == "ru"
+                                ? language = "en"
+                                : language = "lv";
+                            _textContent = TextContent();
+                            _loadContent();
+                            Navigator.pop(context);
+                          });
                         },
                         icon: SizedBox(
                           height: 40,
-                          child: Image.asset('lib/icons/united-kingdom.png'),
+                          child: Image.asset(_content?["imagelang2"] ?? ""),
                         ),
                         label: Text(
-                          "English",
+                          _content?["lang2"] ?? "",
                           style: TextStyle(fontSize: 16),
                         ),
                         //child: child
@@ -202,616 +360,70 @@ class MyHomePage extends StatelessWidget {
           ],
         ),
       ),
-      body: SingleChildScrollView(
-        child: Column(
-          children: [
-            //_________________________________________________________________________________1
-            Row(
-              children: [
-                Container(
-                  alignment: Alignment.centerLeft,
-                  child: SizedBox(
-                    width: MediaQuery.of(context).size.width * 0.50,
-                    height: height,
-                    child: MaterialButton(
-                      padding: EdgeInsets.only(top: 8.0, left: 8.0, right: 4.0),
-                      textColor: Colors.white,
-                      splashColor: Color.fromARGB(255, 255, 255, 255),
-                      elevation: 8.0,
-                      child: Container(
-                        alignment: Alignment.center,
-                        decoration: BoxDecoration(
-                          color: Colors.black,
-                          image: DecorationImage(
-                            image: AssetImage('assets/general_guideline.jpeg'),
-                            fit: BoxFit.cover,
-                            colorFilter: ColorFilter.mode(
-                                Colors.black.withOpacity(0.4),
-                                BlendMode.dstATop),
-                          ),
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            "Vispārīgie padomi",
-                            textAlign: TextAlign.center,
-                            style: TextStyle(fontSize: 22),
-                          ),
-                        ),
-                      ),
-                      onPressed: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => GeneralPage()));
-                      },
-                    ),
-                  ),
-                ),
-                //_________________________________________________________________________________2
-                Container(
-                  alignment: Alignment.centerLeft,
-                  child: SizedBox(
-                    width: MediaQuery.of(context).size.width * 0.50,
-                    height: height,
-                    child: MaterialButton(
-                      padding: EdgeInsets.only(top: 8.0, left: 4.0, right: 8.0),
-                      textColor: Colors.white,
-                      splashColor: Color.fromARGB(255, 255, 255, 255),
-                      elevation: 8.0,
-                      child: Container(
-                        alignment: Alignment.center,
-                        decoration: BoxDecoration(
-                          color: Colors.black,
-                          image: DecorationImage(
-                            image: AssetImage('assets/gas_leak.jpeg'),
-                            fit: BoxFit.cover,
-                            colorFilter: ColorFilter.mode(
-                                Colors.black.withOpacity(0.4),
-                                BlendMode.dstATop),
-                          ),
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            "Gāzes noplūde",
-                            textAlign: TextAlign.center,
-                            style: TextStyle(fontSize: 22),
-                          ),
-                        ),
-                      ),
-                      onPressed: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => GasLeakPage()));
-                      },
-                    ),
-                  ),
-                ),
-              ],
-            ),
-            //_________________________________________________________________________________3
-            Row(
-              children: [
-                Container(
-                  alignment: Alignment.centerLeft,
-                  child: SizedBox(
-                    width: MediaQuery.of(context).size.width * 0.50,
-                    height: height,
-                    child: MaterialButton(
-                      padding: EdgeInsets.only(top: 8.0, left: 8.0, right: 4.0),
-                      textColor: Colors.white,
-                      splashColor: Color.fromARGB(255, 255, 255, 255),
-                      elevation: 8.0,
-                      child: Container(
-                        alignment: Alignment.center,
-                        decoration: BoxDecoration(
-                          color: Colors.black,
-                          image: DecorationImage(
-                            image: AssetImage('assets/fire.jpg'),
-                            fit: BoxFit.cover,
-                            colorFilter: ColorFilter.mode(
-                                Colors.black.withOpacity(0.5),
-                                BlendMode.dstATop),
-                          ),
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            "Ugunsgrēks",
-                            textAlign: TextAlign.center,
-                            style: TextStyle(fontSize: 22),
-                          ),
-                        ),
-                      ),
-                      onPressed: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => FirePage()));
-                      },
-                    ),
-                  ),
-                ),
-                //_________________________________________________________________________________4
-                Container(
-                  alignment: Alignment.centerLeft,
-                  child: SizedBox(
-                    width: MediaQuery.of(context).size.width * 0.50,
-                    height: height,
-                    child: MaterialButton(
-                      padding: EdgeInsets.only(top: 8.0, left: 4.0, right: 8.0),
-                      textColor: Colors.white,
-                      splashColor: Color.fromARGB(255, 255, 255, 255),
-                      elevation: 8.0,
-                      child: Container(
-                        alignment: Alignment.center,
-                        decoration: BoxDecoration(
-                          color: Colors.black,
-                          image: DecorationImage(
-                            image: AssetImage('assets/lost.jpg'),
-                            fit: BoxFit.cover,
-                            colorFilter: ColorFilter.mode(
-                                Colors.black.withOpacity(0.4),
-                                BlendMode.dstATop),
-                          ),
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            "Apmaldijies",
-                            textAlign: TextAlign.center,
-                            style: TextStyle(fontSize: 22),
-                          ),
-                        ),
-                      ),
-                      onPressed: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => LostPage()));
-                      },
-                    ),
-                  ),
-                ),
-              ],
-            ),
-            //_________________________________________________________________________________5
-            Row(
-              children: [
-                Container(
-                  alignment: Alignment.centerLeft,
-                  child: SizedBox(
-                    width: MediaQuery.of(context).size.width * 0.50,
-                    height: height,
-                    child: MaterialButton(
-                      padding: EdgeInsets.only(top: 8.0, left: 8.0, right: 4.0),
-                      textColor: Colors.white,
-                      splashColor: Color.fromARGB(255, 255, 255, 255),
-                      elevation: 8.0,
-                      child: Container(
-                        alignment: Alignment.center,
-                        decoration: BoxDecoration(
-                          color: Colors.black,
-                          image: DecorationImage(
-                            image: AssetImage('assets/bites.jpg'),
-                            fit: BoxFit.cover,
-                            colorFilter: ColorFilter.mode(
-                                Colors.black.withOpacity(0.4),
-                                BlendMode.dstATop),
-                          ),
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            "Dzīvnieku kodums",
-                            textAlign: TextAlign.center,
-                            style: TextStyle(fontSize: 22),
-                          ),
-                        ),
-                      ),
-                      onPressed: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => AnimalPage()));
-                      },
-                    ),
-                  ),
-                ),
-                //_________________________________________________________________________________6
-                Container(
-                  alignment: Alignment.centerRight,
-                  child: SizedBox(
-                    width: MediaQuery.of(context).size.width * 0.50,
-                    height: height,
-                    child: MaterialButton(
-                      padding: EdgeInsets.only(top: 8.0, left: 4.0, right: 8.0),
-                      textColor: Colors.white,
-                      splashColor: Color.fromARGB(255, 255, 255, 255),
-                      elevation: 8.0,
-                      child: Container(
-                        alignment: Alignment.center,
-                        decoration: BoxDecoration(
-                          color: Colors.black,
-                          image: DecorationImage(
-                            image: AssetImage('assets/flood.jpg'),
-                            fit: BoxFit.cover,
-                            colorFilter: ColorFilter.mode(
-                                Colors.black.withOpacity(0.5),
-                                BlendMode.dstATop),
-                          ),
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            "Plūdi",
-                            textAlign: TextAlign.center,
-                            style: TextStyle(fontSize: 22),
-                          ),
-                        ),
-                      ),
-                      onPressed: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => FloodPage()));
-                      },
-                    ),
-                  ),
-                ),
-              ],
-            ),
-            //_________________________________________________________________________________7
-            Row(
-              children: [
-                Container(
-                  alignment: Alignment.centerRight,
-                  child: SizedBox(
-                    width: MediaQuery.of(context).size.width * 0.50,
-                    height: height,
-                    child: MaterialButton(
-                      padding: EdgeInsets.only(top: 8.0, left: 8.0, right: 4.0),
-                      textColor: Colors.white,
-                      splashColor: Color.fromARGB(255, 255, 255, 255),
-                      elevation: 8.0,
-                      child: Container(
-                        alignment: Alignment.center,
-                        decoration: BoxDecoration(
-                          color: Colors.black,
-                          image: DecorationImage(
-                            image: AssetImage('assets/landslide.jpg'),
-                            fit: BoxFit.cover,
-                            colorFilter: ColorFilter.mode(
-                                Colors.black.withOpacity(0.5),
-                                BlendMode.dstATop),
-                          ),
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            "Nogruvums",
-                            textAlign: TextAlign.center,
-                            style: TextStyle(fontSize: 22),
-                          ),
-                        ),
-                      ),
-                      onPressed: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => LandslidePage()));
-                      },
-                    ),
-                  ),
-                ),
-                //_________________________________________________________________________________8
-                Container(
-                  alignment: Alignment.centerRight,
-                  child: SizedBox(
-                    width: MediaQuery.of(context).size.width * 0.50,
-                    height: height,
-                    child: MaterialButton(
-                      padding: EdgeInsets.only(top: 8.0, left: 4.0, right: 8.0),
-                      textColor: Colors.white,
-                      splashColor: Color.fromARGB(255, 255, 255, 255),
-                      elevation: 8.0,
-                      child: Container(
-                        alignment: Alignment.center,
-                        decoration: BoxDecoration(
-                          color: Colors.black,
-                          image: DecorationImage(
-                            image: AssetImage('assets/artillery.jpg'),
-                            fit: BoxFit.cover,
-                            colorFilter: ColorFilter.mode(
-                                Colors.black.withOpacity(0.5),
-                                BlendMode.dstATop),
-                          ),
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            "Artilērijas apšaude",
-                            textAlign: TextAlign.center,
-                            style: TextStyle(fontSize: 22),
-                          ),
-                        ),
-                      ),
-                      onPressed: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => ArtilleryPage()));
-                      },
-                    ),
-                  ),
-                ),
-              ],
-            ),
-            //_________________________________________________________________________________9
-            Row(
-              children: [
-                Container(
-                  alignment: Alignment.centerLeft,
-                  child: SizedBox(
-                    width: MediaQuery.of(context).size.width * 0.50,
-                    height: height,
-                    child: MaterialButton(
-                      padding: EdgeInsets.only(top: 8.0, left: 4.0, right: 4.0),
-                      textColor: Colors.white,
-                      splashColor: Color.fromARGB(255, 255, 255, 255),
-                      elevation: 8.0,
-                      child: Container(
-                        alignment: Alignment.center,
-                        decoration: BoxDecoration(
-                          color: Colors.black,
-                          image: DecorationImage(
-                            image: AssetImage('assets/occupation.jpg'),
-                            fit: BoxFit.cover,
-                            colorFilter: ColorFilter.mode(
-                                Colors.black.withOpacity(0.4),
-                                BlendMode.dstATop),
-                          ),
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            "Okupācija",
-                            textAlign: TextAlign.center,
-                            style: TextStyle(fontSize: 22),
-                          ),
-                        ),
-                      ),
-                      onPressed: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => OccupationPage()));
-                      },
-                    ),
-                  ),
-                ),
-                //_________________________________________________________________________________10
-                Container(
-                  alignment: Alignment.centerRight,
-                  child: SizedBox(
-                    width: MediaQuery.of(context).size.width * 0.50,
-                    height: height,
-                    child: MaterialButton(
-                      padding: EdgeInsets.only(left: 4.0, right: 8, top: 8),
-                      textColor: Colors.white,
-                      splashColor: Color.fromARGB(255, 255, 255, 255),
-                      elevation: 8.0,
-                      child: Container(
-                        alignment: Alignment.center,
-                        decoration: BoxDecoration(
-                          color: Colors.black,
-                          image: DecorationImage(
-                            image: AssetImage('assets/chem_bio.jpg'),
-                            fit: BoxFit.cover,
-                            colorFilter: ColorFilter.mode(
-                                Colors.black.withOpacity(0.5),
-                                BlendMode.dstATop),
-                          ),
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            "Ķīmiskie \n draudi",
-                            textAlign: TextAlign.center,
-                            style: TextStyle(fontSize: 22),
-                          ),
-                        ),
-                      ),
-                      onPressed: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => ChemicalPage()));
-                      },
-                    ),
-                  ),
-                ),
-              ],
-            ),
-            //_________________________________________________________________________________11
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: SingleChildScrollView(
+          child: ReorderableGridView.count(
+            shrinkWrap: true,
+            physics: ScrollPhysics(),
+            onReorder: (oldIndex, newIndex){
 
-            Row(
-              children: [
-                Container(
-                  alignment: Alignment.centerLeft,
-                  child: SizedBox(
-                    width: MediaQuery.of(context).size.width * 0.50,
-                    height: height,
-                    child: MaterialButton(
-                      padding: EdgeInsets.only(left: 8.0, right: 4, top: 8),
-                      textColor: Colors.white,
-                      splashColor: Color.fromARGB(255, 255, 255, 255),
-                      elevation: 8.0,
-                      child: Container(
-                        alignment: Alignment.center,
-                        decoration: BoxDecoration(
-                          color: Colors.black,
-                          image: DecorationImage(
-                            image: AssetImage('assets/nuclear_explosion.jpeg'),
-                            fit: BoxFit.cover,
-                            colorFilter: ColorFilter.mode(
-                                Colors.black.withOpacity(0.4),
-                                BlendMode.dstATop),
-                          ),
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            "Kodoldraudi",
-                            textAlign: TextAlign.center,
-                            style: TextStyle(fontSize: 22),
+            },
+            crossAxisCount: 2,
+            mainAxisSpacing: 8.0,
+            crossAxisSpacing: 8.0,
+            children: buttonList.asMap().entries.map((entry) {
+              final index = entry.key;
+              final buttonData = entry.value;
+              return Container(
+                key: ValueKey("$index"),
+                alignment: Alignment.centerLeft,
+                child: SizedBox(
+                  width: MediaQuery.of(context).size.width * 0.50,
+                  height: height,
+                  child: MaterialButton(
+                    padding: EdgeInsets.all(0.0),
+                    textColor: Colors.white,
+                    splashColor: Color.fromARGB(255, 255, 255, 255),
+                    elevation: 8.0,
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => buttonData.route));
+                    },
+                    child: Container(
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.black,
+                        image: DecorationImage(
+                          image: AssetImage(buttonData.imagePath),
+                          fit: BoxFit.cover,
+                          colorFilter: ColorFilter.mode(
+                            Colors.black.withOpacity(0.4),
+                            BlendMode.dstATop,
                           ),
                         ),
                       ),
-                      onPressed: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => NuclearPage()));
-                      },
-                    ),
-                  ),
-                ),
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Text(
+                          language == "lv"
+                              ? buttonData.text_lv
+                              : language == "ru"
+                              ? buttonData.text_ru
+                              : buttonData.text_en,
+                          textAlign: TextAlign.center,
+                          style: TextStyle(fontSize: 22),
+                        ),
 
-                //_________________________________________________________________________________12
-                Container(
-                  alignment: Alignment.centerRight,
-                  child: SizedBox(
-                    width: MediaQuery.of(context).size.width * 0.50,
-                    height: height,
-                    child: MaterialButton(
-                      padding: EdgeInsets.only(left: 4.0, right: 8, top: 8),
-                      textColor: Colors.white,
-                      splashColor: Color.fromARGB(255, 255, 255, 255),
-                      elevation: 8.0,
-                      child: Container(
-                        alignment: Alignment.center,
-                        decoration: BoxDecoration(
-                          color: Colors.black,
-                          image: DecorationImage(
-                            image: AssetImage('assets/earthquake.jpg'),
-                            fit: BoxFit.cover,
-                            colorFilter: ColorFilter.mode(
-                                Colors.black.withOpacity(0.5),
-                                BlendMode.dstATop),
-                          ),
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            "Zemestrīce",
-                            textAlign: TextAlign.center,
-                            style: TextStyle(fontSize: 22),
-                          ),
-                        ),
                       ),
-                      onPressed: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => EarthquakePage()));
-                      },
                     ),
                   ),
                 ),
-              ],
-            ),
-            //__________________________________________________________________13
-            Row(
-              children: [
-                Container(
-                  alignment: Alignment.centerLeft,
-                  child: SizedBox(
-                    width: MediaQuery.of(context).size.width * 0.50,
-                    height: height,
-                    child: MaterialButton(
-                      padding: EdgeInsets.only(
-                          left: 8.0, right: 4, top: 8, bottom: 8),
-                      textColor: Colors.white,
-                      splashColor: Color.fromARGB(255, 255, 255, 255),
-                      elevation: 8.0,
-                      child: Container(
-                        alignment: Alignment.center,
-                        decoration: BoxDecoration(
-                          color: Colors.black,
-                          image: DecorationImage(
-                            image: AssetImage('assets/hurricane.jpg'),
-                            fit: BoxFit.cover,
-                            colorFilter: ColorFilter.mode(
-                                Colors.black.withOpacity(0.4),
-                                BlendMode.dstATop),
-                          ),
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            "Viesuļvētra",
-                            textAlign: TextAlign.center,
-                            style: TextStyle(fontSize: 22),
-                          ),
-                        ),
-                      ),
-                      onPressed: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => HurricanePage()));
-                      },
-                    ),
-                  ),
-                ),
-                //_____________________________________________________________________________
-                Container(
-                  alignment: Alignment.centerLeft,
-                  child: SizedBox(
-                    width: MediaQuery.of(context).size.width * 0.50,
-                    height: height,
-                    child: MaterialButton(
-                      padding: EdgeInsets.only(
-                          left: 4.0, right: 8, top: 8, bottom: 8),
-                      textColor: Colors.white,
-                      splashColor: Color.fromARGB(255, 255, 255, 255),
-                      elevation: 8.0,
-                      child: Container(
-                        alignment: Alignment.center,
-                        decoration: BoxDecoration(
-                          color: Colors.black,
-                          image: DecorationImage(
-                            image: AssetImage('assets/cunami.jpg'),
-                            fit: BoxFit.cover,
-                            colorFilter: ColorFilter.mode(
-                                Colors.black.withOpacity(0.4),
-                                BlendMode.dstATop),
-                          ),
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            "Cunami",
-                            textAlign: TextAlign.center,
-                            style: TextStyle(fontSize: 22),
-                          ),
-                        ),
-                      ),
-                      onPressed: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => TsunamiPage()));
-                      },
-                    ),
-                  ),
-                ),
-              ],
-            )
-          ],
+              );
+            }).toList(),
+          )
+
         ),
       ),
     );

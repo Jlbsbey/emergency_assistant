@@ -136,12 +136,9 @@ class MyHomeRUPage extends StatelessWidget {
                           height: 40,
                           child: Image.asset('lib/icons/united-kingdom.png'),
                         ),
-                        label: Align(
-                          alignment: Alignment.centerLeft,
-                          child: Text(
-                            "English",
-                            style: TextStyle(fontSize: 16),
-                          ),
+                        label: Text(
+                          "English",
+                          style: TextStyle(fontSize: 16),
                         ),
                         //child: child
                       ),
