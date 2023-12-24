@@ -1,6 +1,8 @@
 import 'dart:convert';
 import 'dart:ui';
+import 'dart:io';
 
+import 'package:csv/csv.dart';
 import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -88,11 +90,11 @@ class TextContent {
 }
 
 class ButtonData {
-  final String text_ru;
-  final String text_en;
-  final String text_lv;
-  final String imagePath;
-  final Widget route;
+  String text_ru;
+  String text_en;
+  String text_lv;
+  String imagePath;
+  Widget route;
 
   ButtonData({required this.text_ru,required this.text_en,required this.text_lv, required this.imagePath, required this.route});
 }
@@ -121,7 +123,7 @@ class _MyHomePageState extends State<MyHomePage> {
     super.initState();
   }
 
-  final List<ButtonData> buttonList = [
+  List<ButtonData> buttonList = [
     ButtonData(
       text_lv: "Vispārīgie padomi",
       text_en: "General recomendations",
@@ -148,7 +150,7 @@ class _MyHomePageState extends State<MyHomePage> {
       text_en: "Lost in forest",
       text_ru: "Потерялись",
       imagePath: "assets/lost.jpg",
-      route: GeneralPage(),
+      route: LostPage(),
     ),
     ButtonData(
         text_ru : "Укус животного",
