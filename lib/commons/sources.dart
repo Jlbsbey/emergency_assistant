@@ -75,138 +75,161 @@ class _SourcePageState extends State<SourcePage> {
                     "https://www.fs.usda.gov/visit/know-before-you-go/if-you-get-lost",
                     style: TextStyle(fontSize: 14),
                   ),
+                  onTap: () => launch("https://www.fs.usda.gov/visit/know-before-you-go/if-you-get-lost"),
                   visualDensity: VisualDensity(vertical: -4)),
               ListTile(
                   leading: Text(
                     "https://www.sargs.lv/lv/tema/72stundas-",
                     style: TextStyle(fontSize: 14),
                   ),
+                  onTap: () => launch("https://www.sargs.lv/lv/tema/72stundas-"),
                   visualDensity: VisualDensity(vertical: -4)),
               ListTile(
                   title: Text(
                     "https://lt72.lt/?lang=en",
                     style: TextStyle(fontSize: 14),
                   ),
+                  onTap: () => launch("https://lt72.lt/?lang=en"),
                   visualDensity: VisualDensity(vertical: -4)),
               ListTile(
                   title: Text(
                     "https://www.vugd.gov.lv/lv/ka-rikoties-meza-ugunsgreka-gadijuma",
                     style: TextStyle(fontSize: 14),
                   ),
+                  onTap: () => launch("https://www.vugd.gov.lv/lv/ka-rikoties-meza-ugunsgreka-gadijuma"),
                   visualDensity: VisualDensity(vertical: -4)),
               ListTile(
                   title: Text(
                     "https://42.mchs.gov.ru/deyatelnost/poleznaya-informaciya/pozharoopasnyy-period/pamyatki/pravila-povedeniya-v-sluchae-vozniknoveniya-lesnogo-pozhara",
                     style: TextStyle(fontSize: 14),
                   ),
+                  onTap: () => launch("https://42.mchs.gov.ru/deyatelnost/poleznaya-informaciya/pozharoopasnyy-period/pamyatki/pravila-povedeniya-v-sluchae-vozniknoveniya-lesnogo-pozhara"),
                   visualDensity: VisualDensity(vertical: -4)),
               ListTile(
                   title: Text(
                     "https://www.vugd.gov.lv/lv/riciba-ugunsgreka-gadijuma",
                     style: TextStyle(fontSize: 14),
                   ),
+                  onTap: () => launch("https://www.vugd.gov.lv/lv/riciba-ugunsgreka-gadijuma"),
                   visualDensity: VisualDensity(vertical: -4)),
               ListTile(
                   title: Text(
                     "https://jauns.lv/raksts/zinas/490508-bumbu-patvertnes-kur-latvija-slepties-kodolkara-gadijuma",
                     style: TextStyle(fontSize: 14),
                   ),
+                  onTap: () => launch("https://jauns.lv/raksts/zinas/490508-bumbu-patvertnes-kur-latvija-slepties-kodolkara-gadijuma"),
                   visualDensity: VisualDensity(vertical: -4)),
               ListTile(
                   title: Text(
                     "https://www.lsm.lv/raksts/zinas/latvija/riciba-krizes-situacijas-ka-rikoties-kodoldraudu-gadijuma.a459134/",
                     style: TextStyle(fontSize: 14),
                   ),
+                  onTap: () => launch("https://www.lsm.lv/raksts/zinas/latvija/riciba-krizes-situacijas-ka-rikoties-kodoldraudu-gadijuma.a459134/"),
                   visualDensity: VisualDensity(vertical: -4)),
               ListTile(
                   title: Text(
                     "https://kubnews.ru/obshchestvo/2022/11/11/chto-delat-pri-yadernom-vzryve-eti-deystviya-mogut-zashchitit-ot-radiatsii-i-spasti-vam-zhizn-/",
                     style: TextStyle(fontSize: 14),
                   ),
+                  onTap: () => launch("https://kubnews.ru/obshchestvo/2022/11/11/chto-delat-pri-yadernom-vzryve-eti-deystviya-mogut-zashchitit-ot-radiatsii-i-spasti-vam-zhizn-/"),
                   visualDensity: VisualDensity(vertical: -4)),
               ListTile(
                   title: Text(
                     "https://www.la.lv/pretosanas-atbalsts-nesadarbosanas",
                     style: TextStyle(fontSize: 14),
                   ),
+                  onTap: () => launch("https://www.la.lv/pretosanas-atbalsts-nesadarbosanas"),
                   visualDensity: VisualDensity(vertical: -4)),
               ListTile(
                   title: Text(
                     "https://95.mchs.gov.ru/deyatelnost/poleznaya-informaciya/pravila-povedeniya-v-chs/pravila-povedeniya-pri-prirodnyh-chrezvychaynyh-situaciyah/opolzen",
                     style: TextStyle(fontSize: 14),
                   ),
+                  onTap: () => launch("https://95.mchs.gov.ru/deyatelnost/poleznaya-informaciya/pravila-povedeniya-v-chs/pravila-povedeniya-pri-prirodnyh-chrezvychaynyh-situaciyah/opolzen"),
                   visualDensity: VisualDensity(vertical: -4)),
               ListTile(
                   title: Text(
                     "https://mchs.gov.ru/deyatelnost/bezopasnost-grazhdan/kak-pravilno-vyzvat-skoruyu_5",
                     style: TextStyle(fontSize: 14),
                   ),
+                  onTap: () => launch("https://mchs.gov.ru/deyatelnost/bezopasnost-grazhdan/kak-pravilno-vyzvat-skoruyu_5"),
                   visualDensity: VisualDensity(vertical: -4)),
               ListTile(
                   title: Text(
                     "https://вдпо.рф/article/43",
                     style: TextStyle(fontSize: 14),
                   ),
+                  onTap: () => launch("https://вдпо.рф/article/43"),
                   visualDensity: VisualDensity(vertical: -4)),
               ListTile(
                   title: Text(
                     "https://klopici.ru/2019/08/10370/#:~:text=Сообщите%20о%20характере%20вашего%20вызова,отвечать%20на%20вопросы%20оператора%20детально.",
                     style: TextStyle(fontSize: 14),
                   ),
+                  onTap: () => launch("https://klopici.ru/2019/08/10370/#:~:text=Сообщите%20о%20характере%20вашего%20вызова,отвечать%20на%20вопросы%20оператора%20детально."),
                   visualDensity: VisualDensity(vertical: -4)),
               ListTile(
                   title: Text(
                     "https://mchs.gov.ru/deyatelnost/bezopasnost-grazhdan/utechka-bytovogo-gaza_4#:~:text=Почувствовав%20в%20помещении%20запах%20газа,не%20включайте%20свет%20и%20электроприборы.",
                     style: TextStyle(fontSize: 14),
                   ),
+                  onTap: () => launch("https://mchs.gov.ru/deyatelnost/bezopasnost-grazhdan/utechka-bytovogo-gaza_4#:~:text=Почувствовав%20в%20помещении%20запах%20газа,не%20включайте%20свет%20и%20электроприборы."),
                   visualDensity: VisualDensity(vertical: -4)),
               ListTile(
                   title: Text(
                     "https://lg.lv/ru/o-nas/cto-delat-esli-vy-pocuvstvovali-zapah-gaza",
                     style: TextStyle(fontSize: 14),
                   ),
+                  onTap: () => launch("https://lg.lv/ru/o-nas/cto-delat-esli-vy-pocuvstvovali-zapah-gaza"),
                   visualDensity: VisualDensity(vertical: -4)),
               ListTile(
                   title: Text(
                     "https://mchs.gov.ru/deyatelnost/bezopasnost-grazhdan/utechka-bytovogo-gaza_9",
                     style: TextStyle(fontSize: 14),
                   ),
+                  onTap: () => launch("https://mchs.gov.ru/deyatelnost/bezopasnost-grazhdan/utechka-bytovogo-gaza_9"),
                   visualDensity: VisualDensity(vertical: -4)),
               ListTile(
                   title: Text(
                     "https://m.travelnews.lv/?pid=64559",
                     style: TextStyle(fontSize: 14),
                   ),
+                  onTap: () => launch("https://m.travelnews.lv/?pid=64559"),
                   visualDensity: VisualDensity(vertical: -4)),
               ListTile(
                   title: Text(
                     "https://hitnet.lv/2023/03/ko-darit-zemestrices-laika/",
                     style: TextStyle(fontSize: 14),
                   ),
+                  onTap: () => launch("https://hitnet.lv/2023/03/ko-darit-zemestrices-laika/"),
                   visualDensity: VisualDensity(vertical: -4)),
               ListTile(
                   title: Text(
                     "https://www.travelers.com/resources/weather/hurricanes/hurricane-survival-guide",
                     style: TextStyle(fontSize: 14),
                   ),
+                  onTap: () => launch("https://www.travelers.com/resources/weather/hurricanes/hurricane-survival-guide"),
                   visualDensity: VisualDensity(vertical: -4)),
               ListTile(
                   title: Text(
                     "https://lg.lv/par-mums/riciba-sajutot-gazes-smaku",
                     style: TextStyle(fontSize: 14),
                   ),
+                  onTap: () => launch("https://lg.lv/par-mums/riciba-sajutot-gazes-smaku"),
                   visualDensity: VisualDensity(vertical: -4)),
               ListTile(
                   title: Text(
                     "https://www.nmpd.gov.lv/lv/dzivnieku-izraisiti-nelaimes-gadijumi",
                     style: TextStyle(fontSize: 14),
                   ),
+                  onTap: () => launch("https://www.nmpd.gov.lv/lv/dzivnieku-izraisiti-nelaimes-gadijumi"),
                   visualDensity: VisualDensity(vertical: -4)),
               ListTile(
                   title: Text(
                     "https://www.vugd.gov.lv/lv/ka-rikoties-kad-zvani-uz-talruna-numuru-112",
                     style: TextStyle(fontSize: 14),
                   ),
+                  onTap: () => launch("https://www.vugd.gov.lv/lv/ka-rikoties-kad-zvani-uz-talruna-numuru-112"),
                   visualDensity: VisualDensity(vertical: -4)),
             ],
           ),
