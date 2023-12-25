@@ -53,7 +53,6 @@ class _NotesPageState extends State<NotesPage> {
       file.writeAsStringSync('');
     }
     asset = file.readAsString();
-    print(await asset);
     myController.text = await asset;
   }
 

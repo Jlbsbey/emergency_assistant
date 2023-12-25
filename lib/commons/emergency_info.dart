@@ -73,7 +73,7 @@ class _EmergencyInfoPageState extends State<EmergencyInfoPage> {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.only(left: 24.0, right: 8.0), //•
+              padding: const EdgeInsets.only(left: 24.0, right: 8.0),
               child: RichText(
                 text: TextSpan(style: TextStyle(height: 1.5), children: [
                   if (language == "lv")

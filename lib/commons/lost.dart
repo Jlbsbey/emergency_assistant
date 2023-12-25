@@ -15,7 +15,6 @@ class TextContent {
     final String jsonContent =
         await rootBundle.loadString('assets/json/lost.json');
     final data = await json.decode(jsonContent)[language];
-    //print(data);
     return data;
   }
 }

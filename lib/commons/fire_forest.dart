@@ -14,7 +14,6 @@ class TextContent {
   Future<Map<String, dynamic>> loadContent() async {
     final String jsonContent =
         await rootBundle.loadString('assets/json/fire.json');
-    print(language);
     final data = await json.decode(jsonContent)[0]["forest"][language];
     return data;
   }

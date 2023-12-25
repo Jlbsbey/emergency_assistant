@@ -17,7 +17,6 @@ class TextContent {
     final String jsonContent =
         await rootBundle.loadString('assets/json/fire.json');
     final data = await json.decode(jsonContent)[0]["fire"][language];
-    print(data);
     return data;
   }
 }

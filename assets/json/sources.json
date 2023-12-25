@@ -1,6 +1,6 @@
 {
   "en": {
-    "name": "Information about\\napplication",
+    "name": "Information about\napplication",
     "drop_down": "Sources",
     "full_guide": {
       "content": [
@@ -26,7 +26,7 @@
     }
   },
   "ru": {
-    "name": "Информация \\nо приложении",
+    "name": "Информация \nо приложении",
     "drop_down": "Источники",
     "full_guide": {
       "content": [

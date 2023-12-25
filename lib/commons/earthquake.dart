@@ -152,7 +152,7 @@ class _EarthquakePageState extends State<EarthquakePage> {
           ),
           ExpansionTile(
             title: Text(
-              _content?["full_guide"]["title"],
+              _content?["full_guide"]["title"] ?? "",
               style: TextStyle(fontSize: 20),
             ),
             controlAffinity: ListTileControlAffinity.leading,

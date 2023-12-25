@@ -100,7 +100,7 @@ class _EmergencyItemsPageState extends State<EmergencyItemsPage> {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(left: 24.0, right: 8.0), //•
+            padding: const EdgeInsets.only(left: 24.0, right: 8.0),
             child: Text(
               _content?["points1"] ?? "",
               style: TextStyle(fontSize: 16),
