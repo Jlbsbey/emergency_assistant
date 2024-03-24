@@ -5,10 +5,17 @@ packages:
     dependency: transitive
     description:
       name: archive
+<<<<<<< Updated upstream
       sha256: "7b875fd4a20b165a3084bd2d210439b22ebc653f21cea4842729c0c30c82596b"
       url: "https://pub.dev"
     source: hosted
     version: "3.4.9"
+=======
+      sha256: e0902a06f0e00414e4e3438a084580161279f137aeb862274710f29ec10cf01e
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.3.9"
+>>>>>>> Stashed changes
   args:
     dependency: transitive
     description:
@@ -154,10 +161,17 @@ packages:
     dependency: "direct main"
     description:
       name: flutter_markdown
+<<<<<<< Updated upstream
       sha256: "35108526a233cc0755664d445f8a6b4b61e6f8fe993b3658b80b4a26827fc196"
       url: "https://pub.dev"
     source: hosted
     version: "0.6.18+2"
+=======
+      sha256: a10979814c5f4ddbe2b6143fba25d927599e21e3ba65b3862995960606fae78f
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.6.17+3"
+>>>>>>> Stashed changes
   flutter_test:
     dependency: "direct dev"
     description: flutter

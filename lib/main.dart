@@ -28,6 +28,7 @@ import 'commons/nuclear_threat.dart';
 import 'commons/occupation.dart';
 import 'commons/sources.dart';
 import 'commons/tsunami.dart';
+import 'dart:io';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -97,7 +98,32 @@ class ButtonData {
   Widget route;
   int order;
 
+<<<<<<< Updated upstream
   ButtonData({required this.text_ru,required this.text_en,required this.text_lv, required this.imagePath, required this.route, required this.order});
+=======
+  ButtonData({required this.text_ru,required this.text_en,required this.text_lv, required this.imagePath, required this.route});
+
+  factory ButtonData.fromJson(Map<String, dynamic> json) {
+    return ButtonData(
+      text_lv: json['text_lv'] as String,
+      text_en: json['text_en'] as String,
+      text_ru: json['text_ru'] as String,
+      imagePath: json['imagePath'] as String,
+      route: json['route'] as Widget,
+    );
+  }
+
+  // JSON serialization
+  Map<String, dynamic> toJson() {
+    return {
+      'text_lv': text_lv,
+      'text_en': text_en,
+      'text_ru': text_ru,
+      'imagePath': imagePath,
+      'route': route.toString(),
+    };
+  }
+>>>>>>> Stashed changes
 }
 
 class MyHomePage extends StatefulWidget {
@@ -105,6 +131,7 @@ class MyHomePage extends StatefulWidget {
   State<MyHomePage> createState() => _MyHomePageState();
 }
 
+<<<<<<< Updated upstream
 class _MyHomePageState extends State<MyHomePage> {
   late TextContent _textContent;
 
@@ -179,6 +206,10 @@ void initState() {
 
   List<ButtonData> buttonList = [];
   List<ButtonData> initList = [
+=======
+List<ButtonData> initButtonList() {
+  final List<ButtonData> buttonList = [
+>>>>>>> Stashed changes
     ButtonData(
       text_lv: "Vispārīgie padomi",
       text_en: "General recomendations",
@@ -293,6 +324,7 @@ void initState() {
       order: 13,
     ),
   ];
+<<<<<<< Updated upstream
   String intToHex(List<int> indexes){
     String hex = "";
     for(int i=0; i<indexes.length; i++){
@@ -308,6 +340,67 @@ void initState() {
     file.writeAsStringSync(hex);
     initializeList();
   }
+=======
+  return buttonList;
+}
+
+Future<bool> isFileEmpty(String filePath) async {
+  final file = File(filePath);
+  final length = await file.length();
+  if(length == 0){
+    return false;
+  }else{
+    return true;
+  };
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  late List<ButtonData> buttonList = [];
+  late TextContent _textContent;
+
+  Future<void> saveButtonListToFile() async {
+    final jsonString = jsonEncode(buttonList);
+    final file = File('assets/json/buttons.json'); // Adjust the file path
+    await file.writeAsString(jsonString);
+  }
+
+
+  Map<String, dynamic>? _content;
+
+  void _loadContent() async {
+    final content = await _textContent.loadContent();
+    setState(() {
+      _content = content;
+    });
+  }
+
+  @override
+  void initState() {
+    _textContent = TextContent();
+    _loadContent();
+    loadButtonListFromFile();
+    super.initState();
+  }
+
+  Future<void> loadButtonListFromFile() async {
+    final file = File('assets/json/buttons.json'); // Adjust the file path
+
+    if (await isFileEmpty('assets/json/buttons.json')==false) {
+      final jsonString = await file.readAsString();
+      final jsonData = jsonDecode(jsonString);
+      buttonList = List<ButtonData>.from(
+        jsonData.map((json) => ButtonData.fromJson(json)),
+      );
+    } else {
+      // Handle the case where the file doesn't exist (e.g., use default buttons).
+      buttonList = initButtonList();
+    }
+    print("11111");
+    saveButtonListToFile();
+  }
+
+
+>>>>>>> Stashed changes
   @override
   Widget build(BuildContext context) {
     //var appState = context.watch<MyAppState>();
